@@ -98,12 +98,18 @@ Complex numbers, trig/polar form, multiplying, dividing, nth powers, nth roots. 
 * [Here's a link](http://www.youtube.com/playlist?list=PL98E8DDDEC4FB2E55) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiMGxZNU9HT291Z1k/edit?usp=sharing) to the Problem Sets for these notes.
 
-## Notes 13
+## The Inexcusable Problem Set!
+[This is a collection of some big ideas type questions](https://drive.google.com/file/d/0B11F_FpivrRiZ2V5Z1NOSERJRlU/view?usp=sharing) that you should definitely be able to solve by the end of Notes 12, which we've now reached.  Note that it's inexcusable not to be able to solve them...that doesn't mean you will be able to--just that there's no excuse for not being able to, really.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+## Notes 13
+Random stuff about functions, rational functions, that kind of stuff...some basic limits at infinity.  [Here's a little write up](https://docs.google.com/open?id=0B11F_FpivrRiX3Y1blVyWkJnMVE) about how to graph two different rational functions.
+
+* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiYWU0NTI2OTctNzAxOS00OTgxLTlhMGMtN2FlMGRjYWI0YjI4) to the notes.
+* **Not Yet** [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PLBE1CBB5843D69354) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRicDJ2VXJPSHhMWU0/edit?usp=sharing) to the Problem Sets for these notes.
+
+
 
 ## Notes 14
 
