@@ -138,11 +138,13 @@ Polar coordinates.  Converting polar to rectangular; graphing in polar coordinat
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiVllXVm5WRnc4NWs/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 17
+Three-dimensional things, lines, simple planes (we do NOT cover cross product in the notes), volumes of revolution.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiRDlYeTVhS0tTMjZOMFNCQlIxcE5xQQ) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwT19XYNcvu98XlnPptX3B_) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL6E09BCDA649281B3) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRialcwWEVXUkhzX0k/edit?usp=sharing) to the Problem Sets for these notes.
+* **Not Yet** [Here's a link]() to some GeoGebra sketches that are helpful for these notes.
 
 ## Notes 18
 
