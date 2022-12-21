@@ -121,18 +121,21 @@ Conic sections...lots and lots of conic sections...
 * **Not Yet** [Here's a link]() to some GeoGebra sketches that are helpful for these notes.
 
 ## Notes 15
+Parametric equations and doing stuff with them.  [Here's a link](https://drive.google.com/file/d/11CKnDQv1YmSU7LDTkj7oURg-AMsbX46F/view?usp=sharing) to a detailed discussion of a problem (relevant to you by page 189).
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiYWQ3OTQ0MjMtYWY3Yy00YzMxLTgzM2QtNTM4ZDljMDQyNTli) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizlwdRxJFRb5WIkBoyaPvkM) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PLEA3939F1EA97E712) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRicUk4Z2hFdy1BWVU/edit?usp=sharing) to the Problem Sets for these notes.
+* **Not Yet** [Here's a link]() to some GeoGebra sketches that are helpful for these notes.
 
 ## Notes 16
+Polar coordinates.  Converting polar to rectangular; graphing in polar coordinates; common polar curves.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiZDNjNTE1NTgtODg3NC00Zjg0LTg5NjYtODlkMTAzZjIyYmIz) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyiQKY_ISOpqQOVEB7JpBkn) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PLF35EF817EB13CA93) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiVllXVm5WRnc4NWs/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 17
 
