@@ -147,43 +147,49 @@ Three-dimensional things, lines, simple planes (we do NOT cover cross product in
 * **Not Yet** [Here's a link]() to some GeoGebra sketches that are helpful for these notes.
 
 ## Notes 18
+More on volumes of revolution, area problems, start tying it all into limits.  [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiSW5oQmZDX096dm8/view?usp=sharing) to a supplement on using summations for arc length.  Here's a link to some GeoGebra sketches about these sorts of things.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiZVoxX3FSOXlRVU9hTVNrd2M2amVzdw) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixHtZmD2QwmFoDp5nuPX5SN) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL2BEFB52F6F7706CB) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiTERuVE1CcVZZaFk/edit?usp=sharing) to the Problem Sets for these notes.
+* **Not Yet** [Here's a link]() to some GeoGebra sketches that are helpful for these notes.
 
 ## Notes 19
+Limits visually, graphically, numerically.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiRk1JM2kwc2hSUTJCcjNpclVLYlh0UQ) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw4rYwQ2BNwf8rDa8UXMwAb) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* **Not Yet** [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRic082RVEtR3Uwajg/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 20
+Limits and almost all the algebra you'll need to do them.   We don't cover pages 8, 9, and 10 in class.  Try them on your own and then watch the videos in the playlist if you don't know what you're doing!
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiSnNyNnU4NVYyR0E) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixpqAt-rQetTdyGF-YMbbAI) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PLD1675C989DBF18EE) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiUm8wT2prb256dWc/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 21
+IVT; limit definition of a derivative; power, product, and quotient rules; some notation stuff; higher derivatives. Consider listening to Episode 01 of [this podcast](https://podcasts.apple.com/podcast/brief-history-mathematics/id393854632) for some info on Newton, Leibniz, and the beginnings of calculus.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiYmJDeXIyZ1hZTU0) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiypZ5N8IG9iRPtydlpsbvdJ) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PLDCB882518BBF5CA1) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiUkk2Mm5sVWN1SW8/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 22
+Extreme Values; Candidates Test; First & Second Derivative Tests; Curve Sketching; some basic optimization problems. 
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiWFc3UElvMFZhQkU/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizJT5DnOS5HW6oMo-S9AUTH) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL68F5B1BD2F90CA46) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiWFc3UElvMFZhQkU/edit?resourcekey=0-RW7CnxRLnx7fDs21Dr_E2Q) to the Problem Sets for these notes.
 
-## Notes 23
+## AP Calculus Summer Assignment
+This is not actually a summer assignment that you're required to do if you're in my class, but I made it after a bunch of people asked!
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+* [Here's a link](https://drive.google.com/file/d/1nxZwRSq3xK4Mp1XDSgj3dXovHg6IE1KE/view) to the pdf of the summer assignment.
+* [Here's a link](https://www.youtube.com/watch?v=OyeN8vw32U0) to a YouTube video of me working through the problems.  Complete solutions and explanations!
+* [Here's a link]([http://www.youtube.com/playlist?list=PL68F5B1BD2F90CA46](https://www.youtube.com/watch?v=ZIqeRELGYnE)) to a YouTube video of me doing an overview of the concepts you need to master to succeed in AP Calculus.
