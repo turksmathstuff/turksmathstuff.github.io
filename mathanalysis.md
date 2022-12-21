@@ -51,34 +51,120 @@ Inverse trig functions, domains/ranges, compositions.  [Here's a link](https://w
 
 ## Notes 07
 
+* [Here's a link]() to the notes.
+* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link]() to the Problem Sets for these notes.
+
+
 ## Notes 08
+
+* [Here's a link]() to the notes.
+* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 09
 
+* [Here's a link]() to the notes.
+* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link]() to the Problem Sets for these notes.
+
 ## Notes 10
+
+* [Here's a link]() to the notes.
+* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 11
 
+* [Here's a link]() to the notes.
+* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link]() to the Problem Sets for these notes.
+
 ## Notes 12
+
+* [Here's a link]() to the notes.
+* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 13
 
+* [Here's a link]() to the notes.
+* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link]() to the Problem Sets for these notes.
+
 ## Notes 14
+
+* [Here's a link]() to the notes.
+* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 15
 
+* [Here's a link]() to the notes.
+* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link]() to the Problem Sets for these notes.
+
 ## Notes 16
+
+* [Here's a link]() to the notes.
+* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 17
 
+* [Here's a link]() to the notes.
+* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link]() to the Problem Sets for these notes.
+
 ## Notes 18
+
+* [Here's a link]() to the notes.
+* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 19
 
+* [Here's a link]() to the notes.
+* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link]() to the Problem Sets for these notes.
+
 ## Notes 20
+
+* [Here's a link]() to the notes.
+* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 21
 
+* [Here's a link]() to the notes.
+* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link]() to the Problem Sets for these notes.
+
 ## Notes 22
 
+* [Here's a link]() to the notes.
+* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link]() to the Problem Sets for these notes.
+
 ## Notes 23
+
+* [Here's a link]() to the notes.
+* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link]() to the Problem Sets for these notes.
