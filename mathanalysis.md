@@ -42,11 +42,12 @@ Periodic functions, graphing all of the trig functions (with all of the transfor
 * **Not Yet!** [Here's a link]() to some useful Desmos Activities and GeoGebra sketches. 
 
 ## Notes 06
+Inverse trig functions, domains/ranges, compositions.  [Here's a link](https://www.geogebra.org/classic/zuwcvhjw) to a GeoGebra sketch that lets you figure out how the Unit Circle generates the graphs of sine and cosine.  [Making sine 1-to-1](https://www.geogebra.org/m/zuxnvrnd) and [making cosine 1-to-1.](https://www.geogebra.org/m/d9ykkrtv)
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiMTI1NDNkNzEtYmUzYS00ODZmLWI1MTMtMzE3YTcxMzY5NTU0) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixxI88xqIKaN3DS_6-4BN_Q) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizTp1VBTBOntF7gfypaoed9) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiQ01XOWxiSWdZRnc/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 07
 
