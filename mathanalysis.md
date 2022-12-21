@@ -50,14 +50,16 @@ Inverse trig functions, domains/ranges, compositions.  [Here's a link](https://w
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiQ01XOWxiSWdZRnc/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 07
+rigonometric identities, verifying identities; using co-functions, tables, and identities.  [You'll also need these eventually](https://drive.google.com/file/d/0B11F_FpivrRiOTJmMTY5ODEtYjExMS00YTkzLWFjMDUtODYxYWU0YWQ2ODYy/view?usp=sharing), so print them when you print the notes.  (Sorry, have to be in my class to get them!)
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiYTliZTk3OWMtY2Q4YS00YzBhLTgzZGEtNDVkMDFjZjM2ZjAz) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizIN2zQPIQLgwSqlj4HIyry) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizUuV1uyOVg0EP_CKftpQCR) to a YouTube playlist of additional videos about these notes.
+* There are currently no Problem Sets for these notes.
 
 
 ## Notes 08
+Solving trigonometric equations.
 
 * [Here's a link]() to the notes.
 * [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
