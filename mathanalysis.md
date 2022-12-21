@@ -78,23 +78,25 @@ The 14 Formulas!  (sum/difference/double angle/half angle/Euler's Formula).
 Law of Sines/Law of Cosines, Heron's Formula, general area of a triangle.  [Here's a link](https://drive.google.com/embeddedtemplate?id=0Al1F_FpivrRidGNFeDY2dFhpQnVqczAxYm1FS01xQlE) (must be logged in to ) to a google spreadsheet that will solve triangles so you can check answers.  [Here's a link](https://www.geogebra.org/m/cbjdbtfq) to the GeoGebra sketch that I use to motivate the acute-angled ambiguous case.  
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiNTU0M2NlZGUtNjE1Ni00MzZmLTg1YjYtMTFkNWY2M2Y3N2U1) to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwdkULWSbmaK2-gtFDroS7h) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL35A671F6B13070AC) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRidmY2SVI1OUI0RjQ/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 11
+All kinds of stuff about two-dimensional vectors.  [Here's a link](https://www.geogebra.org/classic/kxcw4msv) to a GeoGebra page that finds the parallel and orthogonal vectors that sum to a given vector.  (If you've done the notes, you know the problem!)
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiMWM4ZjkwZjItOTA5MC00OWNjLTk1OGYtN2UwYjg4ODQ5ZjYy) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiy-G21EmBVZMW5I-AX3w9Kt) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL44BC69435167B71D) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiMFE0TC1hS2NkeGc/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 12
+Complex numbers, trig/polar form, multiplying, dividing, nth powers, nth roots.  Here's a link **Not Yet** to a GeoGebra file for visualizing the nth roots of a complex number.  [Here's a link](https://editor.p5js.org/sturkington/sketches/CmL3NGDfZ) to a little p5.js sketch for area of regular polygon.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiZDI5NWE1MDYtZWNkZS00ODY0LWJiNmYtOTM1NDQ4YzM0Mjhm) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizqTWROdKKx81RDYAWFpHoF) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL98E8DDDEC4FB2E55) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiMGxZNU9HT291Z1k/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 13
 
