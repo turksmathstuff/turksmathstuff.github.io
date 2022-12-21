@@ -1,6 +1,4 @@
-this will be the index page
-
-This is where I'll type *all my stuff*
+Trying to transition over to this but first I have to create the whole thing...
 
 ## Math Reasoning
 Click here to go to the notes.
