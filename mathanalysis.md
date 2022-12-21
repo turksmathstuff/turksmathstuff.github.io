@@ -112,11 +112,13 @@ Random stuff about functions, rational functions, that kind of stuff...some basi
 
 
 ## Notes 14
+Conic sections...lots and lots of conic sections... 
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiYjAzOWYwNGMtYjkzZC00ZTU4LWEyN2UtN2Q5NGJhOWY0ZGRk) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw0jBP486WimkhL3NSX5NqB) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL64111F95EC68EC28) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiTkJKZGN4NHpNX00/edit?usp=sharing) to the Problem Sets for these notes.
+* **Not Yet** [Here's a link]() to some GeoGebra sketches that are helpful for these notes.
 
 ## Notes 15
 
