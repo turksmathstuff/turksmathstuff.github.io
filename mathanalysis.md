@@ -25,18 +25,21 @@ Unit Circle!  Even/odd trig functions.  [Here's](https://docs.google.com/file/d/
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiZElDeWp4SmVWbW8/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 04
+Reference angles, circular definitions of trigonometric functions, "point" problems, trig and slope of a line
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiNWE2ODU0NzMtMzMxNS00MjZiLTk4YmUtODQzOTc2YTY1NjE1) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyQjVrmELGX6R4vpcaImoKP) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiylnST5e0WBCNB2v1mp03p3) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiaHpNVXZzWkg1dU0/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 05
+Periodic functions, graphing all of the trig functions (with all of the transformations), equations from graphs, equations from tables of data.    Here's a link to a GeoGebra file that illustrates how the Unit Circle relates to the graphs of sine and cosine.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiMDhhY2FkYjEtNzRkYy00NmNjLWJjMTQtOGNkMDhkOWNhZjI5) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiziCVyHtaTqXS9OjerMJL52) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL08AC52BF1DE8873E) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRidEtPcFZmRnhBaEk/edit?usp=sharing) to the Problem Sets for these notes.
+* **Not Yet!** [Here's a link]() to some useful Desmos Activities and GeoGebra sketches. 
 
 ## Notes 06
 
