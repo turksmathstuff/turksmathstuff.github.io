@@ -190,6 +190,5 @@ Riemann sums leading to double integrals; evaluating iterated integrals; changin
 Gradient vector fields and potential functions; conservative vector fields; curl; line integrals; work; Fundamental Theorem of Line Integrals; path independence.  [Here's a video example](http://youtu.be/nAVQcq0rc6k) of a line integral of a scalar function.  [Here's a video example](http://youtu.be/GziW5kVSxbE) of a line integral of a vector field.
 
 * [Here's a link](https://docs.google.com/file/d/0B11F_FpivrRiS3ZkbXdyS1Q5Z0E/edit?usp=sharing) to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+* [Here's a link](https://www.youtube.com/watch?v=UZEs5QuYN0Q&list=PL6iwkLfBjZiy6KiiT5id177dd0Gen2tX0) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizGhjlMLc9oMnqSELgOWp5u) to a YouTube playlist of additional videos about these notes.
