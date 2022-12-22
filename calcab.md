@@ -220,10 +220,11 @@ Integration by Parts (IBP); when dv = dx; repeated IBP; the table method (rapid 
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 27
+Partial fractions; non-repeating linear factors; cover-up method; repeated linear factors; quadratic factors; using expand on your TI-Nspire CAS. [Here's a video](http://youtu.be/3GaAemuqvI8) about non-repeating linear factors.  [Here's a video](http://youtu.be/O7LXxYt9G40) about repeated linear factors.  [Here's a video](http://youtu.be/A5v-3CPOkFQ) about quadratic factors.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRianZqTlAtemJTalk/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizLt7TV3J7z4CbTHYuL-DiW) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZiwuPUGpiqKsYrhF7Fy-vp0l&feature=edit_ok) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 28
