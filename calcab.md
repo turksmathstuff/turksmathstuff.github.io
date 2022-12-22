@@ -156,40 +156,48 @@ Motion and antiderivatives; the position function as an accumulation function; w
 ## Notes 20
 Area of regions bounded by curves; Riemann sums to approximate area; top minus bottom; right minus left; using a calculator; slicing up regions into sub-regions; find a vertical line that divides a region; find a horizontal line that divides a region; a little more on average value.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiS005MlhHXzVxQWM/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwh1ImnprWEKP5MZ83mr8kS) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZiyco6nG6WnA4zAiKSFuYpAG) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 21
 Approximating volumes with Riemann sums; the most common cross sections; volumes by plane slices; volume from tabular data; volumes of solids of revolution (disks and washers). [This video](http://youtu.be/Y2AcoI-XaGA) explains a little about volumes of solids with known cross sections (hard to picture, easy to calculate!).  **Not Yet**  This GeoGebra file might help you visualize the solids of known cross sections.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRicTVHb1JYLXNTYzQ/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwVCjVRDDs5-FGekyFvb-WS) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZizpgwEqQLvxJkVzWEPASE3n) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 22
 Density problems. If you're a teacher pressed for time you could probably skip this and not put your students at a serious disadvantage. I like to cover the concept, especially radial density.  [Here's a way to look at radial density functions.](https://www.geogebra.org/classic/tczhbngp)  (Not super self-explanatory, but you'll work it out...)
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiT05yNjcwQzVYcGM/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyZhvof71DnHjuL1EzNU04v) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizjvYssZyTxfdXMmkPmOhlL) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 23
+Slope fields; what to aim for; reading slope fields (what to look for); types of solutions and general trends; how to do them on your calculator.  [Here's a link](https://www.geogebra.org/classic/dy38wfdn) to an online version on GeoGebra.org of a sketch that creates slopefields to play around with. See the playlist for videos on creating slope fields on the TI-Nspire (CAS/non-CAS...doesn't matter) and how to deal with slope field matching problems.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiMW80NVdJNVZfd3M/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizS9qhSVBMpncRX0FKYc6JK) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZixMl5b-I0ehMPfeoeQbYN6e) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 24
+Basic differential equations you already know how to solve; what is a solution to a differential equation; verifying solutions through differentiation and substitution; separation of variables; domains of solution curves; exponential growth models; working with general solutions.  [This video](http://youtu.be/C7CWd8boRy0) goes over a few examples that lead to natural logs (and talks about solving for C).
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiMVJGck9nc2RWNUE/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZix_Zbn9jmyBizj54mD9hk9F) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZiwI4Zp0eE2hCvRLZM7VG7Jb) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
+
+## AP Calculus Free Response Questions
+[Here's a link](https://docs.google.com/spreadsheet/ccc?key=0Al1F_FpivrRidE1UZGlLSHJRY1BfZmdLWHF1b3FwX2c#gid=1) that will take you to a spreadsheet with links to my AP FRQ solution videos.  If you'd rather just jump to a playlist, [here's a link to that!](https://www.youtube.com/playlist?list=PLA83584C88AB6F0AE)
+
+## AP Calculus Review Videos
+[Here's a link](https://docs.google.com/document/d/1omZqpB0UkSJY1r4lPvEtojAa5NahVoW3ZxN0uLviKww/edit) to a google doc where I've organized most of my review videos.  Start studying now!  If you'd rather just look through an enormous playlist of all the videos, [here's a link to that!](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw2H9tmA1vW9a93_eJy6bLb)
 
 ## Notes 25
 
