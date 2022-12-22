@@ -161,24 +161,32 @@ The various quadratic surfaces and their traces; cylindrical coordinates (basica
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizuXA0pQJ39hdPVWniR947S) to a YouTube playlist of videos about these notes.
 
 ## Notes 04
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+Intersections of surfaces; domains; limits; derivatives; tangent lines; arc length parameterizations; curvature
+
+* [Here's a link](https://docs.google.com/file/d/0B11F_FpivrRiV1ZrRy1hcERnVjA/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiz68qVRYP-GznA4t6QlHX8L) to a YouTube playlist of videos about these notes.
 
 ## Notes 05
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+Domains; partial derivatives; mixed partial derivatives; the Chain Rule; Direction Derivative and Gradient; tangent planes and normal lines.  See the videos for a bunch of examples.  [Here's a write up of directions](https://bit.ly/2S2nesk) on how to look at partial derivatives graphically using GeoGebra 3D.
+
+* [Here's a link](https://docs.google.com/file/d/0B11F_FpivrRib05DaFdDUnFQbzQ/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixb2Pj9tMqpzZ7KeeQhT2Ut) to a YouTube playlist of videos about these notes.
 
 ## Notes 06
+Critical points; Second Derivative Test; Global extrema (absolute max/min); constrained optimization; Lagrange Multipliers.
+
+* [Here's a link](https://docs.google.com/file/d/0B11F_FpivrRiMWdaWWstUE83TjA/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwkzCW4zQSumGbYUF_mHcq7) to a YouTube playlist of videos about these notes.
+
+
+## Notes 07
+
 * [Here's a link]() to the notes.
 * [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link]() to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
-## Notes 07
+## Notes 08
 * [Here's a link]() to the notes.
 * [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link]() to a YouTube playlist of additional videos about these notes.
