@@ -139,3 +139,47 @@ Calculus of polar coordinates.  First you need to really get good at non-calculu
 **Nothing after this point will be on the AP Calculus BC Exam!**
 ***
 
+# Calc D Notes and Videos
+
+## Notes 01
+3D vectors; distance, midpoint, spheres; dot product; components and projections; cross products; distance from a point to a line; scalar triple product; parallelepipeds.  [Here's a proof](https://drive.google.com/file/d/0B11F_FpivrRidURyZ1pwZVhEcVE/view?usp=sharing) about a relationship between sine and the cross product.
+
+* [Here's a link](https://docs.google.com/file/d/0B11F_FpivrRiWTdzTnVYQk5leTA/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixfupXQ6I80N7eXz0Yez1ut) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZix0NDemx3X3l--1jRDVbyS8) to a YouTube playlist of additional videos about these notes.
+
+## Notes 02
+vector, parametric, and symmetric equations of a line in 3-dimensions; angle between lines; planes; normal vectors to planes.
+
+* [Here's a link](https://docs.google.com/file/d/0B11F_FpivrRiN2JHaTJzZTRRSzQ/edit?usp=sharing) to the notes.
+* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZiyY21IeOo8iqQdOFwVro7sl) to a YouTube playlist of videos about these notes.
+
+## Notes 03
+The various quadratic surfaces and their traces; cylindrical coordinates (basically polar); spherical coordinates.  If you follow along with the videos about spherical coordinates, you can find the problems, some work, and some things to type in [here.](https://drive.google.com/file/d/1lWNzbjuuTwY4G_tGrKIfyGruG8Osr9Ze/view?usp=sharing)
+
+* [Here's a link](https://docs.google.com/file/d/0B11F_FpivrRiaG50SU94NkFjSlk/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizuXA0pQJ39hdPVWniR947S) to a YouTube playlist of videos about these notes.
+
+## Notes 04
+* [Here's a link]() to the notes.
+* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link]() to the Problem Sets for these notes.
+
+## Notes 05
+* [Here's a link]() to the notes.
+* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link]() to the Problem Sets for these notes.
+
+## Notes 06
+* [Here's a link]() to the notes.
+* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link]() to the Problem Sets for these notes.
+
+## Notes 07
+* [Here's a link]() to the notes.
+* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link]() to the Problem Sets for these notes.
