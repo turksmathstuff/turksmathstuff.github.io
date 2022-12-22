@@ -124,33 +124,33 @@ Writing summations; using the summation formulas; generalizing a right-Riemann s
 ## Notes 16
 Applying the FTC; understanding the FTC; u-substitution and changing the bounds; definite integrals of horrible integrands (calculator!).
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiUmhnQzdYeUNEazg/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixZtt6sYwieNsCALXGZJfTd) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZixUemWH1q91k3sLr2RLXnos) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 17
 The Second FTC; 2nd FTC and critical points; 2nd FTC and limits; typical 2nd FTC and graph problems.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiamVmT2tuam81Tnc/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwxTNnRgHhytBFE_jWL8rRM) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZizFQp-euRaa0JcFlV26IdNV) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 18
 Average value; sketching the rectangle with equal area; average value vs. average rate of change.  [Here's a link](https://www.geogebra.org/classic/memabzaj) to a GeoGebra sketch to help visualize average value.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiblVnMkU3MUlaMmM/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwt5cb911qilKy_vyA1-xg0) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZix2EpefjJ-d-Hjiftv-vJpP) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 19
 Motion and antiderivatives; the position function as an accumulation function; working with tabular data.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiblQ5Z05qMG91dkE/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixWJou7GduZfrAWsj5eht65) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw0zs3KyXP0XQbaGCaook-N) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 20
