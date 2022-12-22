@@ -4,81 +4,81 @@
 ## Notes 01
 Limit definition of the derivative; tangent & secant lines; derivative rules; numerical derivatives and finding zeros on calculators; derivatives of the six trig functions; derivatives of e^x and ln(x); some new calculus-style questions.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiTVY2cTN1Z1NraU0/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiz-CVshzq1EMHu2r8baD_E8) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZixiQGbHBr9xFbHYglRdV0_8) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 02
 The Chain Rule is pretty much the last differentiation rule (you've still got techniques to learn, but those will just use the rules you've already learned).  Practice problems with using the chain rule on functions, with tables, with graphs.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiNTFJbzNObGtCRVk/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwkKuk5GDJziYVnWJv5hpAP) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZix4IYIYMimOqaNMPxd4XwCW) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 03
 Motion along a line (rectilinear motion); position, velocity, acceleration; distance vs. displacement; speed; finding position functions from velocity functions.  After these notes we do old FRQs from 1989 (AB3, BC6) and 1990 (AB1, AB2, BC1)
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiQW1WVlg1b243N2c/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw-Qkjnuy5FlUVoT5p_YhQu) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyU2Z1a6J8myt74-rsxH4hF) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 04
 Three part definition of continuity; differentiability; one-sided limits and differentiability; points at which a function is continuous but not differentiable.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiZmRKYWVnVmZwOVE/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwrrs2nfBRz-PkbjUs4KWJJ) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwb4wgRnLSqfbTNePYDJm_e) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 05
 Mean Value Theorem (MVT); applying MVT to functions on a given interval; solving MVT problems with your calculator; MVT problems and tabular data.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiemU1ZmRsaFQ0OUk/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixqddQAtIcZROMogFhgj9hk) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZiynQ5lI_VffVo5tMPRXpQ0A) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 06
 Implicit Differentiation; common mistakes; second derivative of implicitly defined function; horizontal and vertical tangent lines; derivatives of inverse trig functions; derivatives of exponential functions; review of some geometry-type stuff.  After these notes we do a number of old FRQs from 1973, 1978, 1980, 1992, and 1994, all of which featured implicit differentiation.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiVWswWFJJdExPZVU/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizJ3AlsQOwF7gXiWmtU-4n2) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZiwuonss1qYBPvCT-Qq8QQMf) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 07
 Print all three! These notes are about related rates.  We cover all the classics: falling ladders, cones, etc.  Additionally the [mastermathmentor.com notes (16)](https://mastermathmentor.com/calc/ABcalc.ashx) are really good and there are a lot of old FRQs that have great problems.  The ones we do: 1970AB4, 1972AB5, 1976AB4, 1977AB6, 1982 AB4, 1984 AB5, 1985 AB5, 1987 AB5, 1988 BC3, 1990 AB4, 1991 AB6, 1994 AB5, 1995 AB5.  Notes 07a is the problems, which you have to be in my class to see, but are freely available on the internet, as well, if you google around.  Notes 07b is space for doing the FRQs.  Also...the shadow problem!  Make sure you know and understand that problem!
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* Here's a link to [Notes 7](https://drive.google.com/file/d/1jaA3FfQ_98n1nrWEZ6uzCT4c6w_9vO7z/view?usp=sharing), to [Notes 7a](https://drive.google.com/file/d/0B11F_FpivrRiOElxN19XTHc3eVE/view?usp=sharing), and [Notes 7b](https://drive.google.com/file/d/0B11F_FpivrRieF9yeXlRSGVDejg/view?usp=sharing).
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwD6GWDTpdLOITXiU5uvoVM) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZiyoeAGOc234mGdpT9sD_rjV) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 08
 Understanding where L'Hopital's Rule comes from; how to evaluate limits that give 0/0 or infinity/infinity; repeated use of L'Hopital's Rule; an example where L'Hopital's Rule gets caught in a loop; some review problems.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiTF9UTkpjV2Vqa3c/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwDR8xdwcaLVAB_KzZktoET) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizHESVho250aegrHq_KxO7X) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 09
 Finding the value of the derivative of the inverse to a function without being able to find the actual inverse function.  Sadly a lot of people lose points for this on the AP Exam when it's just not that difficult.  Also a few review questions.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRieEl0ZnlXVmlfOFk/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyPR9RTa-DdxgFhJiwwvQVl) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZiwD_BIgJ71xgsC4S6c7HJr_) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 10
 Function analysis using derivatives (increasing/decreasing/concavity/First and Second Derivative Tests) and the Candidates Test.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/open?id=0B11F_FpivrRiNS1oRnc1QlpvdEU) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw4wvMZrt9GCa_zdYl5aFCT) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizn8dpDSsATvnCgZeTVYzxN) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 11
@@ -86,39 +86,39 @@ These notes do not exist...but when they do, they'll be about optimization.
 
 * [Here's a link]() to the notes.
 * [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizBueOShsLJUFyxc6oTQGjk) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 12
 Rate times time equals total; definite integrals; displacement; position from velocity graph; tons of definite integrals that can be done geometrically; u-substitution and definite integrals; definite integrals of functions interpreted as area; definite integral properties; some forward looking review problems.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiWTRDaW5OdFhwaWc/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw6GDBRiiEKpDvFj7RH4weq) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixjzW9xagM1l7us0uHZc4EN) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 13
-Antiderivatives; Power Rule for Integrals; u-substitution; strange u-substitutions; “simple” initial value problems.  Here's a file that has a lot of u-substitution problems grouped so you can good at doing them in your head.
+Antiderivatives; Power Rule for Integrals; u-substitution; strange u-substitutions; “simple” initial value problems.  [Here's a link](https://drive.google.com/file/d/1nGoK4Hij50qZDy3iQLf4yIwS32mXoCHi/view?usp=sharing) to a file that has a lot of u-substitution problems grouped so you can good at doing them in your head.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRicUt5dXdTM18wMjQ/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizOYk7AUK4v5VFxOlMeaODy) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZixg4jgJT8l7m2PlaSYtE_Hw) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 14
 Approximating definite integrals with sums; Left, right, and midpoint sums; trapezoidal sums; Riemann sums and tabular data; Riemann sums given a function; tons of practice.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiSkxNMUwzYmFLYjA/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwpljhOPxa2hD2sSXj1pr-f) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizRF-hzt2Wq16aiISFUjzqk) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 15
 Writing summations; using the summation formulas; generalizing a right-Riemann sum; limits of Riemann sums; the Fundamental Theorem of Calculus (FTC); understanding summations and their limits.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiOUM0Mkk0YmNHaGM/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwghkyNIj8Ufz3FrYgWB6-8) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZiwT6_bFjkbEWe5eH3kGKUkR) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 16
