@@ -228,15 +228,17 @@ Partial fractions; non-repeating linear factors; cover-up method; repeated linea
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 28
+L'Hopital's Rule and the additional cases in which it can be applied; inverting one of the factors; taking natural logs; don't forget to exponentiate the answer!  [Here's a video](http://youtu.be/0P2hfH2nR_s) about 0 times infinity.  [Here's a video](http://youtu.be/stWP4RQ05y0) about the other indeterminate forms.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRieXRxR3pJamphSms/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiz7tST9HJqBbYws3OKX7u39) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZiz-MtBI7YdNsH6-WNPS7Vj3&feature=edit_ok) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 29
+Improper Integrals; the types of improper integrals; proper notation; practice problems.
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiVDRmZWt0b0hHRTQ/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizjjyfsnq54MMEnXjLE8WbM) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyK0PFSty1AJl3ouISXRu6X) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
