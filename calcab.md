@@ -199,18 +199,24 @@ Basic differential equations you already know how to solve; what is a solution t
 ## AP Calculus Review Videos
 [Here's a link](https://docs.google.com/document/d/1omZqpB0UkSJY1r4lPvEtojAa5NahVoW3ZxN0uLviKww/edit) to a google doc where I've organized most of my review videos.  Start studying now!  If you'd rather just look through an enormous playlist of all the videos, [here's a link to that!](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw2H9tmA1vW9a93_eJy6bLb)
 
-## Notes 25
+***
+**Everything beyond this point is not on the AP Calculus AB exam, but will be on the AP Calculus BC exam!**
+***
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+## Notes 25
+Volumes by shells. Not a lot going on here, really, because it's very straight forward. Think about tree rings and cylinders!
+
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiTTk3R19tTTdEM2c/view?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixzuV2akCofQ6C2Kt-lxU1J) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?feature=edit_ok&list=PL6iwkLfBjZiyiG4TW78aequRKPXyejuVE) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 26
+Integration by Parts (IBP); when dv = dx; repeated IBP; the table method (rapid repeated IBP); IBP that loops. [Here](http://youtu.be/sUKi-B9Slu0), [here](http://youtu.be/JIaupndIq8c), and [here](http://youtu.be/ywHDuhgf4hQ) are three videos of examples of pretty much each type.  For some reason the second video is the most popular...also, the integral of secant cubed is about as hard as an "easy" integral gets and it uses integration by parts.  [Here's a video for that too...](http://youtu.be/6Q65gJfRj7g)
 
-* [Here's a link]() to the notes.
-* [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiNDdSYURlcE4xamc/edit?usp=sharing) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixHucxspYvaPWK8LAlxBv7J) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZix0fPSUc72xB2Iz388wQE-f&feature=edit_ok) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 27
