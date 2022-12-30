@@ -6,22 +6,20 @@ Partial fraction decomposition (leading to integrals, of course!); non-repeating
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiZDAwMzY0OGEtMWRhNC00NWRlLThlOTItMWI3ZmFlOThhZGJh) to the notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRianZqTlAtemJTalk/edit?resourcekey=0-PDv-wP8VsIotsbIPvJ93Qw) to Notes 27 of Calc AB.  And [here's](https://www.youtube.com/playlist?list=PL6iwkLfBjZizLt7TV3J7z4CbTHYuL-DiW) the complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixOT5CHOEpTe54kPfJDJYeD) to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+
 
 ## Notes 02
 Introduction to Taylor polynomials; error of Taylor polynomials for approximations.  **Not Yet** Here's a link to a GeoGebra file that shows a Taylor Polynomial with variable center and order. 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiMTY2YWY4YjktNDI0NC00YjEyLTkzZDItMjNjMDY1NTk2YmE0) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizmImF1qbpGVADS5cqqiieQ) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwtE-9BHwyqoaVh0RApwNFw) to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 03
 Sequences; some properties of sequences; limits of sequences; linking sequences to series
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiNWRiOTQyNzItN2M4MS00NjlkLWFiODUtNTkwYWJlZDlmYmRi) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw5tjnEvqidQ7idVLFet2sF) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link]() to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+
 
 ## Notes 04
 Introduction to series; geometric series; telescoping series; properties of convergent series; nth term test for divergence
@@ -29,7 +27,7 @@ Introduction to series; geometric series; telescoping series; properties of conv
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiYTc2MTNjMGQtNGRjYS00YTU3LTgzNWItNWFhMjQ2YWNiNTg3) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixQgYqGExl-MtgS2tdjCojP) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyJ8EWO3mX8S_GA7osrHkmZ) to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+
 
 ## Notes 05
 Series Tests: Integral test; p-series
@@ -37,7 +35,7 @@ Series Tests: Integral test; p-series
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiMmIyMDZkNjUtYTdhNC00ODg2LTgyZTEtNDg0OTZiZGMyYmE1) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwO3ALPMSc-bB3ISWPb3gLv) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiydZ26KEGZ7u0lhXFyQkvxc) to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+
 
 ## Notes 06
 Series Tests: Direct comparison test; limit comparison test.
