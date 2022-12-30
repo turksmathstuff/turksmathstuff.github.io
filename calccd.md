@@ -43,7 +43,6 @@ Series Tests: Direct comparison test; limit comparison test.
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiMjRkZGQzNGQtZTk5Zi00MmUyLTg5NGEtOWFmMDgxYzk3M2Uy) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw2Ljw8cozTdHWWEHc8DpiH) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyJEO-Tdnp0bIeXnK2eCkfd) to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 07
 Series Tests: Ratio Test (best test ever!); Root Test.
@@ -51,7 +50,7 @@ Series Tests: Ratio Test (best test ever!); Root Test.
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiNGYxYzJhZTctYmEwZS00OGUyLWI5NzAtZDVlZGMwYzYwZTYw) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw5S-eHK2cyChWehdefdtdI) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiz7b7mdmg_HmIQFBYPZVYCW) to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+
 
 ## Notes 08
 Alternating Series; Alternating Series Test; Error for Alternating Series; Absolute Convergence vs. Conditional Convergence
@@ -59,7 +58,7 @@ Alternating Series; Alternating Series Test; Error for Alternating Series; Absol
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiNDI3ZjQ1YTQtZGNiOC00NDllLWE3MTUtMGVmN2Q2NjI5OTJi) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZix0M93tMCE3uDbBUDc-FW6O) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyX8NOUVR0SsuKfcQfVUSfp) to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+
 
 ## Notes 09
 Power Series; Interval of Convergence; new series from old series via integration and differentiation
@@ -67,7 +66,7 @@ Power Series; Interval of Convergence; new series from old series via integratio
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiMDkyYWIyZjMtMDhjZS00YjhkLTgzMTgtNDdhZjkwODhhMGNj) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiz-dyDkxZWbftASHdgXHsnJ) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizO2KFj71odXEFrbTiPLLv4) to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+
 
 ## Notes 10
 Taylor Series; working with the known series for e^x, sin(x), cos(x), and 1/(1-x); applications of series; Lagrange Error Bound; identifying the function to which a series converges.
@@ -75,7 +74,7 @@ Taylor Series; working with the known series for e^x, sin(x), cos(x), and 1/(1-x
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiNDI2M2Y3MjQtNTQzNS00ZWQwLTlhZGMtNTE5NDUxYmNiNTQz) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyFxz_C2oroSXX5onh4pFFK) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwrN-FqRFb9wtIpFd9vNaq4) to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+
 
 ## Notes 11
 Integrals of powers of trig functions; saving a power; using Pythagorean Identities.
@@ -83,7 +82,7 @@ Integrals of powers of trig functions; saving a power; using Pythagorean Identit
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiOTlmMGIzODktMzc5MS00ZTE1LWI0MDMtYzA4YzIyYTU2YmFl) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizKlMBiTjJBnUMjlEBO0yb2) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizmOeiFNIYn7SxLQlCFoEgv&disable_polymer=true) to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+
 
 ## Notes 12
 Arc Length for functions
@@ -91,7 +90,7 @@ Arc Length for functions
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiMDk4ZDg5NGYtNWUyMi00NzQyLTllOGYtOTcyM2RlNjk5MzE5) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizWxycNQkkv2v3PssnCH4Yf) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiz7iEwvg49nZDMFgAkWtCun) to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+
 
 ## Notes 13
 Euler's Method.  **Not Yet** Here's a link to a GeoGebra file that demonstrates Euler's Method (change the initial point, the size of dx, and the number of steps; also view the solution curve).  Several interesting/useful videos in the playlist.
@@ -99,7 +98,7 @@ Euler's Method.  **Not Yet** Here's a link to a GeoGebra file that demonstrates 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiYTRhMDdlZGItMDFlOC00NDZlLTg1MmUtODZjYjYyYjIwNjgw) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixRnSJGZ5zAXjPIh4B8wUmz) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZix-Z56g6Sl9c_HA2IOQNBIT) to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+
 
 ## Notes 14
 Logistic Differential Equation.  **Not Yet** Here's a link to a GeoGebra file of a logistic curve with a slope field and some things you can manipulate.  [Here's a fun activity](https://drive.google.com/file/d/1iyZ9zv-WodCUjkT4vHDmuIDM83X32Sqg/view?usp=sharing) that generates a nice logistic curve (we do it in class, you don't need to print it).  [Here's the spreadsheet](https://docs.google.com/spreadsheets/d/1nc7VyfJJwSZ7xglMEDBvV0bsQq4IgbEgKberh8NiqK8/edit?usp=sharing) we'll use to track the activity.
