@@ -114,7 +114,7 @@ Integration by Trig Substitution; integrating lots of things with radicals of a 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiZGQ0NDJlYzAtYWZmYS00ZDNlLTliMmQtZTgzMWIwNmRhYTE4) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizZ5sV17dW4VLQWidrNelCt) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwZ7oce8YAdrgiWw7X1nC0n) to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+
 
 ## Notes 16
 Calculus of parametric equations; vector-valued functions; calculus of vector-valued functions.  **Not Yet** Here's a link to a GeoGebra file that shows a curve, dx/dt, dy/dt, dy/dx, and the second derivative of the parametric equations.  You might want to review [Notes 15 from Math Analysis](https://docs.google.com/open?id=0B11F_FpivrRiYWQ3OTQ0MjMtYWY3Yy00YzMxLTgzM2QtNTM4ZDljMDQyNTli).  The videos for those notes are [here.](https://www.youtube.com/playlist?list=PL6iwkLfBjZizlwdRxJFRb5WIkBoyaPvkM)
@@ -125,12 +125,12 @@ Calculus of parametric equations; vector-valued functions; calculus of vector-va
 * [Here's a link](https://drive.google.com/file/d/1ql_V7Kccb0S-1CW4FB2H5XJn-A-oaQbC/view?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 17
-Calculus of polar coordinates.  First you need to really get good at non-calculus related polar coordinates.  You might want to review [Notes 16 from Math Analysis](https://docs.google.com/open?id=0B11F_FpivrRiZDNjNTE1NTgtODg3NC00Zjg0LTg5NjYtODlkMTAzZjIyYmIz) for basic, non-calculus stuff.  In these notes: common graphs, tangent lines, dr/dt, polar areas.
+Calculus of polar coordinates.  First you need to really get good at non-calculus related polar coordinates.  You might want to review [Notes 16 from Math Analysis](https://docs.google.com/open?id=0B11F_FpivrRiZDNjNTE1NTgtODg3NC00Zjg0LTg5NjYtODlkMTAzZjIyYmIz) for basic, non-calculus stuff.  [Here's](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyiQKY_ISOpqQOVEB7JpBkn) the videos for those.  In these notes: common graphs, tangent lines, interpreting derivatives dy/dx, dy/dt, dx/dt, and dr/dt, polar areas.
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiNmZiYTE0MDgtNDIzNC00NjBkLTgzZjUtMTEzODRkYmQ5YWJk) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizFSOHjIeZYsn5jLf_xzGU3) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyMBYi1SesX1bBLKthg1EG0) to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+
 
 ***
 **Nothing after this point will be on the AP Calculus BC Exam!**
