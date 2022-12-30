@@ -160,7 +160,7 @@ Limits visually, graphically, numerically.
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiRk1JM2kwc2hSUTJCcjNpclVLYlh0UQ) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw4rYwQ2BNwf8rDa8UXMwAb) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* **Not Yet** [Here's a link]() to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizdzjZC7mhtk2EPNBEkzLnh) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRic082RVEtR3Uwajg/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 20
