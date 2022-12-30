@@ -182,7 +182,7 @@ IVT; limit definition of a derivative; power, product, and quotient rules; some 
 ## Notes 22
 Extreme Values; Candidates Test; First & Second Derivative Tests; Curve Sketching; some basic optimization problems. 
 
-* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiWFc3UElvMFZhQkU/edit?usp=sharing) to the notes.
+* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRic3RrWTdTTFJTUk0/view?resourcekey=0-e1mM6D6KDmmy2o8kdpwMzA) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizJT5DnOS5HW6oMo-S9AUTH) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](http://www.youtube.com/playlist?list=PL68F5B1BD2F90CA46) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiWFc3UElvMFZhQkU/edit?resourcekey=0-RW7CnxRLnx7fDs21Dr_E2Q) to the Problem Sets for these notes.
