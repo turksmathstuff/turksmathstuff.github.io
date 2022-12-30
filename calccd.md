@@ -117,7 +117,7 @@ Integration by Trig Substitution; integrating lots of things with radicals of a 
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 16
-Calculus of parametric equations; vector-valued functions; calculus of vector-valued functions.  **Not Yet** Here's a link to a GeoGebra file that shows a curve, dx/dt, dy/dt, dy/dx, and the second derivative of the parametric equations.  You might want to review [Notes 15 from Math Analysis](https://docs.google.com/open?id=0B11F_FpivrRiYWQ3OTQ0MjMtYWY3Yy00YzMxLTgzM2QtNTM4ZDljMDQyNTli).  Check out the videos in the playlist below.
+Calculus of parametric equations; vector-valued functions; calculus of vector-valued functions.  **Not Yet** Here's a link to a GeoGebra file that shows a curve, dx/dt, dy/dt, dy/dx, and the second derivative of the parametric equations.  You might want to review [Notes 15 from Math Analysis](https://docs.google.com/open?id=0B11F_FpivrRiYWQ3OTQ0MjMtYWY3Yy00YzMxLTgzM2QtNTM4ZDljMDQyNTli).  [Here](https://www.youtube.com/playlist?list=PL6iwkLfBjZizlwdRxJFRb5WIkBoyaPvkM) are the videos of those notes.
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiYzJiYmEwZTAtMTg1My00MTBlLWE2MzgtODhlY2RjZWVkZTNm) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwpfvN5vNGoDydCRZjHFYhy) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
