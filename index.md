@@ -1,4 +1,5 @@
-Trying to transition over to this but first I have to create the whole thing...
+Because of a change in pricing structure, I've moved my website...and now it looks like this.
+It's more streamlined than it was.
 
 ## Math Reasoning
 Click here to go to the notes.
