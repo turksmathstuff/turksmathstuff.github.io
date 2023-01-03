@@ -144,7 +144,7 @@ Calculus of polar coordinates.  First you need to really get good at non-calculu
 * [Here's a link](https://docs.google.com/file/d/0B11F_FpivrRiWTdzTnVYQk5leTA/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixfupXQ6I80N7eXz0Yez1ut) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZix0NDemx3X3l--1jRDVbyS8) to a YouTube playlist of additional videos about these notes.
-* [Here's a link]([https://turksmathstuff.github.io/calccd-tech.html](https://turksmathstuff.github.io/calccd-tech.html#calc-d-notes-1)) to some tech things (probably GeoGebra sketches!) about these notes.
+* [Here's a link](https://turksmathstuff.github.io/calccd-tech.html#calc-d-notes-1) to some tech things (probably GeoGebra sketches!) about these notes.
 
 ## Notes 02
 vector, parametric, and symmetric equations of a line in 3-dimensions; angle between lines; planes; normal vectors to planes.
