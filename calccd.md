@@ -169,6 +169,7 @@ Domains; partial derivatives; mixed partial derivatives; the Chain Rule; Directi
 
 * [Here's a link](https://docs.google.com/file/d/0B11F_FpivrRib05DaFdDUnFQbzQ/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixb2Pj9tMqpzZ7KeeQhT2Ut) to a YouTube playlist of videos about these notes.
+* [Here's a link](https://turksmathstuff.github.io/calccd-tech.html#calc-d-notes-5) to some tech things (probably GeoGebra sketches!) about these notes.
 
 ## Notes 06
 Critical points; Second Derivative Test; Global extrema (absolute max/min); constrained optimization; Lagrange Multipliers.
