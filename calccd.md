@@ -151,12 +151,14 @@ vector, parametric, and symmetric equations of a line in 3-dimensions; angle bet
 
 * [Here's a link](https://docs.google.com/file/d/0B11F_FpivrRiN2JHaTJzZTRRSzQ/edit?usp=sharing) to the notes.
 * [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZiyY21IeOo8iqQdOFwVro7sl) to a YouTube playlist of videos about these notes.
+* * [Here's a link](https://turksmathstuff.github.io/calccd-tech.html#calc-d-notes-2) to some tech things (probably GeoGebra sketches!) about these notes.
 
 ## Notes 03
 The various quadratic surfaces and their traces; cylindrical coordinates (basically polar); spherical coordinates.  If you follow along with the videos about spherical coordinates, you can find the problems, some work, and some things to type in [here.](https://drive.google.com/file/d/1lWNzbjuuTwY4G_tGrKIfyGruG8Osr9Ze/view?usp=sharing)
 
 * [Here's a link](https://docs.google.com/file/d/0B11F_FpivrRiaG50SU94NkFjSlk/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizuXA0pQJ39hdPVWniR947S) to a YouTube playlist of videos about these notes.
+* * [Here's a link](https://turksmathstuff.github.io/calccd-tech.html#calc-d-notes-3) to some tech things (probably GeoGebra sketches!) about these notes.
 
 ## Notes 04
 Intersections of surfaces; domains; limits; derivatives; tangent lines; arc length parameterizations; curvature
