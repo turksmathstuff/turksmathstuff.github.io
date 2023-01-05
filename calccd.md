@@ -143,14 +143,14 @@ Calculus of polar coordinates.  First you need to really get good at non-calculu
 
 * [Here's a link](https://docs.google.com/file/d/0B11F_FpivrRiWTdzTnVYQk5leTA/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixfupXQ6I80N7eXz0Yez1ut) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZix0NDemx3X3l--1jRDVbyS8) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZix0NDemx3X3l--1jRDVbyS8) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://turksmathstuff.github.io/calccd-tech.html#calc-d-notes-1) to some tech things (probably GeoGebra sketches!) about these notes.
 
 ## Notes 02
 vector, parametric, and symmetric equations of a line in 3-dimensions; angle between lines; planes; normal vectors to planes.
 
 * [Here's a link](https://docs.google.com/file/d/0B11F_FpivrRiN2JHaTJzZTRRSzQ/edit?usp=sharing) to the notes.
-* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZiyY21IeOo8iqQdOFwVro7sl) to a YouTube playlist of videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyY21IeOo8iqQdOFwVro7sl) to a YouTube playlist of videos about these notes.
 * [Here's a link](https://turksmathstuff.github.io/calccd-tech.html#calc-d-notes-2) to some tech things (probably GeoGebra sketches!) about these notes.
 
 ## Notes 03
@@ -181,14 +181,14 @@ Critical points; Second Derivative Test; Global extrema (absolute max/min); cons
 
 
 ## Notes 07
-Riemann sums leading to double integrals; evaluating iterated integrals; changing the order of integration; determining the bounds; polar coordinates; triple integrals; cylindrical coordinates; spherical coordinates.  [Here's a video](http://youtu.be/lICsa15fZlI) of how to use your TI-Nspire CAS to help you find double (or triple) integrals.  [Here's a video example](http://youtu.be/4LhmuaCJ_1o) of how to reverse the order of integration.  [Here's a link](https://www.geogebra.org/classic/xc4gyqfp) to a GeoGebra sketch that tries to show Riemann Sums for double integrals in rectangular on GeoGebra.org.  (It is very slow to update as you change things because it is doing a lot of work!)
+Riemann sums leading to double integrals; evaluating iterated integrals; changing the order of integration; determining the bounds; polar coordinates; triple integrals; cylindrical coordinates; spherical coordinates.  [Here's a video](https://youtu.be/lICsa15fZlI) of how to use your TI-Nspire CAS to help you find double (or triple) integrals.  [Here's a video example](https://youtu.be/4LhmuaCJ_1o) of how to reverse the order of integration.  [Here's a link](https://www.geogebra.org/classic/xc4gyqfp) to a GeoGebra sketch that tries to show Riemann Sums for double integrals in rectangular on GeoGebra.org.  (It is very slow to update as you change things because it is doing a lot of work!)
 
 * [Here's a link](https://docs.google.com/file/d/0B11F_FpivrRiYXVudVd0b2tXb1U/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiynGCb4ozd3Da8ll_f4beg1) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyZXincDi-cU0-k8N0vhfov) to a YouTube playlist of additional videos about these notes.
 
 ## Notes 08
-Gradient vector fields and potential functions; conservative vector fields; curl; line integrals; work; Fundamental Theorem of Line Integrals; path independence.  [Here's a video example](http://youtu.be/nAVQcq0rc6k) of a line integral of a scalar function.  [Here's a video example](http://youtu.be/GziW5kVSxbE) of a line integral of a vector field.
+Gradient vector fields and potential functions; conservative vector fields; curl; line integrals; work; Fundamental Theorem of Line Integrals; path independence.  [Here's a video example](https://youtu.be/nAVQcq0rc6k) of a line integral of a scalar function.  [Here's a video example](https://youtu.be/GziW5kVSxbE) of a line integral of a vector field.
 
 * [Here's a link](https://docs.google.com/file/d/0B11F_FpivrRiS3ZkbXdyS1Q5Z0E/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/watch?v=UZEs5QuYN0Q&list=PL6iwkLfBjZiy6KiiT5id177dd0Gen2tX0) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
