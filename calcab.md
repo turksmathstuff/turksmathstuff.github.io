@@ -46,7 +46,7 @@ Implicit Differentiation; common mistakes; second derivative of implicitly defin
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiVWswWFJJdExPZVU/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizJ3AlsQOwF7gXiWmtU-4n2) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZiwuonss1qYBPvCT-Qq8QQMf) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwuonss1qYBPvCT-Qq8QQMf) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/drive/folders/0B11F_FpivrRicExPNlFyWW1CcW8?resourcekey=0-rHQHVQKkeEijtFBbKT_Z6w&usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 07
@@ -54,7 +54,7 @@ Print all three! These notes are about related rates.  We cover all the classics
 
 * Here's a link to [Notes 7](https://drive.google.com/file/d/1jaA3FfQ_98n1nrWEZ6uzCT4c6w_9vO7z/view?usp=sharing), to [Notes 7a](https://drive.google.com/file/d/0B11F_FpivrRiOElxN19XTHc3eVE/view?usp=sharing), and [Notes 7b](https://drive.google.com/file/d/0B11F_FpivrRieF9yeXlRSGVDejg/view?usp=sharing).
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwD6GWDTpdLOITXiU5uvoVM) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZiyoeAGOc234mGdpT9sD_rjV) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyoeAGOc234mGdpT9sD_rjV) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 08
@@ -70,7 +70,7 @@ Finding the value of the derivative of the inverse to a function without being a
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRieEl0ZnlXVmlfOFk/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyPR9RTa-DdxgFhJiwwvQVl) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZiwD_BIgJ71xgsC4S6c7HJr_) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwD_BIgJ71xgsC4S6c7HJr_) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/drive/folders/0B11F_FpivrRiOVpadW9yWTBhOWs?resourcekey=0-ruPKiC-jJCvJzWr1N6W2aQ&usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 10
@@ -102,7 +102,7 @@ Antiderivatives; Power Rule for Integrals; u-substitution; strange u-substitutio
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRicUt5dXdTM18wMjQ/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizOYk7AUK4v5VFxOlMeaODy) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZixg4jgJT8l7m2PlaSYtE_Hw) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixg4jgJT8l7m2PlaSYtE_Hw) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/drive/folders/0B11F_FpivrRicGxQbUhDV3lkNFk?resourcekey=0-aPyQpUk4xP3XTz3xHa2NSg&usp=sharing) to some Problem Sets for these notes.
 
 ## Notes 14
@@ -118,7 +118,7 @@ Writing summations; using the summation formulas; generalizing a right-Riemann s
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiOUM0Mkk0YmNHaGM/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwghkyNIj8Ufz3FrYgWB6-8) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZiwT6_bFjkbEWe5eH3kGKUkR) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwT6_bFjkbEWe5eH3kGKUkR) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/drive/folders/0B11F_FpivrRiZEdGMWc2dl8tUjQ?resourcekey=0-feQsC9rQPXcbJzWTB9Sm4w&usp=sharing) to some Problem Sets for these notes.
 
 ## Notes 16
@@ -126,7 +126,7 @@ Applying the FTC; understanding the FTC; u-substitution and changing the bounds;
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiUmhnQzdYeUNEazg/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixZtt6sYwieNsCALXGZJfTd) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZixUemWH1q91k3sLr2RLXnos) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixUemWH1q91k3sLr2RLXnos) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/drive/folders/0B11F_FpivrRiSjBxN3JWc0NoMEU?resourcekey=0-qrooaxBoDbg1T5TfFpCWog&usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 17
@@ -134,7 +134,7 @@ The Second FTC; 2nd FTC and critical points; 2nd FTC and limits; typical 2nd FTC
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiamVmT2tuam81Tnc/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwxTNnRgHhytBFE_jWL8rRM) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZizFQp-euRaa0JcFlV26IdNV) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizFQp-euRaa0JcFlV26IdNV) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/drive/folders/0B11F_FpivrRid19ZdDdmVVd5R3M?resourcekey=0-tV0FEGtnrVwsF4KiEcyEoQ&usp=sharing) to some Problem Sets for these notes.
 
 ## Notes 18
@@ -142,7 +142,7 @@ Average value; sketching the rectangle with equal area; average value vs. averag
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiblVnMkU3MUlaMmM/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwt5cb911qilKy_vyA1-xg0) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZix2EpefjJ-d-Hjiftv-vJpP) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZix2EpefjJ-d-Hjiftv-vJpP) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/drive/folders/0B11F_FpivrRiYUpzeXIzUVE5N1U?resourcekey=0-ICv9sjAR2yRr4PXMU5ja0w&usp=sharing) to some Problem Sets for these notes.
 
 ## Notes 19
@@ -158,7 +158,7 @@ Area of regions bounded by curves; Riemann sums to approximate area; top minus b
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiS005MlhHXzVxQWM/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwh1ImnprWEKP5MZ83mr8kS) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZiyco6nG6WnA4zAiKSFuYpAG) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyco6nG6WnA4zAiKSFuYpAG) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/drive/folders/0B11F_FpivrRiWXBmVUZzaVpsUDA?resourcekey=0-px0amntn-LgJ47yc6wECJQ&usp=sharing) to some Problem Sets for these notes.
 
 ## Notes 21
@@ -166,7 +166,7 @@ Approximating volumes with Riemann sums; the most common cross sections; volumes
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRicTVHb1JYLXNTYzQ/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwVCjVRDDs5-FGekyFvb-WS) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZizpgwEqQLvxJkVzWEPASE3n) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizpgwEqQLvxJkVzWEPASE3n) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/drive/folders/0B11F_FpivrRiaDVHWXhjTTZweFk?resourcekey=0-xQx-OtaQ9rc0j-KmNeMroA&usp=sharing) to some Problem Sets for these notes.
 
 ## Notes 22
@@ -182,7 +182,7 @@ Slope fields; what to aim for; reading slope fields (what to look for); types of
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiMW80NVdJNVZfd3M/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizS9qhSVBMpncRX0FKYc6JK) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZixMl5b-I0ehMPfeoeQbYN6e) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixMl5b-I0ehMPfeoeQbYN6e) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/drive/folders/0B11F_FpivrRiNGJEQVRwMEVEbTQ?resourcekey=0-vX9I03oFDUvIycxpmt9oZg&usp=sharing) to some Problem Sets for these notes.
 
 ## Notes 24
@@ -190,7 +190,7 @@ Basic differential equations you already know how to solve; what is a solution t
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiMVJGck9nc2RWNUE/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZix_Zbn9jmyBizj54mD9hk9F) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZiwI4Zp0eE2hCvRLZM7VG7Jb) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwI4Zp0eE2hCvRLZM7VG7Jb) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/drive/folders/0B11F_FpivrRiLXFRNUFxNkVDOFU?resourcekey=0-rHJ80OR3Mipq1f4iI3cPUA&usp=sharing) to the Problem Sets for these notes.
 
 ## AP Calculus Free Response Questions
@@ -208,27 +208,27 @@ Volumes by shells. Not a lot going on here, really, because it's very straight f
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiTTk3R19tTTdEM2c/view?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixzuV2akCofQ6C2Kt-lxU1J) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?feature=edit_ok&list=PL6iwkLfBjZiyiG4TW78aequRKPXyejuVE) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?feature=edit_ok&list=PL6iwkLfBjZiyiG4TW78aequRKPXyejuVE) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 26
-Integration by Parts (IBP); when dv = dx; repeated IBP; the table method (rapid repeated IBP); IBP that loops. [Here](http://youtu.be/sUKi-B9Slu0), [here](http://youtu.be/JIaupndIq8c), and [here](http://youtu.be/ywHDuhgf4hQ) are three videos of examples of pretty much each type.  For some reason the second video is the most popular...also, the integral of secant cubed is about as hard as an "easy" integral gets and it uses integration by parts.  [Here's a video for that too...](http://youtu.be/6Q65gJfRj7g)
+Integration by Parts (IBP); when dv = dx; repeated IBP; the table method (rapid repeated IBP); IBP that loops. [Here](https://youtu.be/sUKi-B9Slu0), [here](https://youtu.be/JIaupndIq8c), and [here](https://youtu.be/ywHDuhgf4hQ) are three videos of examples of pretty much each type.  For some reason the second video is the most popular...also, the integral of secant cubed is about as hard as an "easy" integral gets and it uses integration by parts.  [Here's a video for that too...](https://youtu.be/6Q65gJfRj7g)
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiNDdSYURlcE4xamc/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixHucxspYvaPWK8LAlxBv7J) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZix0fPSUc72xB2Iz388wQE-f&feature=edit_ok) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZix0fPSUc72xB2Iz388wQE-f&feature=edit_ok) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 27
-Partial fractions; non-repeating linear factors; cover-up method; repeated linear factors; quadratic factors; using expand on your TI-Nspire CAS. [Here's a video](http://youtu.be/3GaAemuqvI8) about non-repeating linear factors.  [Here's a video](http://youtu.be/O7LXxYt9G40) about repeated linear factors.  [Here's a video](http://youtu.be/A5v-3CPOkFQ) about quadratic factors.
+Partial fractions; non-repeating linear factors; cover-up method; repeated linear factors; quadratic factors; using expand on your TI-Nspire CAS. [Here's a video](https://youtu.be/3GaAemuqvI8) about non-repeating linear factors.  [Here's a video](https://youtu.be/O7LXxYt9G40) about repeated linear factors.  [Here's a video](https://youtu.be/A5v-3CPOkFQ) about quadratic factors.
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRianZqTlAtemJTalk/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizLt7TV3J7z4CbTHYuL-DiW) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZiwuPUGpiqKsYrhF7Fy-vp0l&feature=edit_ok) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwuPUGpiqKsYrhF7Fy-vp0l&feature=edit_ok) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
 ## Notes 28
-L'Hopital's Rule and the additional cases in which it can be applied; inverting one of the factors; taking natural logs; don't forget to exponentiate the answer!  [Here's a video](http://youtu.be/0P2hfH2nR_s) about 0 times infinity.  [Here's a video](http://youtu.be/stWP4RQ05y0) about the other indeterminate forms.
+L'Hopital's Rule and the additional cases in which it can be applied; inverting one of the factors; taking natural logs; don't forget to exponentiate the answer!  [Here's a video](https://youtu.be/0P2hfH2nR_s) about 0 times infinity.  [Here's a video](https://youtu.be/stWP4RQ05y0) about the other indeterminate forms.
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRieXRxR3pJamphSms/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiz7tST9HJqBbYws3OKX7u39) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
