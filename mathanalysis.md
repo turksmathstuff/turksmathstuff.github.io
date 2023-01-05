@@ -5,7 +5,7 @@ Radians, arc length, basic stuff about trigonometry in the plane, coterminal ang
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiOWMxZDUwY2YtNmUyYy00MjY0LWE1OTItMjRiMTgxNWI4Yzg3) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyYvkmJm0jZsvpSiyFUuaAQ) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL9943437C63EE9802) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL9943437C63EE9802) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiN0hQa2FJZGkzcms/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 02
@@ -13,7 +13,7 @@ Right triangle trigonometry, review of special right triangles, introduction of 
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiNzcxMGIwMTItZTczMS00ZTYxLTgwYzAtMGI0MjI4ZjM0MGI1) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyXHUGuExc6gmDd_SnWxIS4) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZizVBQsFGdaNGeHwgB1wqM2D) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizVBQsFGdaNGeHwgB1wqM2D) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiOWtxLXlhb2dfd00/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 03
@@ -37,7 +37,7 @@ Periodic functions, graphing all of the trig functions (with all of the transfor
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiMDhhY2FkYjEtNzRkYy00NmNjLWJjMTQtOGNkMDhkOWNhZjI5) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiziCVyHtaTqXS9OjerMJL52) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL08AC52BF1DE8873E) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL08AC52BF1DE8873E) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRidEtPcFZmRnhBaEk/edit?usp=sharing) to the Problem Sets for these notes.
 * **Not Yet!** [Here's a link]() to some useful Desmos Activities and GeoGebra sketches. 
 
@@ -63,7 +63,7 @@ Solving trigonometric equations.
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiYjQ2NGQ5MjAtN2ExMy00ZmNkLTk5MzYtOTBjMWEwMjc2MTc1) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw6ERgthUF93Ny_h2gmQxEQ) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZiyKrKg_ewbbbaKC2LBqQTLv) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyKrKg_ewbbbaKC2LBqQTLv) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiM2pMY2tTeTFoTDQ/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 09
@@ -71,7 +71,7 @@ The 14 Formulas!  (sum/difference/double angle/half angle/Euler's Formula).
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiMmU0ODM0YzgtZjA2NC00YmY2LWFmOTAtNDg5NzcxYzJlYmZk) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZix2LEI8BfqUmk7hKCxP87qU) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL629852079B836C64) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL629852079B836C64) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiR2c1U0NNZUg1eWc/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 10
@@ -79,7 +79,7 @@ Law of Sines/Law of Cosines, Heron's Formula, general area of a triangle.  [Here
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiNTU0M2NlZGUtNjE1Ni00MzZmLTg1YjYtMTFkNWY2M2Y3N2U1) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwdkULWSbmaK2-gtFDroS7h) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL35A671F6B13070AC) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL35A671F6B13070AC) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRidmY2SVI1OUI0RjQ/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 11
@@ -87,7 +87,7 @@ All kinds of stuff about two-dimensional vectors.  [Here's a link](https://www.g
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiMWM4ZjkwZjItOTA5MC00OWNjLTk1OGYtN2UwYjg4ODQ5ZjYy) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiy-G21EmBVZMW5I-AX3w9Kt) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL44BC69435167B71D) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL44BC69435167B71D) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiMFE0TC1hS2NkeGc/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 12
@@ -95,7 +95,7 @@ Complex numbers, trig/polar form, multiplying, dividing, nth powers, nth roots. 
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiZDI5NWE1MDYtZWNkZS00ODY0LWJiNmYtOTM1NDQ4YzM0Mjhm) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizqTWROdKKx81RDYAWFpHoF) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL98E8DDDEC4FB2E55) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL98E8DDDEC4FB2E55) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiMGxZNU9HT291Z1k/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## The Inexcusable Problem Set!
@@ -106,7 +106,7 @@ Random stuff about functions, rational functions, that kind of stuff...some basi
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiYWU0NTI2OTctNzAxOS00OTgxLTlhMGMtN2FlMGRjYWI0YjI4) to the notes.
 * **Not Yet** [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PLBE1CBB5843D69354) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PLBE1CBB5843D69354) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRicDJ2VXJPSHhMWU0/edit?usp=sharing) to the Problem Sets for these notes.
 
 
@@ -116,7 +116,7 @@ Conic sections...lots and lots of conic sections...
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiYjAzOWYwNGMtYjkzZC00ZTU4LWEyN2UtN2Q5NGJhOWY0ZGRk) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw0jBP486WimkhL3NSX5NqB) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL64111F95EC68EC28) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL64111F95EC68EC28) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiTkJKZGN4NHpNX00/edit?usp=sharing) to the Problem Sets for these notes.
 * **Not Yet** [Here's a link]() to some GeoGebra sketches that are helpful for these notes.
 
@@ -125,7 +125,7 @@ Parametric equations and doing stuff with them.  [Here's a link](https://drive.g
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiYWQ3OTQ0MjMtYWY3Yy00YzMxLTgzM2QtNTM4ZDljMDQyNTli) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizlwdRxJFRb5WIkBoyaPvkM) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PLEA3939F1EA97E712) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PLEA3939F1EA97E712) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRicUk4Z2hFdy1BWVU/edit?usp=sharing) to the Problem Sets for these notes.
 * **Not Yet** [Here's a link]() to some GeoGebra sketches that are helpful for these notes.
 
@@ -134,7 +134,7 @@ Polar coordinates.  Converting polar to rectangular; graphing in polar coordinat
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiZDNjNTE1NTgtODg3NC00Zjg0LTg5NjYtODlkMTAzZjIyYmIz) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyiQKY_ISOpqQOVEB7JpBkn) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PLF35EF817EB13CA93) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PLF35EF817EB13CA93) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiVllXVm5WRnc4NWs/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 17
@@ -142,7 +142,7 @@ Three-dimensional things, lines, simple planes (we do NOT cover cross product in
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiRDlYeTVhS0tTMjZOMFNCQlIxcE5xQQ) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwT19XYNcvu98XlnPptX3B_) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL6E09BCDA649281B3) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6E09BCDA649281B3) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRialcwWEVXUkhzX0k/edit?usp=sharing) to the Problem Sets for these notes.
 * **Not Yet** [Here's a link]() to some GeoGebra sketches that are helpful for these notes.
 
@@ -151,7 +151,7 @@ More on volumes of revolution, area problems, start tying it all into limits.  [
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiZVoxX3FSOXlRVU9hTVNrd2M2amVzdw) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixHtZmD2QwmFoDp5nuPX5SN) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL2BEFB52F6F7706CB) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL2BEFB52F6F7706CB) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiTERuVE1CcVZZaFk/edit?usp=sharing) to the Problem Sets for these notes.
 * **Not Yet** [Here's a link]() to some GeoGebra sketches that are helpful for these notes.
 
@@ -168,7 +168,7 @@ Limits and almost all the algebra you'll need to do them.   We don't cover pages
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiSnNyNnU4NVYyR0E) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixpqAt-rQetTdyGF-YMbbAI) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PLD1675C989DBF18EE) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PLD1675C989DBF18EE) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiUm8wT2prb256dWc/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 21
@@ -176,7 +176,7 @@ IVT; limit definition of a derivative; power, product, and quotient rules; some 
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiYmJDeXIyZ1hZTU0) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiypZ5N8IG9iRPtydlpsbvdJ) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PLDCB882518BBF5CA1) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PLDCB882518BBF5CA1) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiUkk2Mm5sVWN1SW8/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 22
@@ -184,7 +184,7 @@ Extreme Values; Candidates Test; First & Second Derivative Tests; Curve Sketchin
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRic3RrWTdTTFJTUk0/view?resourcekey=0-e1mM6D6KDmmy2o8kdpwMzA) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizJT5DnOS5HW6oMo-S9AUTH) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL68F5B1BD2F90CA46) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL68F5B1BD2F90CA46) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiWFc3UElvMFZhQkU/edit?resourcekey=0-RW7CnxRLnx7fDs21Dr_E2Q) to the Problem Sets for these notes.
 
 ## AP Calculus Summer Assignment
