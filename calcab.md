@@ -6,7 +6,7 @@ Limit definition of the derivative; tangent & secant lines; derivative rules; nu
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiTVY2cTN1Z1NraU0/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiz-CVshzq1EMHu2r8baD_E8) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZixiQGbHBr9xFbHYglRdV0_8) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixiQGbHBr9xFbHYglRdV0_8) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/drive/folders/0B11F_FpivrRiYTI0cEFSd0hxOGs?resourcekey=0-KnaDIOj24In8uKla1JrdWw&usp=sharing) to some Problem Sets for these notes.
 
 ## Notes 02
@@ -14,7 +14,7 @@ The Chain Rule is pretty much the last differentiation rule (you've still got te
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiNTFJbzNObGtCRVk/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwkKuk5GDJziYVnWJv5hpAP) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZix4IYIYMimOqaNMPxd4XwCW) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZix4IYIYMimOqaNMPxd4XwCW) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/drive/folders/0B11F_FpivrRiaktONmE4azltbVU?resourcekey=0-W5ulC2Bxck33Z7O0EfzKVw&usp=sharing) to some Problem Sets for these notes.
 
 ## Notes 03
@@ -38,7 +38,7 @@ Mean Value Theorem (MVT); applying MVT to functions on a given interval; solving
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiemU1ZmRsaFQ0OUk/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixqddQAtIcZROMogFhgj9hk) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](http://www.youtube.com/playlist?list=PL6iwkLfBjZiynQ5lI_VffVo5tMPRXpQ0A) to a YouTube playlist of additional videos about these notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiynQ5lI_VffVo5tMPRXpQ0A) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/drive/folders/0B11F_FpivrRiOWxFNFZGTHZBZGM?resourcekey=0-ZyMHleaurQwlc0I8X_o2xQ&usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 06
