@@ -5,7 +5,7 @@ My class follows the assignments in the table below.  (I've just kind of estimat
 
 <details>
   <summary>Click to show table.</summary>
-  
+  <!---
 | Number |     Assignment      |  Approximate Date |
 | :----: | :-----------------  | :------------:    |
 | 1      | DemystMC: 1-29      | 2/17              |
@@ -32,7 +32,7 @@ My class follows the assignments in the table below.  (I've just kind of estimat
 | 22     | AP MC 2017          | 4/28              |
 | 23     | AP MC 2018          | 5/02              |
 | 24     | AP MC 2019          | 5/04              |
-
+-->
   <table>
     <tr>
         <td>Number</td>
