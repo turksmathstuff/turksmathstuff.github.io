@@ -1,7 +1,7 @@
 I believe that if you have a plan for how to study, you can be very well prepared for the AP Calculus AB and BC exams and get a 5, which should be your ultimate goal.
 
 # The Plan (Calc AB)
-My class follows the assignments in the table below.  (I've just kind of estimated due dates because I'm doing this generically for any year, but they always start in mid-February and go until right around the Friday before AP exams start.)  There are a lot of assignments and it is a lot of work, but it's worth it when most of the students get a 5 on the exam.
+My class follows the assignments in the table below.  (I've just kind of estimated due dates because I'm doing this generically for any year, but they always start in mid-February and go until right around the Friday before AP exams start.)  There are a lot of assignments and it is a lot of work, but it's worth it when most of the students get a 5 on the exam.  You can download a copy of this assignment sheet [here.](https://drive.google.com/file/d/12F8uKCNxHbpZhsvUB3xzOB4CuA1QBUBc/view?usp=share_link)
 
 <details>
   <summary>Click to show table of assignments.</summary>
@@ -164,9 +164,7 @@ My class follows the assignments in the table below.  (I've just kind of estimat
  
 
 </details>
-   
-   
-You can also download a pdf copy of those assignments [here.](https://drive.google.com/file/d/12F8uKCNxHbpZhsvUB3xzOB4CuA1QBUBc/view?usp=share_link)
+
 
 # What about Calc BC?
 If you're in Calc BC, do everything for AB and then expand below for the list of additional assignments.
@@ -191,8 +189,7 @@ If you're in Calc BC, do everything for AB and then expand below for the list of
 | 37      | DemystMC BC: 82-88 |                   |
 
 </details>
-    
-    
+<br>
 Doing all of this is probably too much.  If I had to choose anything to skip, it would be the non-multiple choice problems, the ones labled just Demyst BC.  If you're working hard at the FRQs you'll get more than enough of that type of problem.
   
 # What are these assignments?
