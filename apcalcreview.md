@@ -160,7 +160,19 @@ My class follows the assignments in the table below.  (I've just kind of estimat
         <td>5/04</td>
     </tr>
 </table>
+  
+[Click here for pdf version.](https://drive.google.com/file/d/12F8uKCNxHbpZhsvUB3xzOB4CuA1QBUBc/view?usp=share_link)
+
 </details>
+
+# What are these assignments?
+### The DemystMC problems come from MasterMathMentor.com.  
+* [Demystifying Calc AB](https://mastermathmentor.com/calc/abmcexamprep.ashx)  A great collection of multiple choice problems that are sorted by topic.  They're split up in the assignments above.
+* [Demystifying Calc BC](https://mastermathmentor.com/calc/bcmcexamprep.ashx)  Same as above, but targeted at BC topics.
+
+### Preparing Tests
+Students in my classes purchase review books every year and we work through them.  There are two that I highly recommend, but they have a minimum order of 10 books so you'll need a teacher to organize it.  The first book is from [Venture Publishing](https://www.vent-pub.com/pab100/).  I've only ever used the AB book but it's outstanding.  The other book that I use with my students taking the BC exam is from [D&S Marketing](https://www.dsmarketing.com/).  I've only ever used the BC book from here, but again, it's outstanding.
+
 
 # Target your review.
 * [The Big Review Video Document](https://docs.google.com/document/d/1omZqpB0UkSJY1r4lPvEtojAa5NahVoW3ZxN0uLviKww/edit) The doc has links to specific topics covered in the course.  Find what you're bad at and get good!
