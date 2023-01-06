@@ -168,6 +168,9 @@ My class follows the assignments in the table below.  (I've just kind of estimat
 # What about Calc BC?
 If you're in Calc BC, do everything for AB and then expand below for the list of additional assignments.
 
+<details>
+  <summary>Click to show table of assignments.</summary>
+  
 | Number |     Assignment      |  Approximate Date |
 | :----: | :-----------------  | :------------:    |
 | 25      | DemystMC BC: 1-14  |                   |
@@ -179,12 +182,15 @@ If you're in Calc BC, do everything for AB and then expand below for the list of
 | 31      | DemystMC BC: 44-56 |                   |
 | 32      | Demyst BC: 32-41   |                   |
 | 33      | DemystMC BC: 57-69 |                   |
-| 34     | Demyst BC: 42-58    |                   |
-| 35     | DemystMC BC: 70-81  |                   |
-| 36     | Demyst BC: 59-71    |                   |
-| 37     | DemystMC BC: 82-88  |                   |
+| 34      | Demyst BC: 42-58   |                   |
+| 35      | DemystMC BC: 70-81 |                   |
+| 36      | Demyst BC: 59-71   |                   |
+| 37      | DemystMC BC: 82-88 |                   |
 
+</details>
 
+Doing all of this is probably too much.  If I had to choose anything to skip, it would be the non-multiple choice problems, the ones labled just Demyst BC.  If you're working hard at the FRQs you'll get more than enough of that type of problem.
+  
 # What are these assignments?
 ### The DemystMC Problems
 These all  come from MasterMathMentor.com.  
