@@ -165,7 +165,14 @@ My class follows the assignments in the table below.  (I've just kind of estimat
   
 </details>
 
+# What about Calc BC?
+If you're in Calc BC, do everything for AB and then expand below for the list of additional assignments.
 
+| Number |     Assignment      |  Approximate Date |
+| :----: | :-----------------  | :------------:    |
+| 1      | DemystMC BC: 1-14      | 2/17              |
+| 2      | Demyst BC: 1-11     | 2/23              |
+| 3      | DemystMC BC: 49-65     | 2/27              |
 
 # What are these assignments?
 ### The DemystMC Problems
