@@ -166,12 +166,19 @@ My class follows the assignments in the table below.  (I've just kind of estimat
 </details>
 
 # What are these assignments?
-### The DemystMC problems come from MasterMathMentor.com.  
+### The DemystMC Problems
+These all  come from MasterMathMentor.com.  
 * [Demystifying Calc AB](https://mastermathmentor.com/calc/abmcexamprep.ashx)  A great collection of multiple choice problems that are sorted by topic.  They're split up in the assignments above.
 * [Demystifying Calc BC](https://mastermathmentor.com/calc/bcmcexamprep.ashx)  Same as above, but targeted at BC topics.
 
 ### Preparing Tests
-Students in my classes purchase review books every year and we work through them.  There are two that I highly recommend, but they have a minimum order of 10 books so you'll need a teacher to organize it.  The first book is from [Venture Publishing](https://www.vent-pub.com/pab100/).  I've only ever used the AB book but it's outstanding.  The other book that I use with my students taking the BC exam is from [D&S Marketing](https://www.dsmarketing.com/).  I've only ever used the BC book from here, but again, it's outstanding.
+Students in my classes purchase review books every year and we work through them.  There are two that I highly recommend, but they have a minimum order of 10 books so you'll need a teacher to organize it.  The first book is from [Venture Publishing](https://www.vent-pub.com/pab100/).  I've only ever used the AB book but it's outstanding.  The other book that I use with my students taking the BC exam is from [D&S Marketing](https://www.dsmarketing.com/).  I've only ever used the BC book from here, but again, it's outstanding.  The books from both companies contain 6 practice exams.
+
+### AP MC
+These are the real deal tests from previous years.  You can find the following officially released to the public exams: 1988, 1998, and 2012.  There's a pdf of exams from: 1969, 1973, 1985, 1988, 1993, 1997, and 1998.  At some point you could buy the exams from 2003 and 2008 in paper format.  From 2013-2016 you used to be able to get them on the AP Audit site in pdf form if you were an audit approved teacher.  2017-2019 are pre-loaded into AP Classroom.  I do not distribute any copies of these exams, so don't ask me!
+
+### If you can't get the books or the official AP practice...
+You can substitute basically any practice exams with the ones that I've listed.  For example, here's a link to [Amazon's results](https://www.amazon.com/s?k=ap+calculus+ab) for AP Calculus 
 
 
 # Target your review.
