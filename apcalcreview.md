@@ -161,8 +161,8 @@ My class follows the assignments in the table below.  (I've just kind of estimat
     </tr>
 </table>
 
-[Click here for pdf version.](https://drive.google.com/file/d/12F8uKCNxHbpZhsvUB3xzOB4CuA1QBUBc/view?usp=share_link)
-  
+  [Click here for pdf version.](https://drive.google.com/file/d/12F8uKCNxHbpZhsvUB3xzOB4CuA1QBUBc/view?usp=share_link)
+
 </details>
 
 # What about Calc BC?
