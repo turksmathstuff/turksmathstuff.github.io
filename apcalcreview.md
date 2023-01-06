@@ -170,9 +170,20 @@ If you're in Calc BC, do everything for AB and then expand below for the list of
 
 | Number |     Assignment      |  Approximate Date |
 | :----: | :-----------------  | :------------:    |
-| 1      | DemystMC BC: 1-14      | 2/17              |
-| 2      | Demyst BC: 1-11     | 2/23              |
-| 3      | DemystMC BC: 49-65     | 2/27              |
+| 25      | DemystMC BC: 1-14  |                   |
+| 26      | Demyst BC: 1-11    |                   |
+| 27      | DemystMC BC: 14-32 |                   |
+| 28      | Demyst BC: 12-22   |                   |
+| 29      | DemystMC BC: 33-43 |                   |
+| 30      | Demyst BC: 23-31   |                   |
+| 31      | DemystMC BC: 44-56 |                   |
+| 32      | Demyst BC: 32-41   |                   |
+| 33      | DemystMC BC: 57-69 |                   |
+| 34     | Demyst BC: 42-58    |                   |
+| 35     | DemystMC BC: 70-81  |                   |
+| 36     | Demyst BC: 59-71    |                   |
+| 37     | DemystMC BC: 82-88  |                   |
+
 
 # What are these assignments?
 ### The DemystMC Problems
