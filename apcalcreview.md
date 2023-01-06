@@ -160,12 +160,8 @@ My class follows the assignments in the table below.  (I've just kind of estimat
         <td>5/04</td>
     </tr>
 </table>
-
   
 [Click here for pdf version.](https://drive.google.com/file/d/12F8uKCNxHbpZhsvUB3xzOB4CuA1QBUBc/view?usp=share_link)
-
-  
-You might wonder after looking at the assignments, where are the free response questions?  When do you practice those?  We burn through as many of those as we can during class, starting in mid-March.
   
 </details>
 
