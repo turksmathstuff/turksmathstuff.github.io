@@ -164,7 +164,8 @@ My class follows the assignments in the table below.  (I've just kind of estimat
  
 
 </details>
-
+   
+   
 You can also download a pdf copy of those assignments [here.](https://drive.google.com/file/d/12F8uKCNxHbpZhsvUB3xzOB4CuA1QBUBc/view?usp=share_link)
 
 # What about Calc BC?
@@ -190,7 +191,8 @@ If you're in Calc BC, do everything for AB and then expand below for the list of
 | 37      | DemystMC BC: 82-88 |                   |
 
 </details>
-
+    
+    
 Doing all of this is probably too much.  If I had to choose anything to skip, it would be the non-multiple choice problems, the ones labled just Demyst BC.  If you're working hard at the FRQs you'll get more than enough of that type of problem.
   
 # What are these assignments?
