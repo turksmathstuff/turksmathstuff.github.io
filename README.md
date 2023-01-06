@@ -1,1 +1,1 @@
-# turksmathstuff.github.io
+# turksmathstuff.com
