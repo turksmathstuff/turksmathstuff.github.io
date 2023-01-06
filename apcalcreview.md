@@ -33,7 +33,133 @@ My class follows the assignments in the table below.  (I've just kind of estimat
 | 23     | AP MC 2018          | 5/02              |
 | 24     | AP MC 2019          | 5/04              |
 
-    
+  <table>
+    <tr>
+        <td>Number</td>
+        <td>Assignment</td>
+        <td>Approximate Date</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>DemystMC: 1-29</td>
+        <td>2/17</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>DemystMC: 30-48</td>
+        <td>2/23</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>DemystMC: 49-65</td>
+        <td>2/27</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>DemystMC: 66-85</td>
+        <td>3/01</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>DemystMC: 86-103</td>
+        <td>3/03</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>AP MC 2012</td>
+        <td>3/07</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>DemystMC: 104-124</td>
+        <td>3/10</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>DemystMC: 125-136</td>
+        <td>3/16</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>DemystMC: 137-157</td>
+        <td>3/17</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>Preparing Test 1</td>
+        <td>3/20</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>AP MC 2013</td>
+        <td>3/22</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>AP MC 2014</td>
+        <td>3/24</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>Preparing Test 2</td>
+        <td>3/28</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>Preparing Test 3</td>
+        <td>3/30</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>DemystMC: 158-185</td>
+        <td>4/11</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>Preparing Test 4</td>
+        <td>4/12</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>Preparing Test 5</td>
+        <td>4/14</td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td>AP MC 2015</td>
+        <td>4/18</td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td>AP MC 2016 (ABCDE)</td>
+        <td>4/20</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>AP MC 2016 (ABCD)</td>
+        <td>4/24</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>Preparing Test 6</td>
+        <td>4/26</td>
+    </tr>
+    <tr>
+        <td>22</td>
+        <td>AP MC 2017</td>
+        <td>4/28</td>
+    </tr>
+    <tr>
+        <td>23</td>
+        <td>AP MC 2018</td>
+        <td>5/02</td>
+    </tr>
+    <tr>
+        <td>24</td>
+        <td>AP MC 2019</td>
+        <td>5/04</td>
+    </tr>
+</table>
 </details>
 
 # Target your review.
