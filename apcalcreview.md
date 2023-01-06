@@ -177,8 +177,8 @@ Students in my classes purchase review books every year and we work through them
 ### AP MC
 These are the real deal tests from previous years.  You can find the following officially released to the public exams: 1988, 1998, and 2012.  There's a pdf of exams from: 1969, 1973, 1985, 1988, 1993, 1997, and 1998.  At some point you could buy the exams from 2003 and 2008 in paper format.  From 2013-2016 you used to be able to get them on the AP Audit site in pdf form if you were an audit approved teacher.  2017-2019 are pre-loaded into AP Classroom.  I do not distribute any copies of these exams, so don't ask me!
 
-### If you can't get the books or the official AP practice...
-You can substitute basically any practice exams with the ones that I've listed.  For example, here's a link to [Amazon's results](https://www.amazon.com/s?k=ap+calculus+ab) for AP Calculus 
+### If you can't get the books or the official AP practice tests
+You can substitute basically any practice exams with the ones that I've listed.  For example, here's a link to [Amazon's results](https://www.amazon.com/s?k=ap+calculus+ab) for AP Calculus
 
 
 # Target your review.
