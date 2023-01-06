@@ -165,6 +165,8 @@ My class follows the assignments in the table below.  (I've just kind of estimat
 
 </details>
 
+You can also download a pdf copy of those assignments [here.](https://drive.google.com/file/d/12F8uKCNxHbpZhsvUB3xzOB4CuA1QBUBc/view?usp=share_link)
+
 # What about Calc BC?
 If you're in Calc BC, do everything for AB and then expand below for the list of additional assignments.
 
