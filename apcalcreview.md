@@ -1,4 +1,4 @@
-If you have a plan for how to study, you can be very well prepared for the AP Calculus AB and BC exams.
+I believe that if you have a plan for how to study, you can be very well prepared for the AP Calculus AB and BC exams and get a 5, which should be your ultimate goal.
 
 # Target your review.
 * [The Big Review Video Document](https://docs.google.com/document/d/1omZqpB0UkSJY1r4lPvEtojAa5NahVoW3ZxN0uLviKww/edit) The doc has links to specific topics covered in the course.  Find what you're bad at and get good!
