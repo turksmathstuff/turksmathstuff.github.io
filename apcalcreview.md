@@ -1,10 +1,10 @@
 I believe that if you have a plan for how to study, you can be very well prepared for the AP Calculus AB and BC exams and get a 5, which should be your ultimate goal.
 
 # The Plan (Calc AB)
-My class follows the assignments in the table below.  (I've just kind of estimated due dates because I'm doing this generically for any year, but they always start in mid-February and go until right around the Friday before AP exams start.)
+My class follows the assignments in the table below.  (I've just kind of estimated due dates because I'm doing this generically for any year, but they always start in mid-February and go until right around the Friday before AP exams start.)  There are a lot of assignments and it is a lot of work, but it's worth it when most of the students get a 5 on the exam.
 
 <details>
-  <summary>Click to show table.</summary>
+  <summary>Click to show table of assignments.</summary>
   <!---  This looks good, but I couldn't get it to render correctly in html...
 | Number |     Assignment      |  Approximate Date |
 | :----: | :-----------------  | :------------:    |
