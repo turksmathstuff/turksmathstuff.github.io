@@ -171,7 +171,7 @@ If you're in Calc BC, do everything for AB and then expand below for the list of
 
 <details>
   <summary>Click to show table of assignments.</summary>
-  
+<!---  
 | Number |     Assignment      |  Approximate Date |
 | :----: | :-----------------  | :------------:    |
 | 25      | DemystMC BC: 1-14  |                   |
@@ -187,9 +187,11 @@ If you're in Calc BC, do everything for AB and then expand below for the list of
 | 35      | DemystMC BC: 70-81 |                   |
 | 36      | Demyst BC: 59-71   |                   |
 | 37      | DemystMC BC: 82-88 |                   |
-
+-->
+  
+<table><tr><td>Number</td><td>Assignment</td><td>Approximate Date</td></tr><tr><td>25</td><td>DemystMC BC: 1-14</td><td></td></tr><tr><td>26</td><td>Demyst BC: 1-11</td><td></td></tr><tr><td>27</td><td>DemystMC BC: 14-32</td><td></td></tr><tr><td>28</td><td>Demyst BC: 12-22</td><td></td></tr><tr><td>29</td><td>DemystMC BC: 33-43</td><td></td></tr><tr><td>30</td><td>Demyst BC: 23-31</td><td></td></tr><tr><td>31</td><td>DemystMC BC: 44-56</td><td></td></tr><tr><td>32</td><td>Demyst BC: 32-41</td><td></td></tr><tr><td>33</td><td>DemystMC BC: 57-69</td><td></td></tr><tr><td>34</td><td>Demyst BC: 42-58</td><td></td></tr><tr><td>35</td><td>DemystMC BC: 70-81</td><td></td></tr><tr><td>36</td><td>Demyst BC: 59-71</td><td></td></tr><tr><td>37</td><td>DemystMC BC: 82-88</td><td></td></tr></table>  
 </details>
-<br>
+
 Doing all of this is probably too much.  If I had to choose anything to skip, it would be the non-multiple choice problems, the ones labled just Demyst BC.  If you're working hard at the FRQs you'll get more than enough of that type of problem.
   
 # What are these assignments?
