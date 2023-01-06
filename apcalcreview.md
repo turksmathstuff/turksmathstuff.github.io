@@ -189,8 +189,4 @@ The Demystifying AP Calculus stuff is sorted by topics, which is great.  You hav
 * [Using dy for Integrals.](https://drive.google.com/file/d/1haBgEwcW2T1t2iy5iyb4RNy3ypBMz-fB/view?usp=sharing)  This never seems to be anyone's favorite way to integrate, but you can definitely master it.
 * [Calc AB Algebra before Integrating.](https://drive.google.com/file/d/1fmYVdovLNi5ogk_v0j6VYdu7UOKITdlf/view?usp=share_link)  You might need to complete the square, you might need to do long division.
 * [Calc AB All Types of Integrals You Might Encounter.](https://drive.google.com/file/d/1szgoCbuXIDW3RrAg2qIybHxQzjc-YgQH/view?usp=sharing)  Why not just go through examples of everything you could face?
-
-# Do a whole lot of practice problems!
 * [Multiple Choice Review for AB & BC](https://drive.google.com/drive/folders/1fRILjg4iWcqsDFQMhkVlMpCxUZX4bzw-?usp=sharing)  This is a series of problem sets with questions similar to what you'll see on the AP exam.  [There's a playlist](https://www.youtube.com/playlist?list=PL6iwkLfBjZixe5jzHd1gOW6e1vDO4hmDA) of the solution videos, too.  The playlist has a bunch of series, polar, parametric, and vector problems.
-* [MasterMathMentor.com Demystifying Calc AB](https://mastermathmentor.com/calc/abmcexamprep.ashx)  A great collection of multiple choice problems that are sorted by topic.  Do them all!
-* [MasterMathMentor.com Demystifying Calc BC](https://mastermathmentor.com/calc/bcmcexamprep.ashx)  Same as above, but targeted at BC topics.  Do them all!
