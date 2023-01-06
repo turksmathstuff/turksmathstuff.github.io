@@ -163,9 +163,11 @@ My class follows the assignments in the table below.  (I've just kind of estimat
   
 [Click here for pdf version.](https://drive.google.com/file/d/12F8uKCNxHbpZhsvUB3xzOB4CuA1QBUBc/view?usp=share_link)
 
+You might wonder after looking at the assignments, where are the free response questions?  When do you practice those?  We burn through as many of those as we can during class, starting in mid-March.
+  
 </details>
 
-You might wonder after looking at the assignments, where are the free response questions?  When do you practice those?  We burn through as many of those as we can during class, starting in mid-March.
+
 
 # What are these assignments?
 ### The DemystMC Problems
@@ -184,6 +186,8 @@ You can substitute basically any practice exams with the ones that I've listed. 
 
 # Free Response Questions
 I believe that review time in class is best spent working through past Free Response questions.  You should do as many of them as possible.  If time is short, don't bother going back past 2016.  If you have the time, I'd go all the way back to 2006.  They move it from time to time, but [here's the College Board's archive of the problems strecthing back to 1998.](https://apcentral.collegeboard.org/courses/ap-calculus-ab/exam/past-exam-questions)  Also, the previous year's questions can probably be found [here.](https://apcentral.collegeboard.org/courses/ap-calculus-ab/exam)  If they're not at the links, you can find them by directly googling the year.
+
+I have made video solutions to most of these FRQs.  I highly recommend you check them out.  Here's a [playlist.](https://www.youtube.com/playlist?list=PLA83584C88AB6F0AE)  Here's a [sorted spreadsheet of them.](https://docs.google.com/spreadsheets/d/1dzyu3Q-3d4CZLV7lqQJzP7Cxq2UsiFJLu2K_4XPfMpM/edit#gid=1)
 
 # Target your review.
 The Demystifying AP Calculus stuff is sorted by topics, which is great.  You have to know the name of the thing you're not good at so you can find more problems and resources to practice and improve.  Here are (most?) of the things that I've made for AP review.
