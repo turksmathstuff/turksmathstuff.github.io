@@ -165,6 +165,8 @@ My class follows the assignments in the table below.  (I've just kind of estimat
 
 </details>
 
+You might wonder after looking at the assignments, where are the free response questions?  When do you practice those?  We burn through as many of those as we can during class, starting in mid-March.
+
 # What are these assignments?
 ### The DemystMC Problems
 These all  come from MasterMathMentor.com.  
@@ -175,11 +177,13 @@ These all  come from MasterMathMentor.com.
 Students in my classes purchase review books every year and we work through them.  There are two that I highly recommend, but they have a minimum order of 10 books so you'll need a teacher to organize it.  The first book is from [Venture Publishing](https://www.vent-pub.com/pab100/).  I've only ever used the AB book but it's outstanding.  The other book that I use with my students taking the BC exam is from [D&S Marketing](https://www.dsmarketing.com/).  I've only ever used the BC book from here, but again, it's outstanding.  The books from both companies contain 6 practice exams.
 
 ### AP MC
-These are the real deal tests from previous years.  You can find the following officially released to the public exams: 1988, 1998, and 2012.  There's a pdf of exams from: 1969, 1973, 1985, 1988, 1993, 1997, and 1998.  At some point you could buy the exams from 2003 and 2008 in paper format.  From 2013-2016 you used to be able to get them on the AP Audit site in pdf form if you were an audit approved teacher.  2017-2019 are pre-loaded into AP Classroom.  I do not distribute any copies of these exams, so don't ask me!
+These are the real deal tests from previous years.  You can find the following officially released to the public exams: [1988](https://apcentral.collegeboard.org/media/pdf/calculcus-free-exam-1988.pdf), [1998](https://apcentral.collegeboard.org/media/pdf/calculcus-free-exam-1998.pdf), and [2012](https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-practice-exam-2012.pdf?course=ap-calculus-ab).  There's a pdf of exams from: 1969, 1973, 1985, 1988, 1993, 1997, and 1998.  At some point you could buy the exams from 2003 and 2008 in paper format.  From 2013-2016 you used to be able to get them on the AP Audit site in pdf form if you were an audit approved teacher.  2017-2019 are pre-loaded into AP Classroom so teachers can assign them.  I do not distribute any copies of these exams, so don't ask me!
 
 ### If you can't get the books or the official AP practice tests
 You can substitute basically any practice exams with the ones that I've listed.  For example, here's a link to [Amazon's results](https://www.amazon.com/s?k=ap+calculus+ab) for AP Calculus.  Personally I'd buy (or look for versions of) Barron's and Princeton Review.
 
+# Free Response Questions
+I believe that review time in class is best spent working through past Free Response questions.  You should do as many of them as possible.  If time is short, don't bother going back past 2016.  If you have the time, I'd go all the way back to 2006.  They move it from time to time, but [here's the College Board's archive of the problems strecthing back to 1998.](https://apcentral.collegeboard.org/courses/ap-calculus-ab/exam/past-exam-questions)
 
 # Target your review.
 The Demystifying AP Calculus stuff is sorted by topics, which is great.  You have to know the name of the thing you're not good at so you can find more problems and resources to practice and improve.  Here are (most?) of the things that I've made for AP review.
