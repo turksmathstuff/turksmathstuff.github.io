@@ -40,11 +40,11 @@ My class follows the assignments in the table below.  (I've just kind of estimat
 
 
 # What about Calc BC?
-If you're in Calc BC, do everything for AB and then expand below for the list of additional assignments.
+If you're in Calc BC, do everything for AB and then expand below for the list of additional assignments.  I didn't fill in dates for this because I don't, strictly speaking, teach a Calc BC class.  My students have already taken AB and we cover the BC stuff from September to December, then move on.
 
 <details>
   <summary>Click to show table of assignments.</summary>
-<!---  
+<!---  Still couldn't figure out how to make markdown table collapsable...
 | Number |     Assignment      |  Approximate Date |
 | :----: | :-----------------  | :------------:    |
 | 25      | DemystMC BC: 1-14  |                   |
