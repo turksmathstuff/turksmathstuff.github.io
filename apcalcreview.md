@@ -1,7 +1,7 @@
 I believe that if you have a plan for how to study, you can be very well prepared for the AP Calculus AB and BC exams and get a 5, which should be your ultimate goal.  I kind of just want _everyone_ to get a 5 on this exam.
 
 # Learn the math!
-There's no substitute for actually learning the material!  Before you dive in to study, definitely work through the material.  Obviously I think the best way to do that is to work through my notes and their accompanying videos.  You can find the [AB notes here](/calcab.md) and the remaining [BC videos here.](/calccd.md)
+There's no substitute for actually learning the material!  Before you dive in to study, definitely work through the material.  Obviously I think the best way to do that is to work through my notes and their accompanying videos.  You can find the [AB notes here](/calcab.md) and the remaining [BC notes here.](/calccd.md)
 
 # The Study Plan (Calc AB)
 My class follows the assignments in the table below.  (I've just kind of estimated due dates because I'm doing this generically for any year, but they always start in mid-February and go until right around the Friday before AP exams start.)  There are a lot of assignments and it is a lot of work, but it's worth it when most of the students get a 5 on the exam.  You can download a copy of this assignment sheet [here.](https://drive.google.com/file/d/12F8uKCNxHbpZhsvUB3xzOB4CuA1QBUBc/view?usp=share_link)
@@ -43,7 +43,7 @@ My class follows the assignments in the table below.  (I've just kind of estimat
 
 
 # What about Calc BC?
-If you're in Calc BC, do everything for AB and then expand below for the list of additional assignments.  I didn't fill in dates for this because I don't, strictly speaking, teach a Calc BC class.  My students have already taken AB and we cover the BC stuff from September to December, then move on.
+If you're in Calc BC, do everything for AB and then expand below for the list of additional assignments.  I didn't fill in dates for this because I don't, strictly speaking, teach a Calc BC class.  My students have already taken AB and we cover the BC stuff from September to December, and then we move on to multivariable calc.  But they do take the BC exam, and these are the assignments I give them to get ready.
 
 <details>
   <summary>Click to show table of assignments.</summary>
