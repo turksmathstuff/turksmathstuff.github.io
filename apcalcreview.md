@@ -1,6 +1,6 @@
 I believe that if you have a plan for how to study, you can be very well prepared for the AP Calculus AB and BC exams and get a 5, which should be your ultimate goal.  I kind of just want _everyone_ to get a 5 on this exam.
 
-# Learn the math!
+# Learn the Math!
 There's no substitute for actually learning the material!  Before you dive in to study, definitely work through the material.  Obviously I think the best way to do that is to work through my notes and their accompanying videos.  You can find the [AB notes here](/calcab.md) and the remaining [BC notes here.](/calccd.md)
 
 # The Study Plan (Calc AB)
@@ -86,7 +86,7 @@ These are the real deal tests from previous years.  You can find the following o
 You can substitute basically any practice exams with the ones that I've listed.  For example, here's a link to [Amazon's results](https://www.amazon.com/s?k=ap+calculus+ab) for AP Calculus.  Personally I'd buy (or look for versions of) Barron's and Princeton Review.  I also kind of recommend you consider checking out [UWorld.](https://collegeprep.uworld.com/)  They had a free thing one time right before the AP exam and I checked it out...it was very impressive.  As someone who once got a copyright strike from the College Board, I'm not sure how UWorld's content is allowed, but it's very similar to the real thing.
 
 # Free Response Questions
-I believe that review time in class is best spent working through past Free Response questions.  You should do as many of them as possible.  If time is short, don't bother going back past 2016.  If you have the time, I'd go all the way back to 2006.  They move it from time to time, but [here's the College Board's archive of the problems strecthing back to 1998.](https://apcentral.collegeboard.org/courses/ap-calculus-ab/exam/past-exam-questions)  Also, the previous year's questions can probably be found [here.](https://apcentral.collegeboard.org/courses/ap-calculus-ab/exam)  If they're not at the links, you can find them by directly googling the year.
+I believe that review **time in class is best spent working through past Free Response questions.**  You should do as many of them as possible.  If time is short, don't bother going back past 2016.  If you have the time, I'd go all the way back to 2006.  They move it from time to time, but [here's the College Board's archive of the problems strecthing back to 1998.](https://apcentral.collegeboard.org/courses/ap-calculus-ab/exam/past-exam-questions)  Also, the previous year's questions can probably be found [here.](https://apcentral.collegeboard.org/courses/ap-calculus-ab/exam)  If they're not at the links, you can find them by directly googling the year.
 
 I have made video solutions to most of these FRQs.  I highly recommend you check them out.  Here's a [playlist.](https://www.youtube.com/playlist?list=PLA83584C88AB6F0AE)  Here's a [sorted spreadsheet of them.](https://docs.google.com/spreadsheets/d/1dzyu3Q-3d4CZLV7lqQJzP7Cxq2UsiFJLu2K_4XPfMpM/edit#gid=1)
 
