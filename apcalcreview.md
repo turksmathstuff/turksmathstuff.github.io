@@ -74,7 +74,7 @@ Doing all of this is probably too much.  If I had to choose anything to skip, it
 ### The DemystMC Problems
 These all  come from MasterMathMentor.com.  
 * [Demystifying Calc AB](https://mastermathmentor.com/calc/abmcexamprep.ashx)  A great collection of multiple choice problems that are sorted by topic.  They're split up in the assignments above.
-* [Demystifying Calc BC](https://mastermathmentor.com/calc/bcmcexamprep.ashx)  Same as above, but targeted at BC topics.
+* [Demystifying Calc BC](https://mastermathmentor.com/calc/bcmcexamprep.ashx)  Same as above, but targeted at BC topics.  [Here's the link](https://mastermathmentor.com/calc/BCFRExamPrep.ashx) to the free response version that I just call Demyst BC in the BC assignments above.  (Those are the ones I would skip if time is an issue or it's all too overwhelming.)
 
 ### Preparing Tests
 Students in my classes purchase review books every year and we work through them.  There are two that I highly recommend, but they have a minimum order of 10 books so you'll need a teacher to organize it.  The first book is from [Venture Publishing](https://www.vent-pub.com/pab100/).  I've only ever used the AB book but it's outstanding.  The other book that I use with my students taking the BC exam is from [D&S Marketing](https://www.dsmarketing.com/).  I've only ever used the BC book from here, but again, it's outstanding.  The books from both companies contain 6 practice exams.
