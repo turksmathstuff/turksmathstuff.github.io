@@ -1,4 +1,4 @@
-I believe that if you have a plan for how to study, you can be very well prepared for the AP Calculus AB and BC exams and get a 5, which should be your ultimate goal.  I kind of just want _everyone_ to get a 5 on this exam.
+I believe that if you have a plan for how to study, you can be very well prepared for the AP Calculus AB and BC exams and get a 5, which should be your ultimate goal.  I kind of just want _everyone_ to get a 5 on this exam.  If you want to reach out, probably just comment on one of [my YouTube videos](https://www.youtube.com/turksvids) or hit me up [on reddit](https://www.reddit.com/user/turksvids/), where I feel like I mostly just spam links to my videos, but I'm genuinely trying to help where I can!
 
 # Learn the Math!
 There's no substitute for actually learning the material!  Before you dive in to study, definitely work through the material.  Obviously I think the best way to do that is to work through my notes and their accompanying videos.  You can find the [AB notes here](/calcab.md) and the remaining [BC notes here.](/calccd.md)
