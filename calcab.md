@@ -181,7 +181,7 @@ Area of regions bounded by curves; Riemann sums to approximate area; top minus b
 * [Daily Problem Set Videos 106-110](https://www.youtube.com/playlist?list=PL6iwkLfBjZixpMIxRGIO2j3Ku8ZSW5wf9)
 
 ## Notes 21
-Approximating volumes with Riemann sums; the most common cross sections; volumes by plane slices; volume from tabular data; volumes of solids of revolution (disks and washers). [This video](http://youtu.be/Y2AcoI-XaGA) explains a little about volumes of solids with known cross sections (hard to picture, easy to calculate!).  **Not Yet**  This GeoGebra file might help you visualize the solids of known cross sections.
+Approximating volumes with Riemann sums; the most common cross sections; volumes by plane slices; volume from tabular data; volumes of solids of revolution (disks and washers). [This video](http://youtu.be/Y2AcoI-XaGA) explains a little about volumes of solids with known cross sections (hard to picture, easy to calculate!).  [This GeoGebra sketch](https://www.geogebra.org/classic/nKbHnter) (not by me) is extremely helpful in visualizing volumes with known cross sections.
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRicTVHb1JYLXNTYzQ/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwVCjVRDDs5-FGekyFvb-WS) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
