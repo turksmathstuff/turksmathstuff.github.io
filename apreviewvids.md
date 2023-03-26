@@ -1,8 +1,8 @@
-Review videos for topics in [AB.](https://docs.google.com/document/d/1omZqpB0UkSJY1r4lPvEtojAa5NahVoW3ZxN0uLviKww/edit)   
+Document listing review videos for topics in [AB.](https://docs.google.com/document/d/1omZqpB0UkSJY1r4lPvEtojAa5NahVoW3ZxN0uLviKww/edit)   
 Playlist of review videos for [AB.](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw2H9tmA1vW9a93_eJy6bLb)
 
-Review videos for additional topics in [BC.](https://docs.google.com/document/d/1h0OsHwdEplKx7CqUWtqkl3AauL6Nt3e7_L0cZRdtARs/edit)  
-Playlist of review videos for [BC (includes AB videos).](https://www.youtube.com/watch?v=pLCyPMbf6iI&list=PL6iwkLfBjZiyOprILurQRNoI1M0ACE0ab)
+Document listing review videos for additional topics in [BC.](https://docs.google.com/document/d/1h0OsHwdEplKx7CqUWtqkl3AauL6Nt3e7_L0cZRdtARs/edit)  
+Playlist of review videos for [BC (includes all AB videos).](https://www.youtube.com/watch?v=pLCyPMbf6iI&list=PL6iwkLfBjZiyOprILurQRNoI1M0ACE0ab)
 
 Pick an FRQ topic and get better at it.  Roughly sorted by kind (these aren't comprehensive playlists of all my videos of these types...it's hard to maintain this many playlists...)
 
