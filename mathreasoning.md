@@ -1,5 +1,5 @@
 # Math Reasoning Notes and Videos
-Math Reasoning was a pretty amazing course that I taugth for a couple of years.  It was meant to bridge the gap between Algebra 1 from middle school and Honors Algebra II in high school, where the expectation and rigor are far greater.  There's a tacit assumption that students working on these notes have taken Algebra 1 but that they weren't amazing at it.
+Math Reasoning was a pretty amazing course that I taugth for a couple of years.  It was meant to bridge the gap between Algebra 1 from middle school and Honors Algebra II in high school, where the expectation and rigor are far greater.  There's a tacit assumption that students working on these notes have taken Algebra 1 but that they weren't amazing at it.  **This page is a work in progress.**  (But the links to the notes and playlists work!)
 
 ## Notes 01
 The distributive property applied to polynomials.  (You've got to move beyond FOIL if you're going to excel!)  Also, how to use your TI-Nspire CXII CAS to expand products.
