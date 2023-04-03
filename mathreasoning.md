@@ -12,12 +12,12 @@ Factoring, the opposite of distributing!  Looking for the GCF.  Factoring with a
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwOjaAiA-7s8eYySWvndwCm) to a YouTube playlist of videos about the materials in the notes.
 
 ## Notes 03
-
+How comfortable you are with fractions will go a long way to determining how well you do in Algebra II and beyond.  In these notes we simplify fractions; add & subtract fractions; multiply & divide fractions.
 * [Here's a link](https://drive.google.com/open?id=0B11F_FpivrRiY3JQVWtZZDA1LVk) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiylDburHnG47JI9shAR_I5z) to a YouTube playlist of videos about the materials in the notes.
 
 ## Notes 04
-
+More techniques of factoring!  Using the _ac_-method.  If a quadratic factors you can basically always use the _ac_-method, so if the pattern recognition hasn't been working great for you, this is the one to focus on!  Also, factoring a sum and difference of cubes using formulas.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiUTdxRnlUZElxQnc/view?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw4NvVC94AvC1zBc4Sxjbay) to a YouTube playlist of videos about the materials in the notes.
 
