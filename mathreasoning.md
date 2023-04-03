@@ -2,12 +2,12 @@
 Math Reasoning was a pretty amazing course that I taugth for a couple of years.  It was meant to bridge the gap between Algebra 1 from middle school and Honors Algebra II in high school, where the expectation and rigor are far greater.  There's a tacit assumption that students working on these notes have taken Algebra 1 but that they weren't amazing at it.
 
 ## Notes 01
-
+The distributive property applied to polynomials.  (You've got to move beyond FOIL if you're going to excel!)  Also, how to use your TI-Nspire CXII CAS to expand products.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiSkN0aW1IZEFLRjA/view?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwh0F7gx-kwLfsZJnRZi3fS) to a YouTube playlist of videos about the materials in the notes.
 
 ## Notes 02
-
+Factoring, the opposite of distributing!  Looking for the GCF.  Factoring with a leading coefficient of 1 by educated guessing and pattern recognition.  Factoring with prime leading coefficient using educated guessing and pattern recognition.  Factoring with composite leading coefficient, educated guessing and pattern recognition.  Basically a st of 277 factoring problems.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiVlN2dVNyQS02VG8/view?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwOjaAiA-7s8eYySWvndwCm) to a YouTube playlist of videos about the materials in the notes.
 
