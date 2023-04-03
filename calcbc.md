@@ -1,5 +1,5 @@
 # Calc BC Notes and Videos
-
+You need to know everything for Calc AB and _more!!!_
 
 ## Notes 01
 Limit definition of the derivative; tangent & secant lines; derivative rules; numerical derivatives and finding zeros on calculators; derivatives of the six trig functions; derivatives of e^x and ln(x); some new calculus-style questions.
@@ -92,7 +92,7 @@ Function analysis using derivatives (increasing/decreasing/concavity/First and S
 * [Daily Problem Set Videos 039-042](https://www.youtube.com/playlist?list=PL6iwkLfBjZixpMIxRGIO2j3Ku8ZSW5wf9)
 
 ## Notes 11
-These notes do not exist...but when they do, they'll be about optimization.
+These notes do not exist...but if they ever do, they'll be about optimization.  The thing is, these types of optimizattion problems aren't really on the AP exam anymore, so we don't spend a lot of time on them in class.
 
 * [Here's a link]() to the notes.
 * [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
@@ -215,7 +215,7 @@ Basic differential equations you already know how to solve; what is a solution t
 * [Daily Problem Set Videos 125-133](https://www.youtube.com/playlist?list=PL6iwkLfBjZixpMIxRGIO2j3Ku8ZSW5wf9)
 
 ## Notes 25
-These are not a part of Calc BC, so I'm not including them here.  You've got enough to learn that's actually in the curriculum!  These notes are about volume by shells and you can find them on [the Calc AB notes page](/calcab.md) if you want to check them out.
+These are not a part of Calc BC, so I'm not including them here.  You've got enough to learn that's actually in the curriculum!  These notes are about volume by shells and you can find them on [the Calc AB notes page](/calcab.md) if you want to check them out.  (Scroll down to Notes 25 when you get there!)
 
 ## Notes 26
 Integration by Parts (IBP); when dv = dx; repeated IBP; the table method (rapid repeated IBP); IBP that loops. [Here](https://youtu.be/sUKi-B9Slu0), [here](https://youtu.be/JIaupndIq8c), and [here](https://youtu.be/ywHDuhgf4hQ) are three videos of examples of pretty much each type.  For some reason the second video is the most popular...also, the integral of secant cubed is about as hard as an "easy" integral gets and it uses integration by parts.  [Here's a video for that too...](https://youtu.be/6Q65gJfRj7g)
@@ -252,10 +252,9 @@ Improper Integrals; the types of improper integrals; proper notation; practice p
 # Calc C Notes and Videos (Numbering starts over...)
 
 ## Notes 01
-Partial fraction decomposition (leading to integrals, of course!); non-repeating linear factors; repeated linear factors; quadratic factors.
+Partial fraction decomposition again! (leading to integrals, of course!); non-repeating linear factors; repeated linear factors; quadratic factors.  (If you mastered it the first time, these are skippable...the course I actually teach, Calc CD, starts with this.)
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiZDAwMzY0OGEtMWRhNC00NWRlLThlOTItMWI3ZmFlOThhZGJh) to the notes.
-* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRianZqTlAtemJTalk/edit?resourcekey=0-PDv-wP8VsIotsbIPvJ93Qw) to Notes 27 of Calc AB.  And [here's](https://www.youtube.com/playlist?list=PL6iwkLfBjZizLt7TV3J7z4CbTHYuL-DiW) the complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixOT5CHOEpTe54kPfJDJYeD) to a YouTube playlist of additional videos about these notes.
 
 
@@ -361,7 +360,7 @@ Logistic Differential Equation.  **Not Yet** Here's a link to a GeoGebra file of
 * [Here's a link](https://drive.google.com/file/d/1rqtUeGlMLLevk0X4r4b1UzwZnflYIFvW/view?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 15
-Notes 15 are not covered on the AP exam, so I'm not including them here.  They cover trig substitution and you can find them on the [Calc CD Notes page]() if you want to see them.
+Notes 15 are not covered on the AP exam, so I'm not including them here.  They cover trig substitution and you can find them on the [Calc CD Notes page](/calccd.md) if you want to see them.  Scroll to Notes 15 when you get there.
 
 ## Notes 16
 Calculus of parametric equations; vector-valued functions; calculus of vector-valued functions.  **Not Yet** Here's a link to a GeoGebra file that shows a curve, dx/dt, dy/dt, dy/dx, and the second derivative of the parametric equations.  You might want to review [Notes 15 from Math Analysis](https://docs.google.com/open?id=0B11F_FpivrRiYWQ3OTQ0MjMtYWY3Yy00YzMxLTgzM2QtNTM4ZDljMDQyNTli).  The videos for those notes are [here.](https://www.youtube.com/playlist?list=PL6iwkLfBjZizlwdRxJFRb5WIkBoyaPvkM)
