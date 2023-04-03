@@ -378,7 +378,7 @@ Calculus of polar coordinates.  First you need to really get good at non-calculu
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyMBYi1SesX1bBLKthg1EG0) to a YouTube playlist of additional videos about these notes.
 
 ## AP Calculus Free Response Questions
-[Here's a link](https://docs.google.com/spreadsheet/ccc?key=0Al1F_FpivrRidE1UZGlLSHJRY1BfZmdLWHF1b3FwX2c#gid=1) that will take you to a spreadsheet with links to my AP FRQ solution videos.  If you'd rather just jump to a playlist, [here's a link to that!](https://www.youtube.com/playlist?list=PLA83584C88AB6F0AE)
+[Here's a link](https://docs.google.com/spreadsheet/ccc?key=0Al1F_FpivrRidE1UZGlLSHJRY1BfZmdLWHF1b3FwX2c#gid=0) that will take you to a spreadsheet with links to my AP FRQ solution videos.  If you'd rather just jump to a playlist, [here's a link to that!](https://www.youtube.com/playlist?list=PLA83584C88AB6F0AE)
 
 ## AP Calculus Review Videos
-[Here's a link](https://docs.google.com/document/d/1omZqpB0UkSJY1r4lPvEtojAa5NahVoW3ZxN0uLviKww/edit) to a google doc where I've organized most of my review videos.  Start studying now!  If you'd rather just look through an enormous playlist of all the videos, [here's a link to that!](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw2H9tmA1vW9a93_eJy6bLb)
+[Here's a link](https://docs.google.com/document/d/1omZqpB0UkSJY1r4lPvEtojAa5NahVoW3ZxN0uLviKww/edit) to a Google Doc where I've organized most of my review videos.  Start studying now!  Start with AB material, then continue with BC.  If you'd rather just look through an enormous playlist of all the videos, [here's a link to that!](https://www.youtube.com/watch?v=pLCyPMbf6iI&list=PL6iwkLfBjZiyOprILurQRNoI1M0ACE0ab)
