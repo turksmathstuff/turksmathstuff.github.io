@@ -1,4 +1,4 @@
-# Calc AB Notes and Videos
+# Calc BC Notes and Videos
 
 
 ## Notes 01
@@ -215,12 +215,7 @@ Basic differential equations you already know how to solve; what is a solution t
 * [Daily Problem Set Videos 125-133](https://www.youtube.com/playlist?list=PL6iwkLfBjZixpMIxRGIO2j3Ku8ZSW5wf9)
 
 ## Notes 25
-Volumes by shells. Not a lot going on here, really, because it's very straight forward. Think about tree rings and cylinders!
-
-* [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiTTk3R19tTTdEM2c/view?usp=sharing) to the notes.
-* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixzuV2akCofQ6C2Kt-lxU1J) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
-* [Here's a link](https://www.youtube.com/playlist?feature=edit_ok&list=PL6iwkLfBjZiyiG4TW78aequRKPXyejuVE) to a YouTube playlist of additional videos about these notes.
-* [Here's a link]() to the Problem Sets for these notes.
+These are not a part of Calc BC, so I'm not including them here.  You've got enough to learn that's actually in the curriculum!  These notes are about volume by shells and you can find them on [the Calc AB notes page](/calcab.md) if you want to check them out.
 
 ## Notes 26
 Integration by Parts (IBP); when dv = dx; repeated IBP; the table method (rapid repeated IBP); IBP that loops. [Here](https://youtu.be/sUKi-B9Slu0), [here](https://youtu.be/JIaupndIq8c), and [here](https://youtu.be/ywHDuhgf4hQ) are three videos of examples of pretty much each type.  For some reason the second video is the most popular...also, the integral of secant cubed is about as hard as an "easy" integral gets and it uses integration by parts.  [Here's a video for that too...](https://youtu.be/6Q65gJfRj7g)
@@ -254,7 +249,7 @@ Improper Integrals; the types of improper integrals; proper notation; practice p
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyK0PFSty1AJl3ouISXRu6X) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
 
-# Calc C Notes and Videos
+# Calc C Notes and Videos (Numbering starts over...)
 
 ## Notes 01
 Partial fraction decomposition (leading to integrals, of course!); non-repeating linear factors; repeated linear factors; quadratic factors.
@@ -333,6 +328,7 @@ Taylor Series; working with the known series for e^x, sin(x), cos(x), and 1/(1-x
 
 
 ## Notes 11
+(This is not a topic that's esssential for Calc BC.  If you're running low on time, just skip it entirely.)
 Integrals of powers of trig functions; saving a power; using Pythagorean Identities.
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiOTlmMGIzODktMzc5MS00ZTE1LWI0MDMtYzA4YzIyYTU2YmFl) to the notes.
