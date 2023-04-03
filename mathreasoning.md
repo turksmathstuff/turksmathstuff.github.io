@@ -22,18 +22,18 @@ More techniques of factoring!  Using the _ac_-method.  If a quadratic factors yo
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw4NvVC94AvC1zBc4Sxjbay) to a YouTube playlist of videos about the materials in the notes.
 
 ## Notes 05
-Also, [here's a link](https://drive.google.com/file/d/0B11F_FpivrRiWndzMm41R0FBUUU/view?usp=sharing) to a set of problems that are associated with these notes.  Not sure why that particular document exists!
+Solving some simple equations.  Solving systems of linear equations using calculators, subsitution, elimination (linear combinations), and symmetry.  Using your calculator to solve a system of equations.  Solving a system of three equations in three unknowns.  Introducing the idea of a matrix to solve a system of equations.  Also, [here's a link](https://drive.google.com/file/d/0B11F_FpivrRiWndzMm41R0FBUUU/view?usp=sharing) to a set of problems that are associated with these notes.  Not sure why that particular document exists!
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiYnl4dFAtX1BzeTg/view?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixrL1siCNZF09YNYUmBtHBI) to a YouTube playlist of videos about the materials in the notes.
 
 ## Notes 06
-
+Properties of exponents (and some radicals).
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRidDVoNmJjYVlyQ0E/view?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiy61kYzKd6lYqUGfFea4yko) to a YouTube playlist of videos about the materials in the notes.
 
 ## Notes 07
-
+Lines and linear functions.  Evaluating linear functions.  Point-slope form; slope-intercept form; standard form; general form.  _x_- and _y_-intercepts of a linear function.  Parallel and perpendicular lines (and the relationship of their slopes).  Distance between a point and a line.  Graphing linear functions.  Equation of a circle.  Circle through three points.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiR1JMWjVTdXlBMW8/view?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyfidC-2QvCcI1Mud9Q8m6l) to a YouTube playlist of videos about the materials in the notes.
 
