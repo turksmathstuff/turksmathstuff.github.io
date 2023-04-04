@@ -38,7 +38,7 @@ Lines and linear functions.  Evaluating linear functions.  Point-slope form; slo
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyfidC-2QvCcI1Mud9Q8m6l) to a YouTube playlist of videos about the materials in the notes.
 
 ## Notes 08
-
+Transformations; quadratics; completing the square; vertex form; quadratic formula; discriminant; i (complex number); powers of i; factored form
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiTE9xWHdOLU5MRzg/view?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiy276TZ1X_sCUsz5OTxyV4D) to a YouTube playlist of videos about the materials in the notes.
 
