@@ -43,17 +43,17 @@ Transformations; quadratics; completing the square; vertex form; quadratic formu
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiy276TZ1X_sCUsz5OTxyV4D) to a YouTube playlist of videos about the materials in the notes.
 
 ## Notes 09
-
+Inequalities; linear programming; absolute value; piecewise functions
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiak9uV2pjdnk4T3c/view?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiy3FPZW0sPNKE9khkqQHK9x) to a YouTube playlist of videos about the materials in the notes.
 
 ## Notes 10
-
+Solving problems using the math we know.  Rate\*Time = Total; train problems; open box problem; painting problems; mixture problems
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiM1BzMGZqckxUVEk/view?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixIDrAlESW2aVr_2IcFWNXi) to a YouTube playlist of videos about the materials in the notes.
 
 ## Notes 11
-
+More about functions!  Parent functions; Domain and range; asymptotes; inverses; vertical line test; horizontal line test; one-to-one functions
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiX2Q2NGpOUW1RTXc/view?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixAQGktcmPOMiti15tuup0N) to a YouTube playlist of videos about the materials in the notes.
 
