@@ -6,7 +6,7 @@ Playlist of review videos for [BC (includes all AB videos).](https://www.youtube
 
 Pick an FRQ topic and get better at it.  Roughly sorted by kind (these aren't comprehensive playlists of all my videos of these types...it's hard to maintain this many playlists...)
 
-* [Working with the First Derivative.](https://www.youtube.com/playlist?list=PL6iwkLfBjZiweXywsOBrgQBb61M4Vxslo)
+* [Working with the First Derivative.](https://www.youtube.com/watch?v=sZToJ1I322M&list=PL6iwkLfBjZiweXywsOBrgQBb61M4Vxslo)
 * [Differential equations.](https://www.youtube.com/watch?v=6_8uCDOAt60&list=PL6iwkLfBjZizX76Iekkd8NiI2YCu_MXWY)  
 * [Separation of variables.](https://www.youtube.com/watch?v=6_8uCDOAt60&list=PL6iwkLfBjZizshy2kAg-c4BvMgn4GNcqQ)  
 * [Area & Volume problems.](https://www.youtube.com/watch?v=Q1GsKHoHyYk&list=PL6iwkLfBjZixxSUrkvqNEmaoZrfewfaMD)  
