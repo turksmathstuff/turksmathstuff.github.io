@@ -58,7 +58,7 @@ More about functions!  Parent functions; Domain and range; asymptotes; inverses;
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixAQGktcmPOMiti15tuup0N) to a YouTube playlist of videos about the materials in the notes.
 
 ## Notes 12
-
+Exponential functions, y=a^x.  Interest (simple interest and compound interest; where does e come into this?  continuous compounting, Pe^(rt); half-life problems.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiQS1EV0FLaDhGbVU/view?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyYBBnxhkxa56_SxrBrq9Jb) to a YouTube playlist of videos about the materials in the notes.
 
