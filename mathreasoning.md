@@ -73,12 +73,12 @@ Three fun ideas in these notes: [Fibonacci sequece](https://en.wikipedia.org/wik
 
 
 ## Notes 15
-
+Sequences and Series; arithmetic sequences vs. linear functions; geometric sequences vs. exponential functions; finding an expression for the nth term; recurssive formulas; sequences on your TI-Nspire; sums of sequences; series; number of terms in a sequence; sum of finite arithmetic series; sum of geometric series; sum of infinite geometric series; revisiting the Collatz conjucture; Lotka-Volterra model
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiUWhzYXUtZkYzVGs/view?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwBpfawCBeKepKf_J9MW3Rj) to a YouTube playlist of videos about the materials in the notes.
 
 ## Notes 16
-
+Polynomials; degree; leading term; constant term; multiplying polynomials; dividing polynomials 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiZnViV2xBcklvYnM/view?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwBpfawCBeKepKf_J9MW3Rj) to a YouTube playlist of videos about the materials in the notes.
 
