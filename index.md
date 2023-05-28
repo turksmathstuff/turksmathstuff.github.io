@@ -6,7 +6,7 @@ Because of a change in pricing structure, I've moved my website...and now it loo
 It's more streamlined than it was.
 
 ## Math Reasoning
-Click here to go to the notes.
+Click [here](/mathreasoning.md) to go to the notes.
 
 ## Math Analysis
 Click [here](/mathanalysis.md) to go to the notes.
