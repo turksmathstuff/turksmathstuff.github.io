@@ -63,7 +63,7 @@ Exponential functions, y=a^x.  Interest (simple interest and compound interest; 
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyYBBnxhkxa56_SxrBrq9Jb) to a YouTube playlist of videos about the materials in the notes.
 
 ## Notes 13
-
+logarithms; inverses of exponentials; log of a in base b; bacon an eggs; logs are are BAE; common logs; properties of logs (product to sum; quotient to difference; exponent becomes coefficient; change of base); expanding and condensing log expressions; solving equations with logs; domain and range for log functions; naural logs; base e
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiMTNNVlRBaC02b1E/view?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixnt7W_ILVKJKYV9G2LEb0Q) to a YouTube playlist of videos about the materials in the notes.
 
