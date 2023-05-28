@@ -83,5 +83,5 @@ Polynomials; degree; leading term; constant term; multiplying polynomials; divid
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwBpfawCBeKepKf_J9MW3Rj) to a YouTube playlist of videos about the materials in the notes.
 
 ## Notes 17
-
+Right triangle trig; Pythagorean Theorem; sine, cosine, and tangent; SOHCAHTOA; changing radians to degrees on calculator; evaluating trig functions on your calculator; solving right triangles; inverse trig functions to find angles; solving problems in context
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiUVJJMm9NNFlSZVE/view?usp=sharing) to the notes.
