@@ -1,9 +1,9 @@
 ---
 title: Turk's Math Stuff
 ---
+# Turk's Math Stuff
 
-Because of a change in pricing structure, I've moved my website...and now it looks like this.
-It's more streamlined than it was.
+These the notes for the courses that I teach.  You'll find links to the notes, videos, and additional resources when they're available.  I've worked very hard on the notes and I hope you find them helpful!
 
 ## Math Reasoning
 Click [here](/mathreasoning.md) to go to the notes.
