@@ -1,7 +1,7 @@
 ---
 title: Turk's Math Stuff
 ---
-# TurksMathStuff
+
 Because of a change in pricing structure, I've moved my website...and now it looks like this.
 It's more streamlined than it was.
 
