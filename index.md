@@ -3,7 +3,7 @@ title: Turk's Math Stuff
 ---
 # Turk's Math Stuff
 
-These the notes for the courses that I teach.  You'll find links to the notes, videos, and additional resources when they're available.  I've worked very hard on the notes and I hope you find them helpful!
+These are the notes for the courses that I teach.  You'll find links to the notes, videos, and additional resources when they're available.  I've worked very hard on the notes and I hope you find them helpful!
 
 ## Math Reasoning
 Click [here](/mathreasoning.md) to go to the notes.
