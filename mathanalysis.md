@@ -193,3 +193,9 @@ This is not actually a summer assignment that you're required to do if you're in
 * [Here's a link](https://drive.google.com/file/d/1nxZwRSq3xK4Mp1XDSgj3dXovHg6IE1KE/view) to the pdf of the summer assignment.
 * [Here's a link](https://www.youtube.com/watch?v=OyeN8vw32U0) to a YouTube video of me working through the problems.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/watch?v=ZIqeRELGYnE) to a YouTube video of me doing an overview of the concepts you need to master to succeed in AP Calculus.
+
+<script type="text/javascript">
+    document.querySelectorAll('a').forEach(anchor => {
+        anchor.setAttribute('target', '_blank');
+    });
+</script>
