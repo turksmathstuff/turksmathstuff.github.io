@@ -14,3 +14,9 @@
 ## Calc D Notes 5
 
 * [Directional Derivative, Gradient, and Steepest Ascent/Descent.](https://www.geogebra.org/classic/jgFYzVkC)  This sketch has three panels: one that shows the xy-plane and has a point, a unit vector, and the gradient; one that shows a graph of the value of the directional derivative as a function of the angle between the gradient and the unit vector; and one that shows the surface with the tangent line to the surface, the gradient, and the unit vector.
+
+<script type="text/javascript">
+    document.querySelectorAll('a').forEach(anchor => {
+        anchor.setAttribute('target', '_blank');
+    });
+</script>
