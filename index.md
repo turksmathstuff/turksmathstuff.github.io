@@ -23,3 +23,9 @@ Click [here](/calccd.md) to go to the notes.
 ## AP Calculus Exam Review Material
 * Click [here](/apcalcreview.md) to go to this page with lots of info and a plan.
 * Click [here](/apreviewvids.md) to go to a page with links to semiorganized resources of my videos that you can use for review.  Free Response Question (FRQ) video solutions sorted by type as well.
+
+<script type="text/javascript">
+    document.querySelectorAll('a').forEach(anchor => {
+        anchor.setAttribute('target', '_blank');
+    });
+</script>
