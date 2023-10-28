@@ -85,3 +85,10 @@ Polynomials; degree; leading term; constant term; multiplying polynomials; divid
 ## Notes 17
 Right triangle trig; Pythagorean Theorem; sine, cosine, and tangent; SOHCAHTOA; changing radians to degrees on calculator; evaluating trig functions on your calculator; solving right triangles; inverse trig functions to find angles; solving problems in context
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiUVJJMm9NNFlSZVE/view?usp=sharing) to the notes.
+
+
+<script type="text/javascript">
+    document.querySelectorAll('a').forEach(anchor => {
+        anchor.setAttribute('target', '_blank');
+    });
+</script>
