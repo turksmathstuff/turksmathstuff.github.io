@@ -101,3 +101,10 @@ The Demystifying AP Calculus stuff is sorted by topics, which is great.  You hav
 * [Calc AB All Types of Integrals You Might Encounter.](https://drive.google.com/file/d/1szgoCbuXIDW3RrAg2qIybHxQzjc-YgQH/view?usp=sharing)  Why not just go through examples of everything you could face?
 * [Multiple Choice Review for AB & BC](https://drive.google.com/drive/folders/1fRILjg4iWcqsDFQMhkVlMpCxUZX4bzw-?usp=sharing)  This is a series of problem sets with questions similar to what you'll see on the AP exam.  [There's a playlist](https://www.youtube.com/playlist?list=PL6iwkLfBjZixe5jzHd1gOW6e1vDO4hmDA) of the solution videos, too.  The playlist has a bunch of series, polar, parametric, and vector problems.
 * [Analysis of Series MC Questions You'll Face on the BC Exam.](https://drive.google.com/file/d/1q7YVRj9fRS52rPIaXiCoWCk8IPl_9Lh-/view?usp=sharing)  I went through every exam to see what kind of things you might be asked...and this is the result.
+
+
+<script type="text/javascript">
+    document.querySelectorAll('a').forEach(anchor => {
+        anchor.setAttribute('target', '_blank');
+    });
+</script>
