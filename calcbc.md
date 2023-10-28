@@ -382,3 +382,9 @@ Calculus of polar coordinates.  First you need to really get good at non-calculu
 
 ## AP Calculus Review Videos
 [Here's a link](https://docs.google.com/document/d/1omZqpB0UkSJY1r4lPvEtojAa5NahVoW3ZxN0uLviKww/edit) to a Google Doc where I've organized most of my review videos.  Start studying now!  Start with AB material, then continue with BC.  If you'd rather just look through an enormous playlist of all the videos, [here's a link to that!](https://www.youtube.com/watch?v=pLCyPMbf6iI&list=PL6iwkLfBjZiyOprILurQRNoI1M0ACE0ab)
+
+<script type="text/javascript">
+    document.querySelectorAll('a').forEach(anchor => {
+        anchor.setAttribute('target', '_blank');
+    });
+</script>
