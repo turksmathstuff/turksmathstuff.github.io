@@ -196,3 +196,9 @@ Gradient vector fields and potential functions; conservative vector fields; curl
 
 ## Calc D Assignments Video Solutions
 This is an ongoing project of mine, but the videos are all [in this playlist.](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyQiEWIBCCju4I_qjZuaM10)
+
+<script type="text/javascript">
+    document.querySelectorAll('a').forEach(anchor => {
+        anchor.setAttribute('target', '_blank');
+    });
+</script>
