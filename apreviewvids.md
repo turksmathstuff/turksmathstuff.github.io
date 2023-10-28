@@ -18,3 +18,10 @@ Pick an FRQ topic and get better at it.  Roughly sorted by kind (these aren't co
 * [(BC) Series](https://www.youtube.com/watch?v=gJI22_jJ57M&list=PL6iwkLfBjZiwheTEUA-N7ujqhLZiTVwvZ)
 
 [Here's the playlist](https://www.youtube.com/playlist?list=PLA83584C88AB6F0AE) of all of the FRQs for which I've made videos.
+
+
+<script type="text/javascript">
+    document.querySelectorAll('a').forEach(anchor => {
+        anchor.setAttribute('target', '_blank');
+    });
+</script>
