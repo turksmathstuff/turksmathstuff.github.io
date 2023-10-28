@@ -263,3 +263,10 @@ Improper Integrals; the types of improper integrals; proper notation; practice p
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizjjyfsnq54MMEnXjLE8WbM) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyK0PFSty1AJl3ouISXRu6X) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
+
+
+<script type="text/javascript">
+    document.querySelectorAll('a').forEach(anchor => {
+        anchor.setAttribute('target', '_blank');
+    });
+</script>
