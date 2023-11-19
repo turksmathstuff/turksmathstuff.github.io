@@ -11,6 +11,7 @@
 * [Distance Between Particles (pg 187)](https://www.geogebra.org/classic/PeRX5vxR)
 * [page 187, problem 2](https://www.geogebra.org/classic/nm6yqafn)
 * [pages 188-189](https://www.geogebra.org/classic/yw5jxknn)
+* [page 190, parabola problem]()
 
 ## Notes 16
 * [Lerping polar and rectangular](https://www.geogebra.org/classic/zn5sxgcy)
