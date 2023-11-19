@@ -16,6 +16,7 @@
 * [Midpoint in 3D](https://www.geogebra.org/classic/xrq43deh)
 * [Direction Cosines (see angle, triangle)](https://www.geogebra.org/classic/yb4hdmjk)
 * [Direction Cosines (Cones)](https://www.geogebra.org/classic/ppsjdsdn)
+* [3D Lissajous Figure](https://www.geogebra.org/classic/svsj5uu6)
 
 ## Notes 21
 * [Local Linear vs. Not Locally Linear](https://www.geogebra.org/classic/vjxkdqvj)
