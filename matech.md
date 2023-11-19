@@ -20,6 +20,7 @@
 * [Midpoint in 3D](https://www.geogebra.org/classic/xrq43deh)
 * [Direction Cosines (see angle, triangle)](https://www.geogebra.org/classic/yb4hdmjk)
 * [Direction Cosines (Cones)](https://www.geogebra.org/classic/ppsjdsdn)
+* [Direction Cosines, Vector, Coines (better)](https://www.geogebra.org/classic/mathbnda)
 * [3D Lissajous Figure](https://www.geogebra.org/classic/svsj5uu6)
 
 ## Notes 21
