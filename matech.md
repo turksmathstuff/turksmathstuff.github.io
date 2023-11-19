@@ -9,6 +9,9 @@
 ## Notes 15
 * [Parametric Race](https://www.geogebra.org/classic/mgaaa2rz)
 
+## Notes 16
+* [Lerping polar and rectangular](https://www.geogebra.org/classic/zn5sxgcy)
+
 ## Notes 17
 * [Midpoint in 3D](https://www.geogebra.org/classic/xrq43deh)
 * [Direction Cosines (see angle, triangle)](https://www.geogebra.org/classic/yb4hdmjk)
