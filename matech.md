@@ -8,3 +8,7 @@
 
 ## Notes 15
 * [Parametric Race](https://www.geogebra.org/classic/mgaaa2rz)
+
+## Notes 17
+* [Direction Cosines (see angle, triangle)](https://www.geogebra.org/classic/yb4hdmjk)
+* [Direction Cosines (Cones)](https://www.geogebra.org/classic/ppsjdsdn)
