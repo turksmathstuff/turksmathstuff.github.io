@@ -9,6 +9,7 @@
 ## Notes 15
 * [Parametric Race](https://www.geogebra.org/classic/mgaaa2rz)
 * [Distance Between Particles (pg 187)](https://www.geogebra.org/classic/PeRX5vxR)
+* [pages 188-189](https://www.geogebra.org/classic/yw5jxknn)
 
 ## Notes 16
 * [Lerping polar and rectangular](https://www.geogebra.org/classic/zn5sxgcy)
