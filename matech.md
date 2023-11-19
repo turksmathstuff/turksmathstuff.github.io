@@ -13,6 +13,7 @@
 * [pages 188-189](https://www.geogebra.org/classic/yw5jxknn)
 * [page 190, parabola problem](https://www.geogebra.org/classic/nhtfbxdc)
 * [page 193, circle](https://www.geogebra.org/classic/gdduuegt)
+* [page 194, Circle & Line](https://www.geogebra.org/classic/azbackjv)
 
 ## Notes 16
 * [Lerping polar and rectangular](https://www.geogebra.org/classic/zn5sxgcy)
