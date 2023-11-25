@@ -8,7 +8,6 @@
 
 ## Notes 15
 * [Parametric Race](https://www.geogebra.org/classic/mgaaa2rz)
-* [page 179, top](https://www.geogebra.org/classic/vp5g9jqb)
 * [page 179, bottom](https://www.geogebra.org/classic/p99b63wb)
 * [page 187, Distance Between Particles](https://www.geogebra.org/classic/PeRX5vxR)
 * [page 187, problem 2](https://www.geogebra.org/classic/nm6yqafn)
