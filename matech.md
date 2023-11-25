@@ -8,10 +8,12 @@
 
 ## Notes 15
 * [Parametric Race](https://www.geogebra.org/classic/mgaaa2rz)
-* [Distance Between Particles (pg 187)](https://www.geogebra.org/classic/PeRX5vxR)
+* [page 179, top](https://www.geogebra.org/classic/vp5g9jqb)
+* [page 187, Distance Between Particles](https://www.geogebra.org/classic/PeRX5vxR)
 * [page 187, problem 2](https://www.geogebra.org/classic/nm6yqafn)
 * [pages 188-189](https://www.geogebra.org/classic/yw5jxknn)
 * [page 190, parabola problem](https://www.geogebra.org/classic/nhtfbxdc)
+* [page 192, spinning hazmat](https://www.geogebra.org/classic/xp44jaq3)
 * [page 193, circle at (-6,10)](https://www.geogebra.org/classic/gdduuegt)
 * [page 194, Circle & Line](https://www.geogebra.org/classic/aefvjznr)
 
