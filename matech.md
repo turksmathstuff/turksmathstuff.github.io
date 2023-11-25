@@ -12,7 +12,7 @@
 * [page 187, problem 2](https://www.geogebra.org/classic/nm6yqafn)
 * [pages 188-189](https://www.geogebra.org/classic/yw5jxknn)
 * [page 190, parabola problem](https://www.geogebra.org/classic/nhtfbxdc)
-* [page 193, circle](https://www.geogebra.org/classic/gdduuegt)
+* [page 193, circle at (-6,10)](https://www.geogebra.org/classic/gdduuegt)
 * [page 194, Circle & Line](https://www.geogebra.org/classic/aefvjznr)
 
 ## Notes 16
