@@ -1,5 +1,8 @@
 # Tech Resources for MA Notes
 
+## Notes 05
+* [Connecting Unit Circle to Sine and Cosine Graphs](https://www.geogebra.org/classic/qxqsxzwk))
+
 ## Notes 10
 * [Ambiguous Case of the Law of Sines](https://www.geogebra.org/m/cbjdbtfq)
 
