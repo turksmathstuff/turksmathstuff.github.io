@@ -127,7 +127,7 @@ Parametric equations and doing stuff with them.  [Here's a link](https://drive.g
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizlwdRxJFRb5WIkBoyaPvkM) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PLEA3939F1EA97E712) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRicUk4Z2hFdy1BWVU/edit?usp=sharing) to the Problem Sets for these notes.
-* **Not Yet** [Here's a link]() to some GeoGebra sketches that are helpful for these notes.
+* [Here's a link](matech.md#notes-15) to some GeoGebra sketches that are helpful for these notes.
 
 ## Notes 16
 Polar coordinates.  Converting polar to rectangular; graphing in polar coordinates; common polar curves.
