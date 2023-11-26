@@ -28,3 +28,10 @@
 
 ## Notes 21
 * [Local Linear vs. Not Locally Linear](https://www.geogebra.org/classic/vjxkdqvj)
+
+
+<script type="text/javascript">
+    document.querySelectorAll('a').forEach(anchor => {
+        anchor.setAttribute('target', '_blank');
+    });
+</script>
