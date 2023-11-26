@@ -19,6 +19,7 @@
 * [page 192, spinning hazmat](https://www.geogebra.org/classic/xp44jaq3)
 * [page 193, circle at (-6,10)](https://www.geogebra.org/classic/gdduuegt)
 * [page 194, Circle & Line](https://www.geogebra.org/classic/aefvjznr)
+* [Pacman sort of thing](https://www.geogebra.org/classic/vbbdnggt)
 
 ## Notes 16
 * [Lerping polar and rectangular](https://www.geogebra.org/classic/zn5sxgcy)
