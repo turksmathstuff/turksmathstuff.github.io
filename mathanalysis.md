@@ -33,7 +33,7 @@ Reference angles, circular definitions of trigonometric functions, "point" probl
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiaHpNVXZzWkg1dU0/edit?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 05
-Periodic functions, graphing all of the trig functions (with all of the transformations), equations from graphs, equations from tables of data.    Here's a link to a GeoGebra file that illustrates how the Unit Circle relates to the graphs of sine and cosine.
+Periodic functions, graphing all of the trig functions (with all of the transformations), equations from graphs, equations from tables of data.    [Here's a link to a GeoGebra sketch](https://www.geogebra.org/classic/qxqsxzwk) that illustrates how the Unit Circle relates to the graphs of sine and cosine.
 
 * [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiMDhhY2FkYjEtNzRkYy00NmNjLWJjMTQtOGNkMDhkOWNhZjI5) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiziCVyHtaTqXS9OjerMJL52) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
