@@ -20,6 +20,7 @@
 * [page 193, circle at (-6,10)](https://www.geogebra.org/classic/gdduuegt)
 * [page 194, Circle & Line](https://www.geogebra.org/classic/aefvjznr)
 * [Pacman sort of thing](https://www.geogebra.org/classic/vbbdnggt)
+* [Pacman sort of thing 2](https://www.geogebra.org/classic/wferksm6)
 
 ## Notes 16
 * [Lerping polar and rectangular](https://www.geogebra.org/classic/zn5sxgcy)
