@@ -39,7 +39,7 @@ Periodic functions, graphing all of the trig functions (with all of the transfor
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiziCVyHtaTqXS9OjerMJL52) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL08AC52BF1DE8873E) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRidEtPcFZmRnhBaEk/edit?usp=sharing) to the Problem Sets for these notes.
-* **Not Yet!** [Here's a link]() to some useful Desmos Activities and GeoGebra sketches. 
+* [Here's a link](matech.md#notes-05) to some useful Desmos Activities and GeoGebra sketches. 
 
 ## Notes 06
 Inverse trig functions, domains/ranges, compositions.  [Here's a link](https://www.geogebra.org/classic/zuwcvhjw) to a GeoGebra sketch that lets you figure out how the Unit Circle generates the graphs of sine and cosine.  [Making sine 1-to-1](https://www.geogebra.org/m/zuxnvrnd) and [making cosine 1-to-1.](https://www.geogebra.org/m/d9ykkrtv)
@@ -144,7 +144,7 @@ Three-dimensional things, lines, simple planes (we do NOT cover cross product in
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwT19XYNcvu98XlnPptX3B_) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6E09BCDA649281B3) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRialcwWEVXUkhzX0k/edit?usp=sharing) to the Problem Sets for these notes.
-* **Not Yet** [Here's a link]() to some GeoGebra sketches that are helpful for these notes.
+* [Here's a link](matech.md#notes-17) to some GeoGebra sketches that are helpful for these notes.
 
 ## Notes 18
 More on volumes of revolution, area problems, start tying it all into limits.  [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiSW5oQmZDX096dm8/view?usp=sharing) to a supplement on using summations for arc length.  Here's a link to some GeoGebra sketches about these sorts of things.
