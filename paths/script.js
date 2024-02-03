@@ -5,30 +5,57 @@ const courseOptions = {
     "CalcH": ["AP Stat", "CS Principles"]
 };
 
+// Function to create a course bubble
+function createCourseBubble(courseId, courseName) {
+    const bubble = document.createElement('div');
+    bubble.textContent = courseName;
+    bubble.classList.add('course-bubble');
+    bubble.id = courseId;
+    bubble.onclick = function() {
+        selectCourse(courseId);
+    };
+    return bubble;
+}
+
+// Function to handle the course selection
 function selectCourse(selectedCourse) {
-    // Hide all initial options
-    document.querySelectorAll('.course-bubble').forEach(bubble => {
-        bubble.classList.add('hidden');
-    });
+    const container = document.getElementById('tree-container');
 
-    // Show selected course
-    document.getElementById(selectedCourse).classList.remove('hidden');
-
-    // Show next options
-    const nextOptions = courseOptions[selectedCourse];
-    nextOptions.forEach(option => {
-        const optionId = option.replace(/\s+/g, '');
-        if (!document.getElementById(optionId)) {
-            const bubble = document.createElement('div');
-            bubble.textContent = option;
-            bubble.classList.add('course-bubble');
-            bubble.id = optionId;
-            bubble.onclick = function() {
-                selectCourse(optionId);
-            };
-            document.getElementById('tree-container').appendChild(bubble);
-        } else {
-            document.getElementById(optionId).classList.remove('hidden');
+    // Hide all bubbles except the selected one
+    Array.from(container.children).forEach(bubble => {
+        if (bubble.id !== selectedCourse) {
+            bubble.classList.add('hidden');
         }
     });
+
+    // Show next options if any
+    if (courseOptions[selectedCourse]) {
+        courseOptions[selectedCourse].forEach(option => {
+            const optionId = option.replace(/\s+/g, '');
+            // Only create the bubble if it does not exist
+            if (!document.getElementById(optionId)) {
+                const bubble = createCourseBubble(optionId, option);
+                container.appendChild(bubble);
+            } else {
+                // If it exists but is hidden, show it
+                document.getElementById(optionId).classList.remove('hidden');
+            }
+        });
+    }
 }
+
+// Initial event listeners
+window.onload = function() {
+    document.getElementById('Algebra2Honors').onclick = function() {
+        selectCourse('Algebra2Honors');
+    };
+    document.getElementById('MathAnalysis').onclick = function() {
+        selectCourse('MathAnalysis');
+    };
+    document.getElementById('CalcAB').onclick = function() {
+        selectCourse('CalcAB');
+    };
+    document.getElementById('CalcH').onclick = function() {
+        selectCourse('CalcH');
+    };
+};
