@@ -1,28 +1,34 @@
-const coursePathways = {
-    "Algebra 2 Honors": ["Math Analysis", "Precalculus Honors", "AP Statistics"],
-    "Math Analysis": ["AP Calculus AB", "Calculus Honors", "AP Statistics"],
-    // Add more pathways as needed
+const courseOptions = {
+    "Algebra2Honors": ["Math Analysis", "Precalc E"],
+    "MathAnalysis": ["Calc AB", "Calc H", "AP Stat"],
+    "CalcAB": ["Calc CD", "AP Stat"],
+    "CalcH": ["AP Stat", "CS Principles"]
 };
 
-function showNextCourses(selectedCourse) {
-    // Clear previous levels
-    const pathway = document.getElementById('pathway');
-    while (pathway.childElementCount > 1) {
-        pathway.removeChild(pathway.lastChild);
-    }
+function selectCourse(selectedCourse) {
+    // Hide all initial options
+    document.querySelectorAll('.course-bubble').forEach(bubble => {
+        bubble.classList.add('hidden');
+    });
 
-    // Add next level courses if they exist
-    if (coursePathways[selectedCourse]) {
-        const nextLevel = document.createElement('div');
-        nextLevel.className = 'level';
-        coursePathways[selectedCourse].forEach(course => {
-            const courseDiv = document.createElement('div');
-            courseDiv.className = 'course';
-            courseDiv.textContent = course;
-            // Enable clicking on next level courses too
-            courseDiv.onclick = function() { showNextCourses(course); };
-            nextLevel.appendChild(courseDiv);
-        });
-        pathway.appendChild(nextLevel);
-    }
+    // Show selected course
+    document.getElementById(selectedCourse).classList.remove('hidden');
+
+    // Show next options
+    const nextOptions = courseOptions[selectedCourse];
+    nextOptions.forEach(option => {
+        const optionId = option.replace(/\s+/g, '');
+        if (!document.getElementById(optionId)) {
+            const bubble = document.createElement('div');
+            bubble.textContent = option;
+            bubble.classList.add('course-bubble');
+            bubble.id = optionId;
+            bubble.onclick = function() {
+                selectCourse(optionId);
+            };
+            document.getElementById('tree-container').appendChild(bubble);
+        } else {
+            document.getElementById(optionId).classList.remove('hidden');
+        }
+    });
 }
