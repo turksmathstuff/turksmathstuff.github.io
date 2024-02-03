@@ -1,34 +1,25 @@
-body, html {
-    height: 100%;
-    margin: 0;
+body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 
-#pathway {
+#tree-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100%;
 }
 
-.level {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-
-.course {
-    border: 2px solid #007bff;
-    border-radius: 50%;
-    padding: 10px 20px;
+.course-bubble {
     margin: 10px;
-    background-color: #007bff;
-    color: white;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 20px;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 
-.course:hover {
-    background-color: #0056b3;
+.hidden {
+    display: none;
 }
