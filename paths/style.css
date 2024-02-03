@@ -12,3 +12,16 @@
 .course-bubble:hover {
   background-color: #e0f7ff;
 }
+
+.course {
+    padding: 10px;
+    margin: 5px;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+#next-courses .course {
+    background-color: lightgreen;
+}
+
+/* Further styling as needed */
