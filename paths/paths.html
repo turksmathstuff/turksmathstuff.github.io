@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Course Pathways</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Pathways</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="coursePathway">
-  <!-- Initial course bubbles will be injected here by JavaScript -->
+
+<div id="pathway">
+    <!-- Initial Courses -->
+    <div class="level" id="level0">
+        <div class="course" onclick="showNextCourses('Algebra 2 Honors')">Algebra 2 Honors</div>
+        <div class="course" onclick="showNextCourses('Math Analysis')">Math Analysis</div>
+        <div class="course" onclick="showNextCourses('AP Calculus AB')">AP Calculus AB</div>
+    </div>
 </div>
+
 <script src="script.js"></script>
 </body>
 </html>
