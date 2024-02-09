@@ -10,6 +10,7 @@
 * [Conics First Look](https://www.geogebra.org/classic/s5m9ffse)
 
 ## Notes 15
+* [Lissajous Demo](https://www.geogebra.org/classic/tmm7bywz)
 * [Parametric Race](https://www.geogebra.org/classic/mgaaa2rz)
 * [page 179, bottom](https://www.geogebra.org/classic/p99b63wb)
 * [page 187, Distance Between Particles](https://www.geogebra.org/classic/PeRX5vxR)
