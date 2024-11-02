@@ -5,36 +5,54 @@
     <title>Unit Circle Reference Angle Game</title>
     <style>
         #unitCircle { border: 1px solid black; }
+        button { margin: 5px; }
     </style>
 </head>
 <body>
     <h1>Unit Circle Reference Angle Game</h1>
     <canvas id="unitCircle" width="400" height="400"></canvas>
-    <div id="questionContainer">
-        <p id="questionText">What is the reference angle in radians for these points? Use "pi" for π in your answer!</p>
-        <input type="text" id="answer" placeholder="Enter your answer here">
-        <button onclick="checkAnswer()">Submit</button>
-    </div>
-    <p id="feedback"></p>
+    <p id="questionText">What angle is the highlighted point?</p>
+    <div id="feedback"></p>
     <script>
         const canvas = document.getElementById('unitCircle');
         const ctx = canvas.getContext('2d');
+        const centerX = 200;
+        const centerY = 200;
+        const radius = 150;
+
+        // Define famous angles and their labels
+        const famousAngles = [
+            { angle: Math.PI / 6, label: "π/6" },
+            { angle: Math.PI / 4, label: "π/4" },
+            { angle: Math.PI / 3, label: "π/3" },
+            { angle: Math.PI / 2, label: "π/2" },
+            { angle: 2 * Math.PI / 3, label: "2π/3" },
+            { angle: 3 * Math.PI / 4, label: "3π/4" },
+            { angle: 5 * Math.PI / 6, label: "5π/6" },
+            { angle: Math.PI, label: "π" },
+            { angle: 7 * Math.PI / 6, label: "7π/6" },
+            { angle: 5 * Math.PI / 4, label: "5π/4" },
+            { angle: 4 * Math.PI / 3, label: "4π/3" },
+            { angle: 3 * Math.PI / 2, label: "3π/2" },
+            { angle: 5 * Math.PI / 3, label: "5π/3" },
+            { angle: 7 * Math.PI / 4, label: "7π/4" },
+            { angle: 11 * Math.PI / 6, label: "11π/6" }
+        ];
+
+        // Select a random point to highlight
+        const randomPoint = famousAngles[Math.floor(Math.random() * famousAngles.length)];
 
         function drawUnitCircle() {
-            const centerX = 200;
-            const centerY = 200;
-            const radius = 150;
-            
             // Draw x-axis
             ctx.beginPath();
-            ctx.moveTo(50, centerY); // Start a little left of the circle
-            ctx.lineTo(350, centerY); // End a little right of the circle
+            ctx.moveTo(50, centerY);
+            ctx.lineTo(350, centerY);
             ctx.stroke();
-            
+
             // Draw y-axis
             ctx.beginPath();
-            ctx.moveTo(centerX, 50); // Start a little above the circle
-            ctx.lineTo(centerX, 350); // End a little below the circle
+            ctx.moveTo(centerX, 50);
+            ctx.lineTo(centerX, 350);
             ctx.stroke();
 
             // Draw the unit circle
@@ -42,27 +60,48 @@
             ctx.arc(centerX, centerY, radius, 0, 2 * Math.PI);
             ctx.stroke();
 
-            // Define angles in radians for 30°, 150°, 210°, and 330°
-            const angles = [Math.PI / 6, 5 * Math.PI / 6, 7 * Math.PI / 6, 11 * Math.PI / 6];
-
-            // Draw points at each angle
-            angles.forEach(angle => {
+            // Draw all famous points
+            famousAngles.forEach(({ angle }) => {
                 const x = centerX + radius * Math.cos(angle);
-                const y = centerY - radius * Math.sin(angle); // Canvas y-axis is inverted
+                const y = centerY - radius * Math.sin(angle);
                 ctx.beginPath();
-                ctx.arc(x, y, 5, 0, 2 * Math.PI); // Draw a small circle at each point
+                ctx.arc(x, y, 5, 0, 2 * Math.PI);
                 ctx.fill();
             });
+
+            // Highlight the random point and draw radius
+            const x = centerX + radius * Math.cos(randomPoint.angle);
+            const y = centerY - radius * Math.sin(randomPoint.angle);
+
+            // Draw radius to the highlighted point
+            ctx.beginPath();
+            ctx.moveTo(centerX, centerY);
+            ctx.lineTo(x, y);
+            ctx.strokeStyle = "red";
+            ctx.stroke();
+
+            // Highlight the point itself
+            ctx.beginPath();
+            ctx.arc(x, y, 7, 0, 2 * Math.PI);
+            ctx.fillStyle = "red";
+            ctx.fill();
         }
 
-        function checkAnswer() {
-            const answer = document.getElementById('answer').value.trim();
-            const correctAnswer = "pi/6"; // Reference angle for 30° in radians
+        // Create buttons for each famous angle
+        const buttonContainer = document.createElement('div');
+        famousAngles.forEach(({ label }) => {
+            const button = document.createElement('button');
+            button.innerText = label;
+            button.onclick = () => checkAnswer(label);
+            buttonContainer.appendChild(button);
+        });
+        document.body.appendChild(buttonContainer);
 
-            if (answer === correctAnswer) {
-                document.getElementById('feedback').innerText = "Correct! The reference angle is π/6.";
+        function checkAnswer(selectedLabel) {
+            if (selectedLabel === randomPoint.label) {
+                document.getElementById('feedback').innerText = "Correct!";
             } else {
-                document.getElementById('feedback').innerText = "Try again. Remember to use 'pi' for π.";
+                document.getElementById('feedback').innerText = "Incorrect. Try again.";
             }
         }
 
