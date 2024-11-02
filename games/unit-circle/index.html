@@ -4,8 +4,84 @@
     <meta charset="UTF-8">
     <title>Unit Circle Reference Angle Game</title>
     <style>
-        #unitCircle { border: 1px solid black; }
-        button { margin: 5px; }
+        /* Center content and style the layout */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 1.8em;
+            color: #4a4a8e;
+        }
+
+        #unitCircle {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+        }
+
+        #questionText {
+            font-size: 1.2em;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        #feedback {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 10px 0;
+            height: 1.2em;
+            color: #4a4a8e;
+        }
+
+        #score {
+            font-size: 1em;
+            margin: 5px 0;
+            color: #555;
+        }
+
+        button {
+            padding: 8px 15px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4a4a8e;
+            color: white;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        button:hover {
+            background-color: #5e5ebf;
+        }
+
+        /* Center and style new problem button */
+        #newProblemBtn {
+            margin: 20px 0;
+            padding: 10px 20px;
+            background-color: #4a4a8e;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        #newProblemBtn:hover {
+            background-color: #5e5ebf;
+        }
     </style>
 </head>
 <body>
@@ -14,7 +90,7 @@
     <p id="questionText">What angle is the highlighted point?</p>
     <div id="feedback"></div>
     <p id="score">Correct: 0 / Attempts: 0</p>
-    <button onclick="newProblem()">New Problem</button>
+    <button id="newProblemBtn" onclick="newProblem()">New Problem</button>
     <script>
         const canvas = document.getElementById('unitCircle');
         const ctx = canvas.getContext('2d');
@@ -112,8 +188,10 @@
             if (selectedLabel === randomPoint.label) {
                 correctCount++;
                 document.getElementById('feedback').innerText = "Correct!";
+                document.getElementById('feedback').style.color = "#4CAF50"; // Green for correct
             } else {
                 document.getElementById('feedback').innerText = "Incorrect. Try again.";
+                document.getElementById('feedback').style.color = "#e63946"; // Red for incorrect
             }
             updateScore();
         }
