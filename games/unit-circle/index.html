@@ -24,6 +24,18 @@
             const centerX = 200;
             const centerY = 200;
             const radius = 150;
+            
+            // Draw x-axis
+            ctx.beginPath();
+            ctx.moveTo(50, centerY); // Start a little left of the circle
+            ctx.lineTo(350, centerY); // End a little right of the circle
+            ctx.stroke();
+            
+            // Draw y-axis
+            ctx.beginPath();
+            ctx.moveTo(centerX, 50); // Start a little above the circle
+            ctx.lineTo(centerX, 350); // End a little below the circle
+            ctx.stroke();
 
             // Draw the unit circle
             ctx.beginPath();
