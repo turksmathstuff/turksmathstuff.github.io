@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unit Circle Review Game</title>
+    <style>
+        #unitCircle { border: 1px solid black; }
+    </style>
+</head>
+<body>
+    <h1>Unit Circle Review Game</h1>
+    <canvas id="unitCircle" width="400" height="400"></canvas>
+    <div id="questionContainer">
+        <p id="questionText">What is the reference angle for the highlighted vertices?</p>
+        <input type="text" id="answer" placeholder="Enter your answer here">
+        <button onclick="checkAnswer()">Submit</button>
+    </div>
+    <p id="feedback"></p>
+    <script>
+        const canvas = document.getElementById('unitCircle');
+        const ctx = canvas.getContext('2d');
+
+        function drawUnitCircle() {
+            // Draw the circle
+            ctx.beginPath();
+            ctx.arc(200, 200, 150, 0, 2 * Math.PI);
+            ctx.stroke();
+
+            // Draw a rectangle or specific points (example for π/6)
+            ctx.beginPath();
+            ctx.arc(200 + 150 * Math.cos(Math.PI / 6), 200 - 150 * Math.sin(Math.PI / 6), 5, 0, 2 * Math.PI);
+            ctx.fill();
+            // Repeat for other vertices, adjust angles for desired shape
+        }
+
+        function generateQuestion() {
+            document.getElementById('questionText').innerText = "What is the reference angle for each vertex?";
+            // Set up the highlighted points and save correct answer for checking
+        }
+
+        function checkAnswer() {
+            const answer = document.getElementById('answer').value;
+            if (answer === "30") { // Example correct answer for π/6 reference
+                document.getElementById('feedback').innerText = "Correct!";
+            } else {
+                document.getElementById('feedback').innerText = "Try again.";
+            }
+        }
+
+        drawUnitCircle();
+        generateQuestion();
+    </script>
+</body>
+</html>
