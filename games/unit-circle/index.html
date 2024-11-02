@@ -48,6 +48,10 @@
         function drawUnitCircle() {
             ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear canvas for new problem
 
+            // Reset stroke and fill style
+            ctx.strokeStyle = "black";
+            ctx.fillStyle = "black";
+
             // Draw x-axis
             ctx.beginPath();
             ctx.moveTo(50, centerY);
@@ -71,6 +75,7 @@
                 const y = centerY - radius * Math.sin(angle);
                 ctx.beginPath();
                 ctx.arc(x, y, 5, 0, 2 * Math.PI);
+                ctx.fillStyle = "black"; // Set fill style to black for normal points
                 ctx.fill();
             });
 
@@ -82,13 +87,13 @@
             ctx.beginPath();
             ctx.moveTo(centerX, centerY);
             ctx.lineTo(x, y);
-            ctx.strokeStyle = "red";
+            ctx.strokeStyle = "red"; // Set stroke color to red for radius
             ctx.stroke();
 
             // Highlight the point itself
             ctx.beginPath();
             ctx.arc(x, y, 7, 0, 2 * Math.PI);
-            ctx.fillStyle = "red";
+            ctx.fillStyle = "red"; // Set fill style to red for the highlighted point
             ctx.fill();
         }
 
