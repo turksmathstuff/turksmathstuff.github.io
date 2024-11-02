@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Unit Circle Reference Angle Game</title>
     <style>
-        /* Center content and style the layout */
+        /* Basic styling */
         body {
             display: flex;
             flex-direction: column;
@@ -65,7 +65,6 @@
             background-color: #5e5ebf;
         }
 
-        /* Center and style new problem button */
         #newProblemBtn {
             margin: 20px 0;
             padding: 10px 20px;
@@ -87,10 +86,11 @@
 <body>
     <h1>Unit Circle Reference Angle Game</h1>
     <canvas id="unitCircle" width="400" height="400"></canvas>
-    <p id="questionText">What angle is the highlighted point?</p>
+    <p id="questionText">What is the highlighted point?</p>
     <div id="feedback"></div>
     <p id="score">Correct: 0 / Attempts: 0</p>
     <button id="newProblemBtn" onclick="newProblem()">New Problem</button>
+    <div id="optionsContainer"></div>
     <script>
         const canvas = document.getElementById('unitCircle');
         const ctx = canvas.getContext('2d');
@@ -101,30 +101,21 @@
         let correctCount = 0;
         let attemptCount = 0;
         let randomPoint;
+        let currentQuestionType;
 
-        // Define famous angles and their labels
+        // Define famous angles and their labels, coordinates, sine, and cosine values
         const famousAngles = [
-            { angle: Math.PI / 6, label: "π/6" },
-            { angle: Math.PI / 4, label: "π/4" },
-            { angle: Math.PI / 3, label: "π/3" },
-            { angle: Math.PI / 2, label: "π/2" },
-            { angle: 2 * Math.PI / 3, label: "2π/3" },
-            { angle: 3 * Math.PI / 4, label: "3π/4" },
-            { angle: 5 * Math.PI / 6, label: "5π/6" },
-            { angle: Math.PI, label: "π" },
-            { angle: 7 * Math.PI / 6, label: "7π/6" },
-            { angle: 5 * Math.PI / 4, label: "5π/4" },
-            { angle: 4 * Math.PI / 3, label: "4π/3" },
-            { angle: 3 * Math.PI / 2, label: "3π/2" },
-            { angle: 5 * Math.PI / 3, label: "5π/3" },
-            { angle: 7 * Math.PI / 4, label: "7π/4" },
-            { angle: 11 * Math.PI / 6, label: "11π/6" }
+            { angle: Math.PI / 6, label: "π/6", coords: [Math.sqrt(3)/2, 1/2], sin: 1/2, cos: Math.sqrt(3)/2 },
+            { angle: Math.PI / 4, label: "π/4", coords: [Math.sqrt(2)/2, Math.sqrt(2)/2], sin: Math.sqrt(2)/2, cos: Math.sqrt(2)/2 },
+            { angle: Math.PI / 3, label: "π/3", coords: [1/2, Math.sqrt(3)/2], sin: Math.sqrt(3)/2, cos: 1/2 },
+            { angle: Math.PI / 2, label: "π/2", coords: [0, 1], sin: 1, cos: 0 },
+            { angle: Math.PI, label: "π", coords: [-1, 0], sin: 0, cos: -1 },
+            { angle: 3 * Math.PI / 2, label: "3π/2", coords: [0, -1], sin: -1, cos: 0 },
+            { angle: 2 * Math.PI, label: "2π", coords: [1, 0], sin: 0, cos: 1 }
         ];
 
         function drawUnitCircle() {
             ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear canvas for new problem
-
-            // Reset stroke and fill style
             ctx.strokeStyle = "black";
             ctx.fillStyle = "black";
 
@@ -158,34 +149,76 @@
             // Highlight the random point and draw radius
             const x = centerX + radius * Math.cos(randomPoint.angle);
             const y = centerY - radius * Math.sin(randomPoint.angle);
-
-            // Draw radius to the highlighted point
             ctx.beginPath();
             ctx.moveTo(centerX, centerY);
             ctx.lineTo(x, y);
-            ctx.strokeStyle = "red"; // Set stroke color to red for radius
+            ctx.strokeStyle = "red";
             ctx.stroke();
-
-            // Highlight the point itself
             ctx.beginPath();
             ctx.arc(x, y, 7, 0, 2 * Math.PI);
-            ctx.fillStyle = "red"; // Set fill style to red for the highlighted point
+            ctx.fillStyle = "red";
             ctx.fill();
         }
 
-        // Create buttons for each famous angle
-        const buttonContainer = document.createElement('div');
-        famousAngles.forEach(({ label }) => {
-            const button = document.createElement('button');
-            button.innerText = label;
-            button.onclick = () => checkAnswer(label);
-            buttonContainer.appendChild(button);
-        });
-        document.body.appendChild(buttonContainer);
+        function generateQuestion() {
+            currentQuestionType = Math.floor(Math.random() * 3); // Randomly pick question type
+            const optionsContainer = document.getElementById('optionsContainer');
+            optionsContainer.innerHTML = ""; // Clear previous options
 
-        function checkAnswer(selectedLabel) {
+            if (currentQuestionType === 0) {
+                const isSine = Math.random() < 0.5;
+                document.getElementById('questionText').innerText = `What is the ${isSine ? "sine" : "cosine"} of the highlighted angle?`;
+                generateOptions(isSine ? randomPoint.sin : randomPoint.cos);
+            } else if (currentQuestionType === 1) {
+                document.getElementById('questionText').innerText = "What are the coordinates of the highlighted point?";
+                generateOptions(randomPoint.coords);
+            } else {
+                document.getElementById('questionText').innerText = "What is the radian measure of the highlighted angle?";
+                generateOptions(randomPoint.label);
+            }
+        }
+
+        function generateOptions(correctAnswer) {
+            const optionsContainer = document.getElementById('optionsContainer');
+            let options = [];
+
+            if (currentQuestionType === 0) {
+                options = [0, 1/2, Math.sqrt(2)/2, Math.sqrt(3)/2, 1];
+                options = options.flatMap(x => [x, -x]);
+            } else if (currentQuestionType === 1) {
+                options = famousAngles.map(a => a.coords);
+            } else {
+                options = famousAngles.map(a => a.label);
+            }
+
+            options = shuffle(options).slice(0, 3); // Shuffle and limit to 3 options
+            options.push(correctAnswer); // Ensure correct answer is included
+            shuffle(options).forEach(option => {
+                const button = document.createElement('button');
+                button.innerText = currentQuestionType === 1 ? `(${option[0]}, ${option[1]})` : option;
+                button.onclick = () => checkAnswer(option);
+                optionsContainer.appendChild(button);
+            });
+        }
+
+        function shuffle(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        function checkAnswer(selectedAnswer) {
             attemptCount++;
-            if (selectedLabel === randomPoint.label) {
+            let isCorrect = false;
+            if (currentQuestionType === 1) {
+                isCorrect = JSON.stringify(selectedAnswer) === JSON.stringify(randomPoint.coords);
+            } else {
+                isCorrect = selectedAnswer === (currentQuestionType === 0 ? (Math.abs(randomPoint.sin - selectedAnswer) < 0.0001 || Math.abs(randomPoint.cos - selectedAnswer) < 0.0001) : randomPoint.label);
+            }
+
+            if (isCorrect) {
                 correctCount++;
                 document.getElementById('feedback').innerText = "Correct!";
                 document.getElementById('feedback').style.color = "#4CAF50"; // Green for correct
@@ -204,6 +237,7 @@
             randomPoint = famousAngles[Math.floor(Math.random() * famousAngles.length)];
             document.getElementById('feedback').innerText = ""; // Clear feedback
             drawUnitCircle();
+            generateQuestion();
         }
 
         // Initialize the first problem
