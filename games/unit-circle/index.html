@@ -12,13 +12,19 @@
     <h1>Unit Circle Reference Angle Game</h1>
     <canvas id="unitCircle" width="400" height="400"></canvas>
     <p id="questionText">What angle is the highlighted point?</p>
-    <div id="feedback"></p>
+    <div id="feedback"></div>
+    <p id="score">Correct: 0 / Attempts: 0</p>
+    <button onclick="newProblem()">New Problem</button>
     <script>
         const canvas = document.getElementById('unitCircle');
         const ctx = canvas.getContext('2d');
         const centerX = 200;
         const centerY = 200;
         const radius = 150;
+
+        let correctCount = 0;
+        let attemptCount = 0;
+        let randomPoint;
 
         // Define famous angles and their labels
         const famousAngles = [
@@ -39,10 +45,9 @@
             { angle: 11 * Math.PI / 6, label: "11π/6" }
         ];
 
-        // Select a random point to highlight
-        const randomPoint = famousAngles[Math.floor(Math.random() * famousAngles.length)];
-
         function drawUnitCircle() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear canvas for new problem
+
             // Draw x-axis
             ctx.beginPath();
             ctx.moveTo(50, centerY);
@@ -98,15 +103,28 @@
         document.body.appendChild(buttonContainer);
 
         function checkAnswer(selectedLabel) {
+            attemptCount++;
             if (selectedLabel === randomPoint.label) {
+                correctCount++;
                 document.getElementById('feedback').innerText = "Correct!";
             } else {
                 document.getElementById('feedback').innerText = "Incorrect. Try again.";
             }
+            updateScore();
         }
 
-        // Draw the circle and points, then display the question
-        drawUnitCircle();
+        function updateScore() {
+            document.getElementById('score').innerText = `Correct: ${correctCount} / Attempts: ${attemptCount}`;
+        }
+
+        function newProblem() {
+            randomPoint = famousAngles[Math.floor(Math.random() * famousAngles.length)];
+            document.getElementById('feedback').innerText = ""; // Clear feedback
+            drawUnitCircle();
+        }
+
+        // Initialize the first problem
+        newProblem();
     </script>
 </body>
 </html>
