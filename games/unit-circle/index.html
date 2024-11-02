@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Unit Circle Review Game</title>
+    <title>Unit Circle Reference Angle Game</title>
     <style>
         #unitCircle { border: 1px solid black; }
     </style>
 </head>
 <body>
-    <h1>Unit Circle Review Game</h1>
+    <h1>Unit Circle Reference Angle Game</h1>
     <canvas id="unitCircle" width="400" height="400"></canvas>
     <div id="questionContainer">
-        <p id="questionText">What is the reference angle for the highlighted vertices?</p>
+        <p id="questionText">What is the reference angle in radians for these points? Use "pi" for π in your answer!</p>
         <input type="text" id="answer" placeholder="Enter your answer here">
         <button onclick="checkAnswer()">Submit</button>
     </div>
@@ -21,34 +21,41 @@
         const ctx = canvas.getContext('2d');
 
         function drawUnitCircle() {
-            // Draw the circle
+            const centerX = 200;
+            const centerY = 200;
+            const radius = 150;
+
+            // Draw the unit circle
             ctx.beginPath();
-            ctx.arc(200, 200, 150, 0, 2 * Math.PI);
+            ctx.arc(centerX, centerY, radius, 0, 2 * Math.PI);
             ctx.stroke();
 
-            // Draw a rectangle or specific points (example for π/6)
-            ctx.beginPath();
-            ctx.arc(200 + 150 * Math.cos(Math.PI / 6), 200 - 150 * Math.sin(Math.PI / 6), 5, 0, 2 * Math.PI);
-            ctx.fill();
-            // Repeat for other vertices, adjust angles for desired shape
-        }
+            // Define angles in radians for 30°, 150°, 210°, and 330°
+            const angles = [Math.PI / 6, 5 * Math.PI / 6, 7 * Math.PI / 6, 11 * Math.PI / 6];
 
-        function generateQuestion() {
-            document.getElementById('questionText').innerText = "What is the reference angle for each vertex?";
-            // Set up the highlighted points and save correct answer for checking
+            // Draw points at each angle
+            angles.forEach(angle => {
+                const x = centerX + radius * Math.cos(angle);
+                const y = centerY - radius * Math.sin(angle); // Canvas y-axis is inverted
+                ctx.beginPath();
+                ctx.arc(x, y, 5, 0, 2 * Math.PI); // Draw a small circle at each point
+                ctx.fill();
+            });
         }
 
         function checkAnswer() {
-            const answer = document.getElementById('answer').value;
-            if (answer === "30") { // Example correct answer for π/6 reference
-                document.getElementById('feedback').innerText = "Correct!";
+            const answer = document.getElementById('answer').value.trim();
+            const correctAnswer = "pi/6"; // Reference angle for 30° in radians
+
+            if (answer === correctAnswer) {
+                document.getElementById('feedback').innerText = "Correct! The reference angle is π/6.";
             } else {
-                document.getElementById('feedback').innerText = "Try again.";
+                document.getElementById('feedback').innerText = "Try again. Remember to use 'pi' for π.";
             }
         }
 
+        // Draw the circle and points, then display the question
         drawUnitCircle();
-        generateQuestion();
     </script>
 </body>
 </html>
