@@ -103,15 +103,15 @@
         let randomPoint;
         let currentQuestionType;
 
-        // Define famous angles and their labels, coordinates, sine, and cosine values
+        // Define famous angles with exact values for display and approximate values for checking
         const famousAngles = [
-            { angle: Math.PI / 6, label: "π/6", coords: [Math.sqrt(3)/2, 1/2], sin: 1/2, cos: Math.sqrt(3)/2 },
-            { angle: Math.PI / 4, label: "π/4", coords: [Math.sqrt(2)/2, Math.sqrt(2)/2], sin: Math.sqrt(2)/2, cos: Math.sqrt(2)/2 },
-            { angle: Math.PI / 3, label: "π/3", coords: [1/2, Math.sqrt(3)/2], sin: Math.sqrt(3)/2, cos: 1/2 },
-            { angle: Math.PI / 2, label: "π/2", coords: [0, 1], sin: 1, cos: 0 },
-            { angle: Math.PI, label: "π", coords: [-1, 0], sin: 0, cos: -1 },
-            { angle: 3 * Math.PI / 2, label: "3π/2", coords: [0, -1], sin: -1, cos: 0 },
-            { angle: 2 * Math.PI, label: "2π", coords: [1, 0], sin: 0, cos: 1 }
+            { angle: Math.PI / 6, label: "π/6", coords: ["√3/2", "1/2"], approxCoords: [Math.sqrt(3)/2, 1/2], sin: "1/2", cos: "√3/2", approxSin: 1/2, approxCos: Math.sqrt(3)/2 },
+            { angle: Math.PI / 4, label: "π/4", coords: ["√2/2", "√2/2"], approxCoords: [Math.sqrt(2)/2, Math.sqrt(2)/2], sin: "√2/2", cos: "√2/2", approxSin: Math.sqrt(2)/2, approxCos: Math.sqrt(2)/2 },
+            { angle: Math.PI / 3, label: "π/3", coords: ["1/2", "√3/2"], approxCoords: [1/2, Math.sqrt(3)/2], sin: "√3/2", cos: "1/2", approxSin: Math.sqrt(3)/2, approxCos: 1/2 },
+            { angle: Math.PI / 2, label: "π/2", coords: ["0", "1"], approxCoords: [0, 1], sin: "1", cos: "0", approxSin: 1, approxCos: 0 },
+            { angle: Math.PI, label: "π", coords: ["-1", "0"], approxCoords: [-1, 0], sin: "0", cos: "-1", approxSin: 0, approxCos: -1 },
+            { angle: 3 * Math.PI / 2, label: "3π/2", coords: ["0", "-1"], approxCoords: [0, -1], sin: "-1", cos: "0", approxSin: -1, approxCos: 0 },
+            { angle: 2 * Math.PI, label: "2π", coords: ["1", "0"], approxCoords: [1, 0], sin: "0", cos: "1", approxSin: 0, approxCos: 1 }
         ];
 
         function drawUnitCircle() {
@@ -168,23 +168,22 @@
             if (currentQuestionType === 0) {
                 const isSine = Math.random() < 0.5;
                 document.getElementById('questionText').innerText = `What is the ${isSine ? "sine" : "cosine"} of the highlighted angle?`;
-                generateOptions(isSine ? randomPoint.sin : randomPoint.cos);
+                generateOptions(isSine ? randomPoint.sin : randomPoint.cos, isSine ? randomPoint.approxSin : randomPoint.approxCos);
             } else if (currentQuestionType === 1) {
                 document.getElementById('questionText').innerText = "What are the coordinates of the highlighted point?";
-                generateOptions(randomPoint.coords);
+                generateOptions(randomPoint.coords, randomPoint.approxCoords);
             } else {
                 document.getElementById('questionText').innerText = "What is the radian measure of the highlighted angle?";
-                generateOptions(randomPoint.label);
+                generateOptions(randomPoint.label, randomPoint.label);
             }
         }
 
-        function generateOptions(correctAnswer) {
+        function generateOptions(correctDisplay, correctApprox) {
             const optionsContainer = document.getElementById('optionsContainer');
             let options = [];
 
             if (currentQuestionType === 0) {
-                options = [0, 1/2, Math.sqrt(2)/2, Math.sqrt(3)/2, 1];
-                options = options.flatMap(x => [x, -x]);
+                options = ["0", "1/2", "√2/2", "√3/2", "1"].flatMap(x => [x, `-${x}`]);
             } else if (currentQuestionType === 1) {
                 options = famousAngles.map(a => a.coords);
             } else {
@@ -192,11 +191,11 @@
             }
 
             options = shuffle(options).slice(0, 3); // Shuffle and limit to 3 options
-            options.push(correctAnswer); // Ensure correct answer is included
+            options.push(correctDisplay); // Ensure correct answer is included
             shuffle(options).forEach(option => {
                 const button = document.createElement('button');
                 button.innerText = currentQuestionType === 1 ? `(${option[0]}, ${option[1]})` : option;
-                button.onclick = () => checkAnswer(option);
+                button.onclick = () => checkAnswer(option, correctApprox);
                 optionsContainer.appendChild(button);
             });
         }
@@ -209,23 +208,18 @@
             return array;
         }
 
-        function checkAnswer(selectedAnswer) {
+        function checkAnswer(selectedAnswer, correctApprox) {
             attemptCount++;
             let isCorrect = false;
-        
+            
             if (currentQuestionType === 0) {
-                // Sine or cosine question: check with tolerance
-                const targetValue = Math.abs(selectedAnswer);
-                const correctValue = currentQuestionType === 0 ? Math.abs(randomPoint.sin) : Math.abs(randomPoint.cos);
-                isCorrect = Math.abs(correctValue - targetValue) < 0.0001;
+                isCorrect = Math.abs(eval(selectedAnswer.replace("√", "Math.sqrt")) - correctApprox) < 0.0001;
             } else if (currentQuestionType === 1) {
-                // Coordinate question: check if coordinates match exactly
                 isCorrect = JSON.stringify(selectedAnswer) === JSON.stringify(randomPoint.coords);
             } else {
-                // Radian measure question: direct string comparison
                 isCorrect = selectedAnswer === randomPoint.label;
             }
-        
+
             if (isCorrect) {
                 correctCount++;
                 document.getElementById('feedback').innerText = "Correct!";
@@ -234,10 +228,9 @@
                 document.getElementById('feedback').innerText = "Incorrect. Try again.";
                 document.getElementById('feedback').style.color = "#e63946"; // Red for incorrect
             }
-        
+
             updateScore();
         }
-
 
         function updateScore() {
             document.getElementById('score').innerText = `Correct: ${correctCount} / Attempts: ${attemptCount}`;
