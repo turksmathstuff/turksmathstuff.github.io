@@ -212,12 +212,20 @@
         function checkAnswer(selectedAnswer) {
             attemptCount++;
             let isCorrect = false;
-            if (currentQuestionType === 1) {
+        
+            if (currentQuestionType === 0) {
+                // Sine or cosine question: check with tolerance
+                const targetValue = Math.abs(selectedAnswer);
+                const correctValue = currentQuestionType === 0 ? Math.abs(randomPoint.sin) : Math.abs(randomPoint.cos);
+                isCorrect = Math.abs(correctValue - targetValue) < 0.0001;
+            } else if (currentQuestionType === 1) {
+                // Coordinate question: check if coordinates match exactly
                 isCorrect = JSON.stringify(selectedAnswer) === JSON.stringify(randomPoint.coords);
             } else {
-                isCorrect = selectedAnswer === (currentQuestionType === 0 ? (Math.abs(randomPoint.sin - selectedAnswer) < 0.0001 || Math.abs(randomPoint.cos - selectedAnswer) < 0.0001) : randomPoint.label);
+                // Radian measure question: direct string comparison
+                isCorrect = selectedAnswer === randomPoint.label;
             }
-
+        
             if (isCorrect) {
                 correctCount++;
                 document.getElementById('feedback').innerText = "Correct!";
@@ -226,8 +234,10 @@
                 document.getElementById('feedback').innerText = "Incorrect. Try again.";
                 document.getElementById('feedback').style.color = "#e63946"; // Red for incorrect
             }
+        
             updateScore();
         }
+
 
         function updateScore() {
             document.getElementById('score').innerText = `Correct: ${correctCount} / Attempts: ${attemptCount}`;
