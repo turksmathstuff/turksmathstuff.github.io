@@ -118,7 +118,7 @@ Conic sections...lots and lots of conic sections...
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw0jBP486WimkhL3NSX5NqB) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL64111F95EC68EC28) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiTkJKZGN4NHpNX00/edit?usp=sharing) to the Problem Sets for these notes.
-* **Not Yet** [Here's a link]() to some GeoGebra sketches that are helpful for these notes.
+* [Here's a link](https://www.geogebra.org/m/vyhhauer) to some GeoGebra sketches that are helpful for these notes.
 
 ## Notes 15
 Parametric equations and doing stuff with them.  [Here's a link](https://drive.google.com/file/d/11CKnDQv1YmSU7LDTkj7oURg-AMsbX46F/view?usp=sharing) to a detailed discussion of a problem (relevant to you by page 189).
