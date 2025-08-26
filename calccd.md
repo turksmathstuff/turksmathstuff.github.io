@@ -55,80 +55,80 @@ Series Tests: Ratio Test (best test ever!); Root Test.
 ## Notes 08
 Alternating Series; Alternating Series Test; Error for Alternating Series; Absolute Convergence vs. Conditional Convergence
 
-* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiNDI3ZjQ1YTQtZGNiOC00NDllLWE3MTUtMGVmN2Q2NjI5OTJi) to the notes.
-* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZix0M93tMCE3uDbBUDc-FW6O) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://drive.google.com/file/d/1IQ479Fsvjy4YO3E72NJGShPceIDFfKSk/view?usp=drive_link) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZix0M93tMCE3uDbBUDc-FW6O) to a YouTube playlist of me working through [this version of the notes](https://docs.google.com/open?id=0B11F_FpivrRiNDI3ZjQ1YTQtZGNiOC00NDllLWE3MTUtMGVmN2Q2NjI5OTJi).  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyX8NOUVR0SsuKfcQfVUSfp) to a YouTube playlist of additional videos about these notes.
 
 
 ## Notes 09
 Power Series; Interval of Convergence; new series from old series via integration and differentiation
 
-* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiMDkyYWIyZjMtMDhjZS00YjhkLTgzMTgtNDdhZjkwODhhMGNj) to the notes.
-* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiz-dyDkxZWbftASHdgXHsnJ) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://drive.google.com/file/d/1HJOT2Y46z19jBAZc934J6BqMVpFyj_b1/view?usp=drive_link) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiz-dyDkxZWbftASHdgXHsnJ) to a YouTube playlist of me working through [this version of the notes](https://docs.google.com/open?id=0B11F_FpivrRiMDkyYWIyZjMtMDhjZS00YjhkLTgzMTgtNDdhZjkwODhhMGNj).  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizO2KFj71odXEFrbTiPLLv4) to a YouTube playlist of additional videos about these notes.
 
 
 ## Notes 10
 Taylor Series; working with the known series for e^x, sin(x), cos(x), and 1/(1-x); applications of series; Lagrange Error Bound; identifying the function to which a series converges.
 
-* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiNDI2M2Y3MjQtNTQzNS00ZWQwLTlhZGMtNTE5NDUxYmNiNTQz) to the notes.
-* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyFxz_C2oroSXX5onh4pFFK) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://drive.google.com/file/d/1dP-NbCz_UccpXvd3pn-Eabxa_qp_KUbz/view?usp=drive_link) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyFxz_C2oroSXX5onh4pFFK) to a YouTube playlist of me working through [this version of the notes](https://docs.google.com/open?id=0B11F_FpivrRiNDI2M2Y3MjQtNTQzNS00ZWQwLTlhZGMtNTE5NDUxYmNiNTQz).  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwrN-FqRFb9wtIpFd9vNaq4) to a YouTube playlist of additional videos about these notes.
 
 
 ## Notes 11
 Integrals of powers of trig functions; saving a power; using Pythagorean Identities.
 
-* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiOTlmMGIzODktMzc5MS00ZTE1LWI0MDMtYzA4YzIyYTU2YmFl) to the notes.
-* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizKlMBiTjJBnUMjlEBO0yb2) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://drive.google.com/file/d/1PiGLDq_uV33l7O-NIDhpTAiIv9kFmXor/view?usp=drive_link) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizKlMBiTjJBnUMjlEBO0yb2) to a YouTube playlist of me working through [this version of the notes](https://docs.google.com/open?id=0B11F_FpivrRiOTlmMGIzODktMzc5MS00ZTE1LWI0MDMtYzA4YzIyYTU2YmFl).  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizmOeiFNIYn7SxLQlCFoEgv&disable_polymer=true) to a YouTube playlist of additional videos about these notes.
 
 
 ## Notes 12
 Arc Length for functions
 
-* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiMDk4ZDg5NGYtNWUyMi00NzQyLTllOGYtOTcyM2RlNjk5MzE5) to the notes.
-* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizWxycNQkkv2v3PssnCH4Yf) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://drive.google.com/file/d/1DnbWzC2H3PMBNBhE5igCogQQtKkS3qFK/view?usp=drive_link) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizWxycNQkkv2v3PssnCH4Yf) to a YouTube playlist of me working through [this version of the notes](https://docs.google.com/open?id=0B11F_FpivrRiMDk4ZDg5NGYtNWUyMi00NzQyLTllOGYtOTcyM2RlNjk5MzE5).  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiz7iEwvg49nZDMFgAkWtCun) to a YouTube playlist of additional videos about these notes.
 
 
 ## Notes 13
 Euler's Method.  **Not Yet** Here's a link to a GeoGebra file that demonstrates Euler's Method (change the initial point, the size of dx, and the number of steps; also view the solution curve).  Several interesting/useful videos in the playlist.
 
-* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiYTRhMDdlZGItMDFlOC00NDZlLTg1MmUtODZjYjYyYjIwNjgw) to the notes.
-* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixRnSJGZ5zAXjPIh4B8wUmz) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://drive.google.com/file/d/14jv9j2g1Eos4FAWDDeuX-QZJydASYYC_/view?usp=drive_link) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixRnSJGZ5zAXjPIh4B8wUmz) to a YouTube playlist of me working through [this version of the notes](https://docs.google.com/open?id=0B11F_FpivrRiYTRhMDdlZGItMDFlOC00NDZlLTg1MmUtODZjYjYyYjIwNjgw).  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZix-Z56g6Sl9c_HA2IOQNBIT) to a YouTube playlist of additional videos about these notes.
 
 
 ## Notes 14
 Logistic Differential Equation.  **Not Yet** Here's a link to a GeoGebra file of a logistic curve with a slope field and some things you can manipulate.  [Here's a fun activity](https://drive.google.com/file/d/1iyZ9zv-WodCUjkT4vHDmuIDM83X32Sqg/view?usp=sharing) that generates a nice logistic curve (we do it in class, you don't need to print it).  [Here's the spreadsheet](https://docs.google.com/spreadsheets/d/1nc7VyfJJwSZ7xglMEDBvV0bsQq4IgbEgKberh8NiqK8/edit?usp=sharing) we'll use to track the activity.
 
-* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiMzlhM2JiNDQtNjY0Ni00NTNiLWIwM2YtNzBlN2E4YmQxZTQw) to the notes.
-* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyUuwy1qXY13NXFHxiPaqjd) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://drive.google.com/file/d/1Bci1g8q6k2kfrevZmOY2CD5eLws5JlcU/view?usp=drive_link) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyUuwy1qXY13NXFHxiPaqjd) to a YouTube playlist of me working through [this version of the notes](https://docs.google.com/open?id=0B11F_FpivrRiMzlhM2JiNDQtNjY0Ni00NTNiLWIwM2YtNzBlN2E4YmQxZTQw).  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixERlDWDAF0BG0YBJkom1I6) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/1rqtUeGlMLLevk0X4r4b1UzwZnflYIFvW/view?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 15
 Integration by Trig Substitution; integrating lots of things with radicals of a certain form; introducing a radical to make it work; drawing reference triangles.  (This is not actually a topic that's on the AP Calculus BC Exam, but I really think you should know it!)
 
-* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiZGQ0NDJlYzAtYWZmYS00ZDNlLTliMmQtZTgzMWIwNmRhYTE4) to the notes.
-* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizZ5sV17dW4VLQWidrNelCt) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://drive.google.com/file/d/1LeSRrnu6xZ4_7d5xFermIt6dxPxSfg03/view?usp=drive_link) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizZ5sV17dW4VLQWidrNelCt) to a YouTube playlist of me working through [this version of the notes](https://docs.google.com/open?id=0B11F_FpivrRiZGQ0NDJlYzAtYWZmYS00ZDNlLTliMmQtZTgzMWIwNmRhYTE4).  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwZ7oce8YAdrgiWw7X1nC0n) to a YouTube playlist of additional videos about these notes.
 
 
 ## Notes 16
 Calculus of parametric equations; vector-valued functions; calculus of vector-valued functions.  **Not Yet** Here's a link to a GeoGebra file that shows a curve, dx/dt, dy/dt, dy/dx, and the second derivative of the parametric equations.  You might want to review [Notes 15 from Math Analysis](https://docs.google.com/open?id=0B11F_FpivrRiYWQ3OTQ0MjMtYWY3Yy00YzMxLTgzM2QtNTM4ZDljMDQyNTli).  The videos for those notes are [here.](https://www.youtube.com/playlist?list=PL6iwkLfBjZizlwdRxJFRb5WIkBoyaPvkM)
 
-* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiYzJiYmEwZTAtMTg1My00MTBlLWE2MzgtODhlY2RjZWVkZTNm) to the notes.
-* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwpfvN5vNGoDydCRZjHFYhy) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://drive.google.com/file/d/1IqgkOr8HEXAQuHsw0JLxqn_YFqhQQLJd/view?usp=drive_link) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwpfvN5vNGoDydCRZjHFYhy) to a YouTube playlist of me working through [this version of the notes](https://docs.google.com/open?id=0B11F_FpivrRiYzJiYmEwZTAtMTg1My00MTBlLWE2MzgtODhlY2RjZWVkZTNm).  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyFU4lRn4AXpZaApWDH4yLB&disable_polymer=true) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/file/d/1ql_V7Kccb0S-1CW4FB2H5XJn-A-oaQbC/view?usp=sharing) to the Problem Sets for these notes.
 
 ## Notes 17
 Calculus of polar coordinates.  First you need to really get good at non-calculus related polar coordinates.  You might want to review [Notes 16 from Math Analysis](https://docs.google.com/open?id=0B11F_FpivrRiZDNjNTE1NTgtODg3NC00Zjg0LTg5NjYtODlkMTAzZjIyYmIz) for basic, non-calculus stuff.  [Here's](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyiQKY_ISOpqQOVEB7JpBkn) the videos for those.  In these notes: common graphs, tangent lines, interpreting derivatives dy/dx, dy/dt, dx/dt, and dr/dt, polar areas.
 
-* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiNmZiYTE0MDgtNDIzNC00NjBkLTgzZjUtMTEzODRkYmQ5YWJk) to the notes.
-* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizFSOHjIeZYsn5jLf_xzGU3) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://drive.google.com/file/d/1JJARG7JQQUEIaXRrU-Aq9d-q1OzxqDaw/view?usp=drive_link) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizFSOHjIeZYsn5jLf_xzGU3) to a YouTube playlist of me working through [this version of the notes](https://docs.google.com/open?id=0B11F_FpivrRiNmZiYTE0MDgtNDIzNC00NjBkLTgzZjUtMTEzODRkYmQ5YWJk).  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyMBYi1SesX1bBLKthg1EG0) to a YouTube playlist of additional videos about these notes.
 
 
