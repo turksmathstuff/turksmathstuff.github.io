@@ -3,22 +3,22 @@
 ## Notes 01
 Partial fraction decomposition (leading to integrals, of course!); non-repeating linear factors; repeated linear factors; quadratic factors.
 
-* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiZDAwMzY0OGEtMWRhNC00NWRlLThlOTItMWI3ZmFlOThhZGJh) to the notes.
+* [Here's a link](https://drive.google.com/file/d/1p6UAe0jEjYz0zcN_NVVwQoDiSO8Nf6ZA/view?usp=drive_link) to the notes.
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRianZqTlAtemJTalk/edit?resourcekey=0-PDv-wP8VsIotsbIPvJ93Qw) to Notes 27 of Calc AB.  And [here's](https://www.youtube.com/playlist?list=PL6iwkLfBjZizLt7TV3J7z4CbTHYuL-DiW) the complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixOT5CHOEpTe54kPfJDJYeD) to a YouTube playlist of additional videos about these notes.
 
 
 ## Notes 02
 Introduction to Taylor polynomials; error of Taylor polynomials for approximations.  **Not Yet** Here's a link to a GeoGebra file that shows a Taylor Polynomial with variable center and order. 
-* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiMTY2YWY4YjktNDI0NC00YjEyLTkzZDItMjNjMDY1NTk2YmE0) to the notes.
-* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizmImF1qbpGVADS5cqqiieQ) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://drive.google.com/file/d/1OtBiczGYbi38qveeBfCD_gh0QfShzevu/view?usp=drive_link) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizmImF1qbpGVADS5cqqiieQ) to a YouTube playlist of me working through [this version of the notes](https://docs.google.com/open?id=0B11F_FpivrRiMTY2YWY4YjktNDI0NC00YjEyLTkzZDItMjNjMDY1NTk2YmE0).  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwtE-9BHwyqoaVh0RApwNFw) to a YouTube playlist of additional videos about these notes.
 
 ## Notes 03
 Sequences; some properties of sequences; limits of sequences; linking sequences to series
 
-* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiNWRiOTQyNzItN2M4MS00NjlkLWFiODUtNTkwYWJlZDlmYmRi) to the notes.
-* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw5tjnEvqidQ7idVLFet2sF) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://drive.google.com/file/d/1UhLGus6ZT_Zech44XARvTZoGB0k7UkqM/view?usp=drive_link) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw5tjnEvqidQ7idVLFet2sF) to a YouTube playlist of me working through [this version of the notes](https://docs.google.com/open?id=0B11F_FpivrRiNWRiOTQyNzItN2M4MS00NjlkLWFiODUtNTkwYWJlZDlmYmRi).  Complete solutions and explanations!
 
 
 ## Notes 04
