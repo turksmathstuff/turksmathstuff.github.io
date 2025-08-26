@@ -24,31 +24,31 @@ Sequences; some properties of sequences; limits of sequences; linking sequences 
 ## Notes 04
 Introduction to series; geometric series; telescoping series; properties of convergent series; nth term test for divergence
 
-* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiYTc2MTNjMGQtNGRjYS00YTU3LTgzNWItNWFhMjQ2YWNiNTg3) to the notes.
-* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixQgYqGExl-MtgS2tdjCojP) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://drive.google.com/file/d/1eHBCcLgz17VRg1gcTX6fQyU2YdIhbJzc/view?usp=drive_link) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixQgYqGExl-MtgS2tdjCojP) to a YouTube playlist of me working through [this version of the notes](https://docs.google.com/open?id=0B11F_FpivrRiYTc2MTNjMGQtNGRjYS00YTU3LTgzNWItNWFhMjQ2YWNiNTg3).  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyJ8EWO3mX8S_GA7osrHkmZ) to a YouTube playlist of additional videos about these notes.
 
 
 ## Notes 05
 Series Tests: Integral test; p-series
 
-* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiMmIyMDZkNjUtYTdhNC00ODg2LTgyZTEtNDg0OTZiZGMyYmE1) to the notes.
-* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwO3ALPMSc-bB3ISWPb3gLv) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://drive.google.com/file/d/1glxGjzOU5svVYLurPRxG0y9lKhmKAHnG/view?usp=drive_link) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwO3ALPMSc-bB3ISWPb3gLv) to a YouTube playlist of me working through [this version of the notes](https://docs.google.com/open?id=0B11F_FpivrRiMmIyMDZkNjUtYTdhNC00ODg2LTgyZTEtNDg0OTZiZGMyYmE1).  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiydZ26KEGZ7u0lhXFyQkvxc) to a YouTube playlist of additional videos about these notes.
 
 
 ## Notes 06
 Series Tests: Direct comparison test; limit comparison test.
 
-* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiMjRkZGQzNGQtZTk5Zi00MmUyLTg5NGEtOWFmMDgxYzk3M2Uy) to the notes.
-* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw2Ljw8cozTdHWWEHc8DpiH) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://drive.google.com/file/d/1qvOBixm78iwUSc1clZFsqx6pI-e-Snjr/view?usp=drive_link) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw2Ljw8cozTdHWWEHc8DpiH) to a YouTube playlist of me working through [this version of the notes](https://docs.google.com/open?id=0B11F_FpivrRiMjRkZGQzNGQtZTk5Zi00MmUyLTg5NGEtOWFmMDgxYzk3M2Uy).  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyJEO-Tdnp0bIeXnK2eCkfd) to a YouTube playlist of additional videos about these notes.
 
 ## Notes 07
 Series Tests: Ratio Test (best test ever!); Root Test.
 
-* [Here's a link](https://docs.google.com/open?id=0B11F_FpivrRiNGYxYzJhZTctYmEwZS00OGUyLWI5NzAtZDVlZGMwYzYwZTYw) to the notes.
-* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw5S-eHK2cyChWehdefdtdI) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
+* [Here's a link](https://drive.google.com/file/d/147-h_H5_vF14mhq0cMjvU5HBPwQT8Njj/view?usp=drive_link) to the notes.
+* [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiw5S-eHK2cyChWehdefdtdI) to a YouTube playlist of me working through [this verson of the notes](https://docs.google.com/open?id=0B11F_FpivrRiNGYxYzJhZTctYmEwZS00OGUyLWI5NzAtZDVlZGMwYzYwZTYw).  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiz7b7mdmg_HmIQFBYPZVYCW) to a YouTube playlist of additional videos about these notes.
 
 
