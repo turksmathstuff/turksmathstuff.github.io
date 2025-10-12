@@ -1,4 +1,4 @@
-# Make an Alternate Versions: Markdown → DOCX Workflow
+# Make Alternate Versions: Markdown → DOCX Workflow
 
 A concise, repeatable workflow to turn a PDF quiz into a clean, editable **.docx**—using Gemini and [Pandoc](https://pandoc.org/try/) or ChatGPT.
 
