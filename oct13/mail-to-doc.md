@@ -413,5 +413,23 @@ pre:hover .copy-btn { opacity: 1; }
   // Run on load (and again after client-side nav if your theme uses it)
   document.addEventListener('DOMContentLoaded', addCopyButtons);
 })();
+
+  (function () {
+    var links = document.querySelectorAll('a[href^="http"]');
+    var here = location.hostname;
+    for (var i = 0; i < links.length; i++) {
+      var a = links[i];
+      if (a.hostname && a.hostname !== here) {
+        a.target = "_blank";
+        // security + performance: prevent tabnabbing & give new process
+        var rel = (a.getAttribute("rel") || "").split(/\s+/);
+        ["noopener", "noreferrer", "external"].forEach(function(x){
+          if (rel.indexOf(x) === -1) rel.push(x);
+        });
+        a.setAttribute("rel", rel.join(" ").trim());
+      }
+    }
+  })();
+  
 </script>
 
