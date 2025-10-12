@@ -29,6 +29,8 @@ The `appsscript.json` file, also known as the manifest, tells Google what your p
 4.  Click on the `appsscript.json` file to open it.
 5.  Delete all of the default content in that file and **copy/paste the entire block of code below** into it.
 
+<details>
+<summary>Click to expand code</summary>
 ```json
 {
   "timeZone": "America/New_York",
@@ -61,7 +63,7 @@ The `appsscript.json` file, also known as the manifest, tells Google what your p
   "runtimeVersion": "V8"
 }
 ```
-
+</details>
 ---
 
 ## Part 3: Adding the Script Code
@@ -72,6 +74,8 @@ This is the main logic for the add-on. It handles creating the buttons, reading 
 2.  Delete all of the default placeholder code (`function myFunction() { ... }`).
 3.  **Copy and paste the entire script below** into the `Code.gs` file.
 
+<details>
+<summary>Click to expand code</summary>
 ```javascript
 // ====== CONFIG ======
 // This script is now fully dynamic. No pre-configuration is needed.
@@ -438,7 +442,7 @@ function stripOuterTags_(s) {
   return s.replace(/^<[^>]+>/,'').replace(/<[^>]+>$/,'');
 }
 ```
-
+</details>
 ---
 
 ## Part 4: Final Configuration and Deployment
