@@ -96,10 +96,11 @@ no page breaks.
 You can install pandoc on your computer and use it.  That's beyond what I want to get into here and ChatGPT or Gemini can walk you through it better than I can anyway.
 
 <style>
-/* Show a copy button on hover for code blocks */
+/* Use a general selector to apply to all <pre> tags */
 pre {
   position: relative;
 }
+
 .copy-btn {
   position: absolute;
   top: .5rem;
@@ -113,8 +114,16 @@ pre {
   opacity: 0;
   transition: opacity .15s ease-in-out, background .15s;
 }
-pre:hover .copy-btn { opacity: 1; }
-.copy-btn:active { background: #e9ecef; }
+
+/* This rule will trigger when you hover over ANY <pre> element */
+pre:hover .copy-btn {
+  opacity: 1;
+}
+
+.copy-btn:active {
+  background: #e9ecef;
+}
+
 .copy-btn.copied {
   background: #d1e7dd;
   border-color: #badbcc;
@@ -124,9 +133,14 @@ pre:hover .copy-btn { opacity: 1; }
 <script>
 (function () {
   function addCopyButtons() {
+    // This selector finds ALL matching code blocks in the document,
+    // regardless of whether they are inside a blockquote or not.
     document.querySelectorAll('pre > code').forEach(function (codeBlock) {
       const pre = codeBlock.parentNode;
-      if (pre.querySelector('.copy-btn')) return; // avoid duplicates
+      // Avoid adding duplicate buttons
+      if (pre.querySelector('.copy-btn')) {
+        return;
+      }
 
       const button = document.createElement('button');
       button.className = 'copy-btn';
@@ -135,8 +149,9 @@ pre:hover .copy-btn { opacity: 1; }
       button.textContent = 'Copy';
 
       button.addEventListener('click', async function () {
-        const text = codeBlock.innerText; // preserves newlines
+        const text = codeBlock.innerText;
         try {
+          // Use modern clipboard API if available
           if (navigator.clipboard && window.isSecureContext) {
             await navigator.clipboard.writeText(text);
           } else {
@@ -151,10 +166,13 @@ pre:hover .copy-btn { opacity: 1; }
             document.execCommand('copy');
             document.body.removeChild(ta);
           }
-          const old = button.textContent;
+          const oldText = button.textContent;
           button.textContent = 'Copied!';
           button.classList.add('copied');
-          setTimeout(() => { button.textContent = old; button.classList.remove('copied'); }, 1500);
+          setTimeout(() => {
+            button.textContent = oldText;
+            button.classList.remove('copied');
+          }, 1500);
         } catch (e) {
           console.error('Copy failed', e);
           button.textContent = 'Error';
@@ -166,10 +184,10 @@ pre:hover .copy-btn { opacity: 1; }
     });
   }
 
-  // Run on load (and again after client-side nav if your theme uses it)
+  // Run when the page content is loaded
   document.addEventListener('DOMContentLoaded', addCopyButtons);
 })();
-
+  
   (function () {
     var links = document.querySelectorAll('a[href^="http"]');
     var here = location.hostname;
