@@ -1,6 +1,22 @@
+# Welcome to the October 13 PD 👋
+
+We’ve got the morning to get to know AI—and maybe even each other—a little better!
+
+We’ll work through the links below **in order, together**. I’ll leave this page on my site (kind of hidden, so keep the link!) for a while… maybe forever?
+
+<hr />
+
+## Jump in
+
 - [Alternate Versions of Quizzes](/oct13/altquizzes)
-- [A gmail add-on](/oct13/mail-to-doc)
+- [A Gmail Add-On](/oct13/mail-to-doc)
 - [Using NotebookLM](/oct13/notebooklm)
+
+---
+
+
+
+
 
 <style>
 /* Show a copy button on hover for code blocks */
