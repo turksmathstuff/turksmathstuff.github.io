@@ -1,6 +1,6 @@
 # Guide: "Mail-to-Doc" Gmail Add-on
 
-This guide walks you through the entire process of creating a personal Gmail add-on from scratch. This tool allows you to save any email to a specific Google Doc, automatically removing repetitive footer text. You can choose from previously used documents or create new ones on the fly, right from your Gmail sidebar.
+This guide walks you through the entire process of creating a personal Gmail add-on from scratch. This tool allows you to save any email to a specific Google Doc, automatically removing repetitive footer text (not working...). You can choose from previously used documents or create new ones on the fly, right from your Gmail sidebar.
 
 ## How It Works
 When you open an email, this add-on will appear in the right-hand sidebar.
