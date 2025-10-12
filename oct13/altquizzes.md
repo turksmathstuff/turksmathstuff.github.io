@@ -67,7 +67,9 @@ If you prefer to skip the Pandoc step, you can have ChatGPT generate a downloada
 
 > **💬 ChatGPT Prompt**  
 ```
-can you give me this as a downloadable docx? make sure bulleted lists are actually bulleted lists. no page breaks.
+can you give me this as a downloadable docx?
+make sure bulleted lists are actually bulleted lists.
+no page breaks.
 ```
 
 **Notes**
