@@ -1,3 +1,18 @@
+<style>
+.callout {
+  border-left: 6px solid #2da44e;
+  background: #f0fff4;
+  padding: .9rem 1rem;
+  margin: 1rem 0;
+  border-radius: .5rem;
+}
+.callout .title {
+  font-weight: 700;
+  margin-bottom: .35rem;
+}
+</style>
+
+
 # Gemini Overview
 
 Talk to it like a normal person who’s just really good at tons of things.
@@ -5,6 +20,11 @@ Talk to it like a normal person who’s just really good at tons of things.
 - At the bottom of each response you’ll see: **Redo**, **Share & Export**, **Copy**, **More**  
   - **Share & Export** can go straight to Google Docs or Gmail drafts.  
   - **Copy** is what I use the most by far.
+
+<div class="callout">
+  <div class="title">💡 Pro tip</div>
+  Never forget that the AI will help you improve your prompt if you just ask!
+</div>
 
 ---
 
