@@ -1,0 +1,2 @@
+- [A gmail add-on](oct13/mail-to-doc.md)
+- [Using NotebookLM](oct13/notebooklm.md)
