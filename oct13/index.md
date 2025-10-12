@@ -1,6 +1,6 @@
-- [Alternate Versions of Quizzes](oct13/altquizzes)
-- [A gmail add-on](oct13/mail-to-doc)
-- [Using NotebookLM](oct13/notebooklm)
+- [Alternate Versions of Quizzes](/oct13/altquizzes)
+- [A gmail add-on](/oct13/mail-to-doc)
+- [Using NotebookLM](/oct13/notebooklm)
 
 <style>
 /* Show a copy button on hover for code blocks */
