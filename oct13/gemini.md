@@ -22,7 +22,7 @@ Talk to it like a normal person who’s just really good at tons of things.
   - **Copy** is what I use the most by far.
 
 <div class="callout">
-  <div class="title">💡 Pro tip</div>
+  <div class="title">💡💡 Pro Tip 💡💡</div>
   Never forget that the AI will help you improve your prompt if you just ask!
 </div>
 
