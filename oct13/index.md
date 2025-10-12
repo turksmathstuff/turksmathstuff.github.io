@@ -78,12 +78,19 @@ pre:hover .copy-btn { opacity: 1; }
 })();
 
     (function () {
+    // Select all <a> tags on the page
     var links = document.querySelectorAll("a");
+
+    // Loop through every link
     for (var i = 0; i < links.length; i++) {
       var a = links[i];
+      
+      // Set the target to "_blank" unconditionally
       a.target = "_blank";
+      
+      // Add "noopener" and "noreferrer" for security
       var rel = (a.getAttribute("rel") || "").split(/\s+/);
-      ["noopener","noreferrer"].forEach(function(x){
+      ["noopener", "noreferrer"].forEach(function(x){
         if (rel.indexOf(x) === -1) rel.push(x);
       });
       a.setAttribute("rel", rel.join(" ").trim());
