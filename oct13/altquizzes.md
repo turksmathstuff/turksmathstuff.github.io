@@ -61,7 +61,16 @@ Copy everything **inside** the code block.
 - Save it.
 
 ---
+## 5) Answer Keys
+Always use with caution, but:
 
+> **💬 Answer Key Prompt**  
+```
+in a separate code block following the same basic rules for creating the markdown,
+can you give me the answer key with complete solutions?
+```
+
+---
 ## Alternative: Produce DOCX Directly in ChatGPT
 If you prefer to skip the Pandoc step, you can have ChatGPT generate a downloadable **.docx** for you.  Obviously you have to paste your markdown after pasting the prompt.  You can also just have ChatGPT do the whole thing for you.  I find ChatGPT goes a bit rogue more often than Gemini, though.  (I bounce between them constantly.)
 
