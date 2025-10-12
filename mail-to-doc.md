@@ -333,6 +333,12 @@ The next time you open an email and click the add-on, it will remember your choi
 
 You can now quickly save another email to your existing document or create a different one (e.g., "Admin Memos"). The list will grow automatically as you create more destination documents.
 
+### Potential Developments:
+- The whole point is to create a database for [NotebookLM](https://notebooklm.google/)
+- It _might_ be possible to make this automatic.  I asked the AI (Gemini Pro) and it was ready to get started.  I just didn't want to get into it at the moment.
+
+
+
 <style>
 /* Show a copy button on hover for code blocks */
 pre {
