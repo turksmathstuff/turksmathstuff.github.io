@@ -5,7 +5,7 @@ A concise, repeatable workflow to turn a PDF quiz into a clean, editable **.docx
 ---
 
 ## What You’ll Need
-- Your **PDF quiz**.
+- Your **PDF** of the quiz.  (You can/should try with the .DOCX, too!)
 - Access to **Gemini** (or **ChatGPT**, but I used Gemini)
 - Refined prompots that you're happy with.  I'll get you started.
 
@@ -15,7 +15,12 @@ A concise, repeatable workflow to turn a PDF quiz into a clean, editable **.docx
 Upload your original **PDF quiz** to ChatGPT.
 
 > **💬 Prompt**  
-> this is a pdf of a [subject] quiz.  can you create an alternate version that is of the same level of difficulty?  don't just arbitrarily change numbers, though!  the problems still need to make sense.
+```
+this is a pdf of a [subject] quiz.
+can you create an alternate version that is of the same level of difficulty?
+don't just arbitrarily change numbers, though!  the problems still need to make sense.
+```
+
 
 **Tips**
 - More description is probably better.  I got good enough results with barebones prompts though.
@@ -28,8 +33,11 @@ Upload your original **PDF quiz** to ChatGPT.
 Ask for a minimal, **no-explanations** Markdown code block you can convert to DOCX.
 
 > **💬 Follow-up Prompt**  
-> can you give me a markdown code block for the alternative quiz with:  
-> no explanations; no problem descriptions, just numbers; no horizontal rule
+```
+can you give me a markdown code block for the alternative quiz with:  
+no explanations; no problem descriptions, just numbers; no horizontal rule
+```
+
 
 **You should receive:** a fenced Markdown code block (```markdown … ```).  
 Copy everything **inside** the code block.
@@ -54,11 +62,13 @@ Copy everything **inside** the code block.
 
 ---
 
-## Optional: Produce DOCX Directly in ChatGPT
-If you prefer to skip the Pandoc step, you can have ChatGPT generate a downloadable **.docx** for you.
+## Alternative: Produce DOCX Directly in ChatGPT
+If you prefer to skip the Pandoc step, you can have ChatGPT generate a downloadable **.docx** for you.  Obviously you have to paste your markdown after pasting the prompt.  You can also just have ChatGPT do the whole thing for you.  I find ChatGPT goes a bit rogue more often than Gemini, though.  (I bounce between them constantly.)
 
-> **💬 Optional Prompt**  
-> can you give me this as a downloadable docx? make sure bulleted lists are actually bulleted lists. no page breaks.
+> **💬 ChatGPT Prompt**  
+```
+can you give me this as a downloadable docx? make sure bulleted lists are actually bulleted lists. no page breaks.
+```
 
 **Notes**
 - Ask it to **preserve real bullets** (not dashes) and **avoid page breaks**.
@@ -69,8 +79,10 @@ If you prefer to skip the Pandoc step, you can have ChatGPT generate a downloada
 ## Troubleshooting & Tips
 - **Weird spacing or line breaks?** In the Markdown stage, avoid horizontal rules and long lines of punctuation (these can convert oddly).  
 - **Bullets not recognized in Word?** Ensure your Markdown uses `- ` (dash + space) or `* ` (asterisk + space) for list items—not plain dashes without a space.  
+- **Improve your prompts** Keep in mind that better prompts get better results.
 
-
+## Another thing about Pandoc
+You can install pandoc on your computer and use it.  That's beyond what I want to get into here and ChatGPT or Gemini can walk you through it better than I can anyway.
 
 <style>
 /* Show a copy button on hover for code blocks */
