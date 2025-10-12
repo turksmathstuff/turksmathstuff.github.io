@@ -78,8 +78,7 @@ This is the main logic for the add-on. It handles creating the buttons, reading 
 const PROP_SAVED_DOCS = 'SAVED_DOCS_LIST_V2'; // Key to store our list of docs.
 const PROP_STORE = PropertiesService.getUserProperties();
 
-// !!! IMPORTANT !!!
-// REPLACE THE TEXT BELOW WITH THE EXACT FOOTER/WARNING FROM YOUR EMAILS.
+// NEW: Add the exact text of the footer/warning you want to remove.
 const FOOTER_TEXT_TO_REMOVE = "CONFIDENTIALITY NOTICE: This email and any attachments may contain confidential information ...";
 
 
@@ -88,17 +87,26 @@ const FOOTER_TEXT_TO_REMOVE = "CONFIDENTIALITY NOTICE: This email and any attach
 // Gets the list of saved documents (ID and Name) from Properties.
 function getSavedDocs_() {
   const jsonString = PROP_STORE.getProperty(PROP_SAVED_DOCS);
-  if (!jsonString) {
-    return {}; // Return an empty object if nothing is stored yet.
-  }
+  if (!jsonString) return {};
   return JSON.parse(jsonString);
 }
 
-// Adds a new document to our saved list.
+// Adds or updates a document in our saved list.
 function addDocToSavedList_(docId, docName) {
   const docs = getSavedDocs_();
-  docs[docId] = docName; // Add or update the entry.
+  docs[docId] = docName;
   PROP_STORE.setProperty(PROP_SAVED_DOCS, JSON.stringify(docs));
+}
+
+// NEW: Remove a document from our saved list.
+function removeDocFromSavedList_(docId) {
+  const docs = getSavedDocs_();
+  if (docs && docs[docId]) {
+    delete docs[docId];
+    PROP_STORE.setProperty(PROP_SAVED_DOCS, JSON.stringify(docs));
+    return true;
+  }
+  return false;
 }
 
 
@@ -127,15 +135,28 @@ function buildAddOn(e) {
     section.addWidget(button);
   }
 
-  // Always add the button to create a new document.
-  const newDocButton = CardService.newTextButton()
+  // Row of action buttons
+  const createNewBtn = CardService.newTextButton()
     .setText("Save to a New Doc...")
     .setOnClickAction(CardService.newAction()
       .setFunctionName("buildCreateNewDocCard_")
       .setParameters({ messageId: messageId })
     )
     .setTextButtonStyle(CardService.TextButtonStyle.FILLED);
-  section.addWidget(newDocButton);
+
+  // NEW: Manage saved docs button
+  const manageBtn = CardService.newTextButton()
+    .setText("Manage saved docs")
+    .setOnClickAction(CardService.newAction()
+      .setFunctionName("buildManageDocsCard_")
+      .setParameters({ messageId: messageId })
+    );
+
+  const actionRow = CardService.newButtonSet()
+    .addButton(createNewBtn)
+    .addButton(manageBtn);
+
+  section.addWidget(actionRow);
 
   card.addSection(section);
   return card.build();
@@ -153,14 +174,73 @@ function buildCreateNewDocCard_(e) {
     .addWidget(CardService.newTextInput()
       .setFieldName("new_doc_name")
       .setTitle("Document Name")
-    )
-    .addWidget(CardService.newTextButton()
-      .setText("Create and Save")
-      .setOnClickAction(CardService.newAction()
-        .setFunctionName("handleCreateAndSave_")
-        .setParameters({ messageId: messageId })
-      )
     );
+
+  const createBtn = CardService.newTextButton()
+    .setText("Create and Save")
+    .setOnClickAction(CardService.newAction()
+      .setFunctionName("handleCreateAndSave_")
+      .setParameters({ messageId: messageId })
+    )
+    .setTextButtonStyle(CardService.TextButtonStyle.FILLED);
+
+  const backBtn = CardService.newTextButton()
+    .setText("Back")
+    .setOnClickAction(CardService.newAction()
+      .setFunctionName("returnToMain_")
+      .setParameters({ messageId: messageId })
+    );
+
+  section.addWidget(CardService.newButtonSet().addButton(createBtn).addButton(backBtn));
+
+  card.addSection(section);
+  return CardService.newNavigation().pushCard(card.build());
+}
+
+// NEW: Build the Manage Saved Docs card (for removing entries)
+function buildManageDocsCard_(e) {
+  const messageId = (e.parameters && e.parameters.messageId) || (e.gmail && e.gmail.messageId) || "";
+  const docs = getSavedDocs_();
+
+  const card = CardService.newCardBuilder()
+    .setHeader(CardService.newCardHeader().setTitle("Manage Saved Docs"));
+
+  const section = CardService.newCardSection();
+
+  if (Object.keys(docs).length === 0) {
+    section.addWidget(CardService.newTextParagraph().setText("No saved docs yet."));
+  } else {
+    for (const docId in docs) {
+      const docName = docs[docId];
+
+      // Show the doc name
+      const row = CardService.newKeyValue()
+        .setContent(docName);
+
+      // Remove button for this doc
+      const removeBtn = CardService.newTextButton()
+        .setText("Remove")
+        .setOnClickAction(CardService.newAction()
+          .setFunctionName("handleRemoveDoc_")
+          .setParameters({ messageId: messageId, docId: docId })
+        )
+        .setTextButtonStyle(CardService.TextButtonStyle.FILLED);
+
+      section
+        .addWidget(row)
+        .addWidget(CardService.newButtonSet().addButton(removeBtn));
+    }
+  }
+
+  // Back to main
+  const backBtn = CardService.newTextButton()
+    .setText("Back")
+    .setOnClickAction(CardService.newAction()
+      .setFunctionName("returnToMain_")
+      .setParameters({ messageId: messageId })
+    );
+
+  section.addWidget(CardService.newButtonSet().addButton(backBtn));
 
   card.addSection(section);
   return CardService.newNavigation().pushCard(card.build());
@@ -169,7 +249,7 @@ function buildCreateNewDocCard_(e) {
 
 // ====== Action Handler Functions ======
 
-// This function is triggered when the user clicks a button for an EXISTING doc.
+// Triggered when clicking a button for an EXISTING doc.
 function handleSaveToExisting_(e) {
   const messageId = e.parameters.messageId;
   const docId = e.parameters.docId;
@@ -185,7 +265,7 @@ function handleSaveToExisting_(e) {
   }
 }
 
-// This function is triggered when the user clicks "Create and Save" on the second screen.
+// Triggered when clicking "Create and Save" on the second screen.
 function handleCreateAndSave_(e) {
   const messageId = e.parameters.messageId;
   const newDocName = e.formInput.new_doc_name;
@@ -202,7 +282,83 @@ function handleCreateAndSave_(e) {
   }
 }
 
-// This is the core logic that gets the email and appends it to a given document.
+// NEW: Handle removal of a saved doc entry; refresh the Manage card.
+function handleRemoveDoc_(e) {
+  const messageId = e.parameters.messageId || "";
+  const docId = e.parameters.docId;
+
+  if (!docId) {
+    return notify_("Error: Document ID missing.");
+  }
+
+  const removed = removeDocFromSavedList_(docId);
+  const msg = removed ? "Removed from saved docs." : "That doc wasn't in the list.";
+
+  // Rebuild the Manage card so the change is visible immediately.
+  const manageNav = buildManageDocsCard_({ parameters: { messageId } });
+  // The above already returns a Navigation with pushCard; we want to update instead.
+  // Rebuild the card object directly to update in place:
+  const card = _buildManageDocsCardStandalone_(messageId);
+  return CardService.newActionResponseBuilder()
+    .setNavigation(CardService.newNavigation().updateCard(card))
+    .setNotification(CardService.newNotification().setText(msg))
+    .build();
+}
+
+// Helper to build the Manage card as a single Card for updateCard()
+function _buildManageDocsCardStandalone_(messageId) {
+  const docs = getSavedDocs_();
+
+  const card = CardService.newCardBuilder()
+    .setHeader(CardService.newCardHeader().setTitle("Manage Saved Docs"));
+
+  const section = CardService.newCardSection();
+
+  if (Object.keys(docs).length === 0) {
+    section.addWidget(CardService.newTextParagraph().setText("No saved docs yet."));
+  } else {
+    for (const docId in docs) {
+      const docName = docs[docId];
+      const row = CardService.newKeyValue().setContent(docName);
+
+      const removeBtn = CardService.newTextButton()
+        .setText("Remove")
+        .setOnClickAction(CardService.newAction()
+          .setFunctionName("handleRemoveDoc_")
+          .setParameters({ messageId: messageId, docId: docId })
+        )
+        .setTextButtonStyle(CardService.TextButtonStyle.FILLED);
+
+      section
+        .addWidget(row)
+        .addWidget(CardService.newButtonSet().addButton(removeBtn));
+    }
+  }
+
+  const backBtn = CardService.newTextButton()
+    .setText("Back")
+    .setOnClickAction(CardService.newAction()
+      .setFunctionName("returnToMain_")
+      .setParameters({ messageId: messageId })
+    );
+
+  section.addWidget(CardService.newButtonSet().addButton(backBtn));
+  card.addSection(section);
+  return card.build();
+}
+
+// NEW: Return to main card (rebuilds with the current messageId)
+function returnToMain_(e) {
+  const messageId = e.parameters && e.parameters.messageId ? e.parameters.messageId : "";
+  const mainCard = buildAddOn({ gmail: { messageId } });
+  return CardService.newActionResponseBuilder()
+    .setNavigation(CardService.newNavigation().updateCard(mainCard))
+    .build();
+}
+
+
+// ====== Core: Append Email to Doc ======
+
 function appendEmailToDoc_(messageId, doc) {
   if (!messageId) {
     throw new Error("No message ID found. Open an email first.");
@@ -214,7 +370,10 @@ function appendEmailToDoc_(messageId, doc) {
   const html = msg.getBody();
 
   // Clean the footer from the HTML before converting.
-  const cleanedHtml = html.replace(FOOTER_TEXT_TO_REMOVE, "");
+  const cleanedHtml = html.replace(
+    FOOTER_TEXT_TO_REMOVE,
+    "Confidentiality notice: The information contained in this message (email and any attachments) is intended only for the designated recipient(s). Any review, dissemination, distribution, copying or other use of this message is prohibited by anyone other than the designated recipient. If you have received this message in error, notify the sender immediately and delete the original message from your e-mail system and/or computer database."
+  );
   const md = htmlToMarkdown(cleanedHtml);
 
   const body = doc.getBody();
@@ -231,7 +390,6 @@ function appendEmailToDoc_(messageId, doc) {
 // ====== Notification and Markdown Conversion (Unchanged) ======
 
 function notify_(text) {
-  // We use updateCard here so it replaces the whole UI with a simple message.
   const card = CardService.newCardBuilder()
     .setHeader(CardService.newCardHeader().setTitle("Status"))
     .addSection(CardService.newCardSection().addWidget(CardService.newTextParagraph().setText(text)))
