@@ -8,6 +8,7 @@ We’ll work through the links below **in order, together**. I’ll leave this p
 
 ## Jump in
 
+- [Gemini Reintroduction](/oct13/gemini)
 - [Alternate Versions of Quizzes](/oct13/altquizzes)
 - [A Gmail Add-On](/oct13/mail-to-doc)
 - [Using NotebookLM](/oct13/notebooklm)
