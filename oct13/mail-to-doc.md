@@ -463,7 +463,7 @@ Now we will install the add-on privately to your own Google account.
 
 1.  At the top right of the editor, click the blue **Deploy** button and select **Test deployments**.
 2.  A new window will appear. Click the **Install** button, and then **Done**.
-3.  **The First Time Only:** The script will need your permission to run.
+3.  **The First Time Only:** Go to your **Gmail** inbox (https://gmail.com) and **do a full browser refresh** (Ctrl+R or Cmd+R). Look for the add-on on the right-hand sidebar.  Click the icon.  (Looks like a Google Doc.)  The script will need your permission to run.
     *   A "Authorization Required" window will pop up. Click **Review Permissions**.
     *   Choose your Google account.
     *   You will see a "Google hasn’t verified this app" screen. This is normal for personal scripts. Click **Advanced**, then click **Go to [Your Project Name] (unsafe)**.
@@ -475,9 +475,8 @@ Now we will install the add-on privately to your own Google account.
 
 Your add-on is now live in your Gmail account!
 
-1.  Go to your **Gmail** inbox (https://gmail.com) and **do a full browser refresh** (Ctrl+R or Cmd+R).
-2.  Open any email message.
-3.  Look for your add-on's icon in the right-hand sidebar. It's a small blue document icon. Click it to open the add-on.
+1.  Open any email message.
+2.  Look for your add-on's icon in the right-hand sidebar. It's a small blue document icon. Click it to open the add-on.
 
 ### Your First Use:
 The first time you open the add-on, it will look simple:
