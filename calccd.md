@@ -101,7 +101,7 @@ Euler's Method.  **Not Yet** Here's a link to a GeoGebra file that demonstrates 
 
 
 ## Notes 14
-Logistic Differential Equation.  **Not Yet** Here's a link to a GeoGebra file of a logistic curve with a slope field and some things you can manipulate.  [Here's a fun activity](https://drive.google.com/file/d/1iyZ9zv-WodCUjkT4vHDmuIDM83X32Sqg/view?usp=sharing) that generates a nice logistic curve (we do it in class, you don't need to print it).  [Here's the spreadsheet](https://docs.google.com/spreadsheets/d/1nc7VyfJJwSZ7xglMEDBvV0bsQq4IgbEgKberh8NiqK8/edit?usp=sharing) we'll use to track the activity.
+Logistic Differential Equation.  **Not Yet** Here's a link to a GeoGebra file of a logistic curve with a slope field and some things you can manipulate.  [Here's a fun activity](https://drive.google.com/file/d/1iyZ9zv-WodCUjkT4vHDmuIDM83X32Sqg/view?usp=sharing) that generates a nice logistic curve (we do it in class, you don't need to print it).  [Here's the spreadsheet](https://docs.google.com/spreadsheets/d/1yyMg3sJG4EBp1Y-SLUvM3UIqn3RLL9Uz-m07Wh9SduQ/edit?gid=1427836526#gid=1427836526) we'll use to track the activity.
 
 * [Here's a link](https://drive.google.com/file/d/1Bci1g8q6k2kfrevZmOY2CD5eLws5JlcU/view?usp=drive_link) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyUuwy1qXY13NXFHxiPaqjd) to a YouTube playlist of me working through [this version of the notes](https://docs.google.com/open?id=0B11F_FpivrRiMzlhM2JiNDQtNjY0Ni00NTNiLWIwM2YtNzBlN2E4YmQxZTQw).  Complete solutions and explanations!
