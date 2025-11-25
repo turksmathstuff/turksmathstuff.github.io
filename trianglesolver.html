@@ -3,10 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Oblique Triangle Solver</title>
-    
-    <!-- Three.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <title>Oblique Triangle Solver</title>
     
     <!-- MathJax Configuration -->
     <script>
@@ -20,13 +17,18 @@
 
     <style>
         :root {
-            --bg-color: #1e1e24;
-            --panel-color: #25252b;
-            --accent-color: #00f2ff; /* Neon Cyan */
-            --text-color: #ffffff;
-            --input-bg: #16161a;
-            --border-color: #444;
-            --highlight-pink: #ff007f;
+            /* Bright / Light Theme Variables */
+            --bg-color: #f0f2f5;           /* Light cool grey background */
+            --panel-color: #ffffff;        /* White cards */
+            --accent-color: #0066ff;       /* Vibrant Science Blue */
+            --text-color: #333333;         /* Dark grey for main text */
+            --secondary-text: #666666;     /* Lighter grey for labels */
+            --input-bg: #ffffff;           /* White inputs */
+            --border-color: #d1d5db;       /* Soft border */
+            --success-color: #10b981;      /* Green for success */
+            --error-color: #ef4444;        /* Red for errors */
+            --step-bg: #f8faff;            /* Very light blue tint for steps */
+            --highlight-bg: #e6f2ff;       /* Light blue highlight for results */
         }
 
         body {
@@ -34,205 +36,197 @@
             background-color: var(--bg-color);
             color: var(--text-color);
             margin: 0;
+            padding: 40px 20px;
             display: flex;
             flex-direction: column;
-            height: 100vh;
-            overflow: hidden;
-        }
-
-        header {
-            padding: 0 2rem;
-            height: 60px;
-            background-color: var(--panel-color);
-            border-bottom: 1px solid var(--border-color);
-            display: flex;
-            justify-content: space-between;
             align-items: center;
-            flex-shrink: 0;
+            min-height: 100vh;
         }
 
-        h1 { margin: 0; font-size: 1.4rem; color: var(--accent-color); text-shadow: 0 0 10px rgba(0, 242, 255, 0.3); }
+        h1 { margin: 0 0 10px 0; color: var(--accent-color); font-weight: 800; }
+        .subtitle { color: var(--secondary-text); margin-bottom: 30px; font-size: 1rem; }
 
-        .main-container {
-            display: flex;
-            flex: 1;
-            height: calc(100vh - 60px);
-            overflow: hidden;
-        }
-
-        /* Controls Panel */
-        .controls {
-            width: 400px;
-            background-color: var(--panel-color);
-            padding: 25px;
-            overflow-y: auto;
-            box-shadow: 2px 0 20px rgba(0,0,0,0.5);
+        .container {
+            width: 100%;
+            max-width: 800px;
             display: flex;
             flex-direction: column;
-            gap: 18px;
-            border-right: 1px solid var(--border-color);
-            z-index: 10;
+            gap: 25px;
         }
 
-        .control-group { display: flex; flex-direction: column; gap: 6px; }
-        label { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: #aaa; font-weight: 700; }
+        /* Input Section */
+        .card {
+            background-color: var(--panel-color);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05); /* Soft shadow */
+            border: 1px solid var(--border-color);
+        }
+
+        .input-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            margin-top: 15px;
+        }
+
+        label { 
+            font-size: 0.75rem; 
+            text-transform: uppercase; 
+            letter-spacing: 0.05em; 
+            color: var(--secondary-text); 
+            display: block; 
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
         
         select, input {
             width: 100%; padding: 12px;
             background-color: var(--input-bg);
             border: 1px solid var(--border-color);
             border-radius: 6px;
-            color: white; font-size: 1rem;
+            color: var(--text-color); 
+            font-size: 1rem;
             box-sizing: border-box;
-            transition: 0.2s;
+            transition: all 0.2s;
         }
-        select:focus, input:focus { outline: none; border-color: var(--accent-color); box-shadow: 0 0 8px rgba(0, 242, 255, 0.2); }
+        select:focus, input:focus { 
+            outline: none; 
+            border-color: var(--accent-color); 
+            box-shadow: 0 0 0 3px rgba(0, 102, 255, 0.1);
+        }
 
         button {
-            background: linear-gradient(135deg, var(--accent-color), #00a8cc);
-            color: #000; border: none; padding: 15px;
-            border-radius: 6px; font-size: 1rem; font-weight: 800;
-            cursor: pointer; margin-top: 10px;
-            text-transform: uppercase; letter-spacing: 0.05em;
-            transition: transform 0.1s, opacity 0.2s;
+            width: 100%;
+            background-color: var(--accent-color);
+            color: white; 
+            border: none; padding: 16px;
+            border-radius: 8px; font-size: 1rem; font-weight: 700;
+            cursor: pointer; margin-top: 25px;
+            text-transform: uppercase; letter-spacing: 0.5px;
+            transition: background 0.2s, transform 0.1s;
+            box-shadow: 0 4px 6px rgba(0, 102, 255, 0.2);
         }
-        button:hover { opacity: 0.9; transform: translateY(-1px); }
-        button:active { transform: scale(0.98); }
+        button:hover { background-color: #0052cc; transform: translateY(-1px); }
+        button:active { transform: translateY(0); }
 
-        /* Results Area */
-        .results-container {
-            background: var(--input-bg);
-            border-radius: 8px;
-            padding: 20px;
-            border: 1px solid var(--border-color);
-        }
+        /* Results Section */
         .results-header {
-            font-size: 1.1rem; color: var(--accent-color);
-            margin-bottom: 15px; border-bottom: 1px solid var(--border-color);
-            padding-bottom: 8px;
+            font-size: 1.3rem; 
+            font-weight: 700;
+            color: var(--text-color);
+            margin-bottom: 20px; 
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 12px;
         }
-        .triangle-solution {
-            margin-bottom: 20px; padding-bottom: 15px;
-            border-bottom: 1px dashed #444;
-        }
-        .triangle-solution:last-child { border-bottom: none; padding-bottom: 0; margin-bottom: 0; }
         
         .result-grid {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 10px; font-size: 0.95rem;
+            display: grid; grid-template-columns: 1fr 1fr; gap: 15px; font-size: 1rem;
         }
+        
         .result-item {
-            background: #2a2a30; padding: 8px 12px; border-radius: 4px;
-            border-left: 3px solid #555;
+            background: #f9fafb; 
+            padding: 15px; border-radius: 8px;
+            border-left: 4px solid #ccc;
+            display: flex; justify-content: space-between; align-items: center;
         }
-        .result-item.highlight { border-left-color: var(--accent-color); }
+        .result-item.highlight { 
+            border-left-color: var(--accent-color); 
+            background: var(--highlight-bg); 
+            color: #0044aa;
+        }
+        .result-label { color: #777; font-size: 0.9rem; }
+        .result-value { font-weight: bold; font-family: 'Courier New', monospace; font-size: 1.1rem; }
 
-        /* Visualization */
-        .visualizer {
-            flex: 1; position: relative;
-            background-color: #0d0d10;
-            overflow: hidden;
+        /* Steps Section */
+        .steps-container {
+            margin-top: 20px;
+            display: flex; 
+            flex-direction: column;
+            gap: 20px;
         }
-        #canvas-container { width: 100%; height: 100%; }
-        .overlay-hint {
-            position: absolute; top: 20px; right: 20px;
-            background: rgba(0,0,0,0.7); color: #fff;
-            padding: 8px 16px; border-radius: 20px;
-            font-size: 0.85rem; pointer-events: none;
-            border: 1px solid rgba(255,255,255,0.1);
+        
+        .step-block {
+            background-color: var(--step-bg);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #eef2ff;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .step-title {
+            font-weight: bold; color: var(--accent-color); margin-bottom: 12px;
+            text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.5px;
+        }
+
+        .math-block {
+            overflow-x: auto;
+            padding: 5px 0;
+            color: #444;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 600px) {
+            .input-grid { grid-template-columns: 1fr; }
+            .result-grid { grid-template-columns: 1fr; }
+            body { padding: 20px 10px; }
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Oblique Triangle Solver</h1>
-    <div style="font-size: 0.85rem; color: #888;">Three.js + MathJax</div>
-</header>
+<h1>Triangle Solver</h1>
+<div class="subtitle">Enter your known values to see the solution and steps.</div>
 
-<div class="main-container">
-    <div class="controls">
-        <div class="control-group">
-            <label>Triangle Type</label>
-            <select id="caseSelector">
-                <option value="asa">ASA (Angle-Side-Angle)</option>
-                <option value="aas">AAS (Angle-Angle-Side)</option>
-                <option value="sss">SSS (Side-Side-Side)</option>
-                <option value="sas">SAS (Side-Angle-Side)</option>
-                <option value="ssa">SSA (Ambiguous Case)</option>
-            </select>
-        </div>
+<div class="container">
+    <!-- INPUTS -->
+    <div class="card">
+        <label>Method</label>
+        <select id="caseSelector">
+            <option value="asa">ASA (Angle-Side-Angle)</option>
+            <option value="aas">AAS (Angle-Angle-Side)</option>
+            <option value="sas">SAS (Side-Angle-Side)</option>
+            <option value="sss">SSS (Side-Side-Side)</option>
+            <option value="ssa">SSA (Side-Side-Angle) [Ambiguous Case]</option>
+        </select>
 
-        <div id="inputs" style="display:flex; flex-direction:column; gap:15px;">
+        <div id="inputs" class="input-grid">
             <!-- Dynamic Inputs -->
         </div>
 
-        <button onclick="solveAndVisualize()">Calculate & Visualize</button>
-
-        <div class="results-container" id="resultOutput">
-            <p style="color:#888; text-align:center; font-style:italic;">Enter values to solve.</p>
-        </div>
+        <button onclick="solve()">Calculate</button>
     </div>
 
-    <div class="visualizer">
-        <div id="canvas-container"></div>
-        <div class="overlay-hint" id="viz-hint">Visualization Area</div>
+    <!-- RESULTS -->
+    <div id="resultsArea" style="display:none;">
+        <!-- Solution 1 -->
+        <div class="card" id="solution1">
+            <div class="results-header" id="resHeader1">Solution</div>
+            <div class="result-grid" id="resGrid1"></div>
+        </div>
+
+        <!-- Solution 2 (Only for SSA) -->
+        <div class="card" id="solution2" style="display:none;">
+            <div class="results-header" style="color: #d97706;">Solution 2 (Ambiguous Case)</div>
+            <div class="result-grid" id="resGrid2"></div>
+        </div>
+
+        <!-- WORK / STEPS -->
+        <div class="card">
+            <div class="results-header">Step-by-Step Work</div>
+            <div id="stepsOutput" class="steps-container"></div>
+        </div>
     </div>
 </div>
 
 <script>
-    // --- THREE.JS SETUP ---
-    const container = document.getElementById('canvas-container');
-    const scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x0d0d10); // Very dark slightly blueish grey
-
-    const aspect = container.clientWidth / container.clientHeight;
-    const frustumSize = 20;
-    const camera = new THREE.OrthographicCamera(
-        frustumSize * aspect / -2, 
-        frustumSize * aspect / 2, 
-        frustumSize / 2, 
-        frustumSize / -2, 
-        1, 1000
-    );
-    camera.position.set(0, 0, 20);
-
-    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false });
-    renderer.setSize(container.clientWidth, container.clientHeight);
-    renderer.setPixelRatio(window.devicePixelRatio);
-    container.appendChild(renderer.domElement);
-
-    window.addEventListener('resize', () => {
-        const aspect = container.clientWidth / container.clientHeight;
-        // Rescale frustum width to match aspect ratio, keeping height constant (zoom agnostic)
-        const h = (camera.top - camera.bottom);
-        const w = h * aspect;
-        camera.left = -w / 2;
-        camera.right = w / 2;
-        camera.updateProjectionMatrix();
-        renderer.setSize(container.clientWidth, container.clientHeight);
-    });
-
-    // Animation Loop
-    let animateSSA = false;
-    let ssaParams = {};
-    
-    function animate() {
-        requestAnimationFrame(animate);
-        if (animateSSA) {
-            updateSSAPendulum();
-        }
-        renderer.render(scene, camera);
-    }
-    animate();
-
-
-    // --- UI LOGIC ---
+    // --- UI CONFIG ---
     const inputConfig = {
         'asa': ['Angle A', 'Side c', 'Angle B'],
         'aas': ['Angle A', 'Angle B', 'Side a'],
         'sss': ['Side a', 'Side b', 'Side c'],
         'sas': ['Side b', 'Angle A', 'Side c'],
-        'ssa': ['Angle A', 'Side b', 'Side a'] // A=Angle, b=Adj, a=Opp
+        'ssa': ['Angle A', 'Side b', 'Side a'] 
     };
 
     const selector = document.getElementById('caseSelector');
@@ -244,313 +238,338 @@
         const fields = inputConfig[type];
 
         fields.forEach((field, index) => {
-            const group = document.createElement('div');
-            group.className = 'control-group';
+            const div = document.createElement('div');
             const lbl = document.createElement('label');
             lbl.innerText = field + (field.includes('Angle') ? ' (°)' : '');
             const inp = document.createElement('input');
             inp.type = 'number'; inp.step = 'any'; inp.id = `inp_${index}`;
             inp.placeholder = '0.0';
-            group.appendChild(lbl); group.appendChild(inp);
-            inputsDiv.appendChild(group);
+            div.appendChild(lbl); div.appendChild(inp);
+            inputsDiv.appendChild(div);
         });
+        // Clear results on change
+        document.getElementById('resultsArea').style.display = 'none';
     }
 
     selector.addEventListener('change', generateInputs);
     generateInputs();
 
-
-    // --- MATH UTILS ---
+    // --- MATH HELPERS ---
     const toRad = deg => deg * (Math.PI / 180);
     const toDeg = rad => rad * (180 / Math.PI);
-
+    const fmt = num => Number(num).toFixed(3); // Format for display
+    
     // --- MAIN SOLVER ---
-    function solveAndVisualize() {
+    function solve() {
         const type = selector.value;
         const v1 = parseFloat(document.getElementById('inp_0').value);
         const v2 = parseFloat(document.getElementById('inp_1').value);
         const v3 = parseFloat(document.getElementById('inp_2').value);
 
         if (isNaN(v1) || isNaN(v2) || isNaN(v3) || v1 <= 0 || v2 <= 0 || v3 <= 0) {
-            document.getElementById('resultOutput').innerHTML = '<p style="color:#ff4d4d; font-weight:bold;">Please enter valid positive numbers.</p>';
+            alert("Please enter valid positive numbers.");
             return;
         }
 
-        let result = { valid: false, triangles: [], info: '' };
+        let result = { valid: false, triangles: [], steps: [] };
 
-        // Clear Scene
-        while(scene.children.length > 0){ scene.remove(scene.children[0]); }
-        animateSSA = false;
-
-        // Solve
         try {
             if (type === 'ssa') result = solveSSA(v1, v2, v3);
             else if (type === 'sas') result = solveSAS(v1, v2, v3);
             else if (type === 'asa') result = solveASA(v1, v2, v3);
             else if (type === 'aas') result = solveAAS(v1, v2, v3);
             else if (type === 'sss') result = solveSSS(v1, v2, v3);
-        } catch (e) { result = { valid: false, info: "Calculation Error" }; }
+        } catch (e) { 
+            console.error(e);
+            result = { valid: false, steps: ["Calculation Error occurred."] }; 
+        }
 
-        // Render
         displayResults(result);
-        
-        // Visualize
-        document.getElementById('viz-hint').innerText = type.toUpperCase() + " Visualization";
-        
-        // We define a "Thickness Scale" roughly based on the size of inputs
-        // to make lines look good regardless of triangle size.
-        let scaleFactor = 1;
-        if (result.valid && result.triangles.length > 0) {
-            const maxSide = Math.max(result.triangles[0].a, result.triangles[0].b, result.triangles[0].c);
-            scaleFactor = maxSide / 25; // Heuristic scaling
-            if(scaleFactor < 0.1) scaleFactor = 0.1;
-        }
-        const lineThick = 0.2 * scaleFactor; 
-
-        if (type === 'ssa') {
-            visualizeSSA(v1, v2, v3, result, lineThick);
-        } else if (result.valid && result.triangles.length > 0) {
-            const t = result.triangles[0];
-            // Standard Coords: A(0,0), B(c,0), C(b cosA, b sinA)
-            const Ax = 0, Ay = 0;
-            const Bx = t.c, By = 0;
-            const Cx = t.b * Math.cos(toRad(t.A));
-            const Cy = t.b * Math.sin(toRad(t.A));
-
-            drawGrid(Math.max(t.a, t.b, t.c));
-            drawStaticTriangle(Ax, Ay, Bx, By, Cx, Cy, 0x00f2ff, lineThick); // Neon Cyan
-            fitCamera([Ax, Bx, Cx], [Ay, By, Cy]);
-        } else {
-            drawGrid(10);
-            fitCamera([-5, 5], [-5, 5]);
-        }
     }
 
     // --- DISPLAY LOGIC ---
     function displayResults(result) {
-        const output = document.getElementById('resultOutput');
+        const area = document.getElementById('resultsArea');
+        const sol2Card = document.getElementById('solution2');
+        const stepsDiv = document.getElementById('stepsOutput');
+        
+        area.style.display = 'flex';
+        area.style.flexDirection = 'column';
+        area.style.gap = '25px';
+
+        stepsDiv.innerHTML = '';
+        sol2Card.style.display = 'none';
+
         if (!result.valid) {
-            output.innerHTML = `<p style="color:#ff4d4d; font-weight:bold;">${result.info || "No Solution"}</p>`;
-            if (window.MathJax) MathJax.typesetPromise();
-            return;
+            document.getElementById('resHeader1').innerText = "No Solution";
+            document.getElementById('resHeader1').style.color = "var(--error-color)";
+            document.getElementById('resGrid1').innerHTML = `<p style="grid-column: span 2; color: #666;">${result.info || "Impossible Triangle"}</p>`;
+        } else {
+            // Solution 1
+            document.getElementById('resHeader1').innerText = result.info || "Solution Found";
+            document.getElementById('resHeader1').style.color = "var(--success-color)";
+            fillGrid('resGrid1', result.triangles[0]);
+
+            // Solution 2 (SSA only)
+            if (result.triangles.length > 1) {
+                sol2Card.style.display = 'block';
+                fillGrid('resGrid2', result.triangles[1]);
+            }
         }
 
-        let html = `<div class="results-header">${result.info || "Solution Found"}</div>`;
-        result.triangles.forEach((t, i) => {
-            const label = result.triangles.length > 1 ? `Triangle ${i+1}` : `Properties`;
-            html += `
-            <div class="triangle-solution">
-                <div style="font-weight:bold; margin-bottom:10px; color:#ddd;">${label}</div>
-                <div class="result-grid">
-                    <div class="result-item">Angle $A = ${t.A.toFixed(3)}^\\circ$</div>
-                    <div class="result-item highlight">Side $a = ${t.a.toFixed(3)}$</div>
-                    <div class="result-item">Angle $B = ${t.B.toFixed(3)}^\\circ$</div>
-                    <div class="result-item highlight">Side $b = ${t.b.toFixed(3)}$</div>
-                    <div class="result-item">Angle $C = ${t.C.toFixed(3)}^\\circ$</div>
-                    <div class="result-item highlight">Side $c = ${t.c.toFixed(3)}$</div>
+        // Render Steps
+        if(result.steps) {
+            result.steps.forEach(step => {
+                const block = document.createElement('div');
+                block.className = 'step-block';
+                block.innerHTML = `
+                    <div class="step-title">${step.title}</div>
+                    <div class="math-block">${step.math}</div>
+                `;
+                stepsDiv.appendChild(block);
+            });
+        }
 
-                </div>
-            </div>`;
-        });
-        output.innerHTML = html;
         if (window.MathJax) MathJax.typesetPromise();
     }
 
-    // --- SOLVER ALGOS ---
-    function solveSSA(A, b, a) {
-        const h = b * Math.sin(toRad(A));
-        if (A >= 180) return { valid: false, info: "Angle A must be < 180°" };
-        if (A < 90) {
-            if (a < h - 0.0001) return { valid: false, info: `No Solution (Side a too short, min: ${h.toFixed(3)})` };
-            if (Math.abs(a - h) < 0.0001) {
-                const c = Math.sqrt(b*b - h*h);
-                return { valid: true, triangles: [{ A, B: toDeg(Math.asin(h/a)), C: 90, a, b, c }], info: "1 Solution (Right Triangle)" };
-            }
-            if (a >= b) {
-                const B = toDeg(Math.asin((b * Math.sin(toRad(A))) / a));
-                const C = 180 - A - B;
-                const c = (a * Math.sin(toRad(C))) / Math.sin(toRad(A));
-                return { valid: true, triangles: [{ A, B, C, a, b, c }], info: "1 Solution ($a \\ge b$)" };
-            }
-            // Ambiguous
-            const B1 = toDeg(Math.asin((b * Math.sin(toRad(A))) / a));
-            const C1 = 180 - A - B1;
-            const c1 = (a * Math.sin(toRad(C1))) / Math.sin(toRad(A));
-            const B2 = 180 - B1;
-            const C2 = 180 - A - B2;
-            const c2 = (a * Math.sin(toRad(C2))) / Math.sin(toRad(A));
-            return { valid: true, triangles: [{ A, B: B1, C: C1, a, b, c: c1 }, { A, B: B2, C: C2, a, b, c: c2 }], info: "2 Solutions (Ambiguous Case)" };
-        } else {
-            if (a <= b) return { valid: false, info: "No Solution ($a \\le b$ with obtuse angle)" };
-            const B = toDeg(Math.asin((b * Math.sin(toRad(A))) / a));
-            const C = 180 - A - B;
-            const c = Math.sqrt(a*a + b*b - 2*a*b*Math.cos(toRad(C)));
-            return { valid: true, triangles: [{ A, B, C, a, b, c }], info: "1 Solution (Obtuse)" };
-        }
+    function fillGrid(elementId, t) {
+        const el = document.getElementById(elementId);
+        el.innerHTML = `
+            <div class="result-item"><span class="result-label">Angle A</span> <span class="result-value">${t.A.toFixed(3)}°</span></div>
+            <div class="result-item highlight"><span class="result-label">Side a</span> <span class="result-value">${t.a.toFixed(3)}</span></div>
+            <div class="result-item"><span class="result-label">Angle B</span> <span class="result-value">${t.B.toFixed(3)}°</span></div>
+            <div class="result-item highlight"><span class="result-label">Side b</span> <span class="result-value">${t.b.toFixed(3)}</span></div>
+            <div class="result-item"><span class="result-label">Angle C</span> <span class="result-value">${t.C.toFixed(3)}°</span></div>
+            <div class="result-item highlight"><span class="result-label">Side c</span> <span class="result-value">${t.c.toFixed(3)}</span></div>
+            <div class="result-item" style="grid-column: span 2; justify-content:center; background:none; border:none; border-top: 1px dashed #ccc; border-radius: 0; padding-top: 20px; margin-top: 5px;">
+                <small style="color:#666; font-size: 0.9rem;">Area ≈ ${t.area.toFixed(3)} &nbsp;|&nbsp; Perimeter ≈ ${t.perim.toFixed(3)}</small>
+            </div>
+        `;
+    }
+
+    // --- SOLVER ALGORITHMS ---
+    function addProps(t) {
+        t.perim = t.a + t.b + t.c;
+        const s = t.perim / 2;
+        t.area = Math.sqrt(s * (s - t.a) * (s - t.b) * (s - t.c));
+        return t;
     }
 
     function solveSAS(b, A, c) {
         const a = Math.sqrt(b*b + c*c - 2*b*c*Math.cos(toRad(A)));
         const B = toDeg(Math.acos((a*a + c*c - b*b)/(2*a*c)));
-        return { valid: true, triangles: [{ a, b, c, A, B, C: 180-A-B }], info: "Unique Solution (SAS)" };
+        const C = 180 - A - B;
+        
+        const steps = [
+            {
+                title: "1. Find Side a (Law of Cosines)",
+                math: `
+                $$ a^2 = b^2 + c^2 - 2bc \\cos(A) $$
+                $$ a = \\sqrt{ ${b}^2 + ${c}^2 - 2(${b})(${c}) \\cos(${A}^\\circ) } $$
+                $$ a \\approx ${fmt(a)} $$`
+            },
+            {
+                title: "2. Find Angle B (Law of Cosines)",
+                math: `
+                $$ \\cos(B) = \\frac{a^2 + c^2 - b^2}{2ac} $$
+                $$ B = \\cos^{-1}\\left( \\frac{${fmt(a)}^2 + ${c}^2 - ${b}^2}{2(${fmt(a)})(${c})} \\right) $$
+                $$ B \\approx ${fmt(B)}^\\circ $$`
+            },
+            {
+                title: "3. Find Angle C (Angle Sum)",
+                math: `
+                $$ C = 180^\\circ - A - B $$
+                $$ C = 180^\\circ - ${A}^\\circ - ${fmt(B)}^\\circ \\approx ${fmt(C)}^\\circ $$`
+            }
+        ];
+        
+        return { valid: true, triangles: [addProps({a,b,c,A,B,C})], steps: steps };
     }
+
     function solveASA(A, c, B) {
         const C = 180 - A - B;
-        if (C <= 0) return { valid: false, info: "Sum of angles > 180" };
-        const a = c*Math.sin(toRad(A))/Math.sin(toRad(C));
-        const b = c*Math.sin(toRad(B))/Math.sin(toRad(C));
-        return { valid: true, triangles: [{ a, b, c, A, B, C }], info: "Unique Solution (ASA)" };
+        if (C <= 0) return { valid: false, info: "Sum of angles ≥ 180°" };
+
+        const a = c * Math.sin(toRad(A)) / Math.sin(toRad(C));
+        const b = c * Math.sin(toRad(B)) / Math.sin(toRad(C));
+
+        const steps = [
+            {
+                title: "1. Find Angle C",
+                math: `$$ C = 180^\\circ - A - B = 180 - ${A} - ${B} = ${fmt(C)}^\\circ $$`
+            },
+            {
+                title: "2. Find Side a (Law of Sines)",
+                math: `
+                $$ \\frac{a}{\\sin A} = \\frac{c}{\\sin C} \\Rightarrow a = \\frac{c \\sin A}{\\sin C} $$
+                $$ a = \\frac{${c} \\sin(${A}^\\circ)}{\\sin(${fmt(C)}^\\circ)} \\approx ${fmt(a)} $$`
+            },
+            {
+                title: "3. Find Side b (Law of Sines)",
+                math: `
+                $$ b = \\frac{c \\sin B}{\\sin C} = \\frac{${c} \\sin(${B}^\\circ)}{\\sin(${fmt(C)}^\\circ)} \\approx ${fmt(b)} $$`
+            }
+        ];
+
+        return { valid: true, triangles: [addProps({a,b,c,A,B,C})], steps: steps };
     }
+
     function solveAAS(A, B, a) {
         const C = 180 - A - B;
-        if (C <= 0) return { valid: false, info: "Sum of angles > 180" };
-        const b = a*Math.sin(toRad(B))/Math.sin(toRad(A));
-        const c = a*Math.sin(toRad(C))/Math.sin(toRad(A));
-        return { valid: true, triangles: [{ a, b, c, A, B, C }], info: "Unique Solution (AAS)" };
+        if (C <= 0) return { valid: false, info: "Sum of angles ≥ 180°" };
+
+        const b = a * Math.sin(toRad(B)) / Math.sin(toRad(A));
+        const c = a * Math.sin(toRad(C)) / Math.sin(toRad(A));
+
+        const steps = [
+            {
+                title: "1. Find Angle C",
+                math: `$$ C = 180^\\circ - A - B = 180 - ${A} - ${B} = ${fmt(C)}^\\circ $$`
+            },
+            {
+                title: "2. Find Side b (Law of Sines)",
+                math: `
+                $$ \\frac{b}{\\sin B} = \\frac{a}{\\sin A} \\Rightarrow b = \\frac{a \\sin B}{\\sin A} $$
+                $$ b = \\frac{${a} \\sin(${B}^\\circ)}{\\sin(${A}^\\circ)} \\approx ${fmt(b)} $$`
+            },
+            {
+                title: "3. Find Side c (Law of Sines)",
+                math: `
+                $$ c = \\frac{a \\sin C}{\\sin A} = \\frac{${a} \\sin(${fmt(C)}^\\circ)}{\\sin(${A}^\\circ)} \\approx ${fmt(c)} $$`
+            }
+        ];
+
+        return { valid: true, triangles: [addProps({a,b,c,A,B,C})], steps: steps };
     }
+
     function solveSSS(a, b, c) {
-        if (a+b<=c || a+c<=b || b+c<=a) return { valid: false, info: "Triangle Inequality Violation" };
+        if (a+b<=c || a+c<=b || b+c<=a) return { valid: false, info: "Invalid Triangle (Triangle Inequality)" };
+
         const A = toDeg(Math.acos((b*b + c*c - a*a)/(2*b*c)));
         const B = toDeg(Math.acos((a*a + c*c - b*b)/(2*a*c)));
-        return { valid: true, triangles: [{ a, b, c, A, B, C: 180-A-B }], info: "Unique Solution (SSS)" };
+        const C = 180 - A - B;
+
+        const steps = [
+            {
+                title: "1. Find Angle A (Law of Cosines)",
+                math: `
+                $$ \\cos A = \\frac{b^2 + c^2 - a^2}{2bc} $$
+                $$ A = \\cos^{-1}\\left( \\frac{${b}^2 + ${c}^2 - ${a}^2}{2(${b})(${c})} \\right) \\approx ${fmt(A)}^\\circ $$`
+            },
+            {
+                title: "2. Find Angle B (Law of Cosines)",
+                math: `
+                $$ \\cos B = \\frac{a^2 + c^2 - b^2}{2ac} $$
+                $$ B = \\cos^{-1}\\left( \\frac{${a}^2 + ${c}^2 - ${b}^2}{2(${a})(${c})} \\right) \\approx ${fmt(B)}^\\circ $$`
+            },
+            {
+                title: "3. Find Angle C",
+                math: `$$ C = 180^\\circ - ${fmt(A)}^\\circ - ${fmt(B)}^\\circ \\approx ${fmt(C)}^\\circ $$`
+            }
+        ];
+
+        return { valid: true, triangles: [addProps({a,b,c,A,B,C})], steps: steps };
     }
 
-    // --- VISUALIZATION HELPERS ---
-
-    /**
-     * Creates a thick line using a Plane mesh.
-     * Standard WebGL lines are always 1px width on windows/chrome, so we use planes.
-     */
-    function createThickLine(x1, y1, x2, y2, color, thickness) {
-        const dx = x2 - x1;
-        const dy = y2 - y1;
-        const len = Math.sqrt(dx*dx + dy*dy);
-        const angle = Math.atan2(dy, dx);
+    function solveSSA(A, b, a) {
+        const h = b * Math.sin(toRad(A));
+        let steps = [];
         
-        const geometry = new THREE.PlaneGeometry(len, thickness);
-        const material = new THREE.MeshBasicMaterial({ color: color, side: THREE.DoubleSide });
-        const mesh = new THREE.Mesh(geometry, material);
-        
-        // Position at midpoint
-        mesh.position.set((x1 + x2) / 2, (y1 + y2) / 2, 0);
-        mesh.rotation.z = angle;
-        
-        return mesh;
-    }
+        steps.push({
+            title: "Check for Ambiguity",
+            math: `
+            $$ \\text{Height } h = b \\sin A = ${b} \\sin(${A}^\\circ) \\approx ${fmt(h)} $$
+            $$ \\text{Compare side } a (${a}) \\text{ with } h $$`
+        });
 
-    function createPoint(x, y, color, size) {
-        // CircleGeometry for point
-        const geometry = new THREE.CircleGeometry(size, 32);
-        const material = new THREE.MeshBasicMaterial({ color: color });
-        const mesh = new THREE.Mesh(geometry, material);
-        mesh.position.set(x, y, 0.05); // Slightly above lines (Z-fighting fix)
-        return mesh;
-    }
+        if (A >= 180) return { valid: false, info: "Angle A must be < 180°" };
 
-    function drawGrid(size) {
-        // Floor line
-        const floor = createThickLine(-10000, 0, 10000, 0, 0x444444, size * 0.02);
-        scene.add(floor);
-    }
+        if (A < 90) {
+            if (a < h - 0.0001) {
+                steps.push({ title: "Result", math: `$$ a < h \\implies \\text{No Solution (Side a is too short)} $$`});
+                return { valid: false, steps: steps, info: "No Solution" };
+            }
+            // 1 Solution
+            if (Math.abs(a - h) < 0.0001 || a >= b) {
+                const B = toDeg(Math.asin((b * Math.sin(toRad(A))) / a));
+                const C = 180 - A - B;
+                const c = (a * Math.sin(toRad(C))) / Math.sin(toRad(A));
+                
+                steps.push({
+                    title: "One Solution Case",
+                    math: `$$ \\text{Since } a \\ge b \\text{ (or } a=h \\text{), there is exactly 1 solution.} $$`
+                });
+                steps.push({
+                    title: "Solve Triangle 1",
+                    math: `
+                    $$ \\frac{\\sin B}{b} = \\frac{\\sin A}{a} \\implies \\sin B = \\frac{${b} \\sin ${A}^\\circ}{${a}} $$
+                    $$ B \\approx ${fmt(B)}^\\circ $$
+                    $$ C = 180 - A - B \\approx ${fmt(C)}^\\circ $$
+                    $$ c = \\frac{a \\sin C}{\\sin A} \\approx ${fmt(c)} $$`
+                });
 
-    function drawStaticTriangle(Ax, Ay, Bx, By, Cx, Cy, color, thick) {
-        // Vertices
-        const pointSize = thick * 2.5;
-        scene.add(createPoint(Ax, Ay, 0xffffff, pointSize));
-        scene.add(createPoint(Bx, By, 0xffffff, pointSize));
-        scene.add(createPoint(Cx, Cy, 0xffffff, pointSize));
+                return { valid: true, triangles: [addProps({A, B, C, a, b, c})], steps: steps };
+            }
 
-        // Edges
-        scene.add(createThickLine(Ax, Ay, Bx, By, color, thick));
-        scene.add(createThickLine(Bx, By, Cx, Cy, color, thick));
-        scene.add(createThickLine(Cx, Cy, Ax, Ay, color, thick));
-    }
+            // 2 Solutions (Ambiguous)
+            const B1 = toDeg(Math.asin((b * Math.sin(toRad(A))) / a));
+            const C1 = 180 - A - B1;
+            const c1 = (a * Math.sin(toRad(C1))) / Math.sin(toRad(A));
 
-    function visualizeSSA(A, b, a, result, thick) {
-        const Ax = 0, Ay = 0;
-        const Cx = b * Math.cos(toRad(A));
-        const Cy = b * Math.sin(toRad(A));
+            const B2 = 180 - B1;
+            const C2 = 180 - A - B2;
+            const c2 = (a * Math.sin(toRad(C2))) / Math.sin(toRad(A));
 
-        drawGrid(a);
-
-        // Draw Angle A side (Side b) - Fixed Given
-        scene.add(createThickLine(Ax, Ay, Cx, Cy, 0xffffff, thick)); // Bright White for Given Side
-        const pSize = thick * 2.5;
-        scene.add(createPoint(Ax, Ay, 0xffffff, pSize));
-        scene.add(createPoint(Cx, Cy, 0xffffff, pSize));
-
-        // Draw Arc Path for swinging side 'a'
-        const curve = new THREE.EllipseCurve(Cx, Cy, a, a, 0, 2*Math.PI);
-        const ptrs = curve.getPoints(100);
-        const geo = new THREE.BufferGeometry().setFromPoints(ptrs);
-        // Use simple line for path, but brighter and slightly transparent
-        const mat = new THREE.LineBasicMaterial({ color: 0xffaa00, transparent: true, opacity: 0.7 });
-        scene.add(new THREE.Line(geo, mat));
-
-        // If solutions exist, draw the triangles
-        if (result.valid && result.triangles) {
-            result.triangles.forEach(t => {
-                const Bx = t.c;
-                const By = 0;
-                scene.add(createPoint(Bx, By, 0x00f2ff, pSize));
-                // Solution Side (c) - on floor
-                scene.add(createThickLine(Ax, Ay, Bx, By, 0x00f2ff, thick));
-                // Solution Side (a) - connecting
-                scene.add(createThickLine(Cx, Cy, Bx, By, 0x00f2ff, thick));
+            steps.push({
+                title: "Ambiguous Case Found",
+                math: `$$ h < a < b \\implies \\text{Two valid Triangles exist.} $$`
             });
+            steps.push({
+                title: "Triangle 1 (Acute Angle B)",
+                math: `
+                $$ \\sin B_1 = \\frac{b \\sin A}{a} = \\frac{${b} \\sin ${A}}{${a}} $$
+                $$ B_1 \\approx ${fmt(B1)}^\\circ $$
+                $$ C_1 = 180 - ${A} - ${fmt(B1)} \\approx ${fmt(C1)}^\\circ $$
+                $$ c_1 = \\frac{a \\sin C_1}{\\sin A} \\approx ${fmt(c1)} $$`
+            });
+            steps.push({
+                title: "Triangle 2 (Obtuse Angle B)",
+                math: `
+                $$ B_2 = 180^\\circ - B_1 \\approx ${fmt(B2)}^\\circ $$
+                $$ C_2 = 180 - ${A} - ${fmt(B2)} \\approx ${fmt(C2)}^\\circ $$
+                $$ c_2 = \\frac{a \\sin C_2}{\\sin A} \\approx ${fmt(c2)} $$`
+            });
+
+            return { 
+                valid: true, 
+                triangles: [addProps({A, B:B1, C:C1, a, b, c:c1}), addProps({A, B:B2, C:C2, a, b, c:c2})], 
+                steps: steps, 
+                info: "2 Solutions (Ambiguous Case)" 
+            };
+        } else {
+            // Obtuse Angle A
+            if (a <= b) {
+                steps.push({ title: "Result", math: `$$ a \\le b \\text{ with Obtuse Angle A} \\implies \\text{No Solution} $$`});
+                return { valid: false, steps: steps, info: "No Solution" };
+            }
+            const B = toDeg(Math.asin((b * Math.sin(toRad(A))) / a));
+            const C = 180 - A - B;
+            const c = Math.sqrt(a*a + b*b - 2*a*b*Math.cos(toRad(C)));
+            
+            steps.push({
+                title: "Obtuse Case",
+                math: `
+                $$ a > b \\implies 1 \\text{ Solution} $$
+                $$ \\sin B = \\frac{b \\sin A}{a} \\implies B \\approx ${fmt(B)}^\\circ $$
+                $$ C = 180 - A - B \\approx ${fmt(C)}^\\circ $$
+                $$ c \\text{ via Law of Cosines} \\approx ${fmt(c)} $$`
+            });
+
+            return { valid: true, triangles: [addProps({ A, B, C, a, b, c })], steps: steps };
         }
-
-        // Setup Animation Data
-        ssaParams = { Cx, Cy, radius: a, thick: thick };
-        animateSSA = true;
-
-        // Fit Camera
-        let xVals = [Ax, Cx, Cx+a, Cx-a];
-        let yVals = [Ay, Cy, Cy+a, -2];
-        if (result.valid) result.triangles.forEach(t => xVals.push(t.c));
-        fitCamera(xVals, yVals);
     }
 
-    let pendulumMesh;
-    function updateSSAPendulum() {
-        if(pendulumMesh) scene.remove(pendulumMesh);
-        
-        const t = Date.now() * 0.001;
-        // Swing between -120 deg and -60 deg (approx)
-        const angle = -Math.PI/2 + Math.sin(t) * 0.8;
-
-        const endX = ssaParams.Cx + ssaParams.radius * Math.cos(angle);
-        const endY = ssaParams.Cy + ssaParams.radius * Math.sin(angle);
-
-        // Hot Pink swinging arm
-        pendulumMesh = createThickLine(ssaParams.Cx, ssaParams.Cy, endX, endY, 0xff007f, ssaParams.thick);
-        scene.add(pendulumMesh);
-    }
-
-    function fitCamera(xVals, yVals) {
-        const minX = Math.min(...xVals);
-        const maxX = Math.max(...xVals);
-        const minY = Math.min(...yVals);
-        const maxY = Math.max(...yVals);
-
-        const cx = (minX + maxX) / 2;
-        const cy = (minY + maxY) / 2;
-        const w = maxX - minX;
-        const h = maxY - minY;
-
-        const zoomPadding = 2.2; 
-        const size = Math.max(w, h) * zoomPadding;
-        
-        const aspect = container.clientWidth / container.clientHeight;
-        
-        camera.left = -size * aspect / 2;
-        camera.right = size * aspect / 2;
-        camera.top = size / 2;
-        camera.bottom = -size / 2;
-        
-        camera.position.set(cx, cy, 20);
-        camera.updateProjectionMatrix();
-    }
 </script>
 </body>
 </html>
