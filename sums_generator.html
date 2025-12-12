@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riemann Sums Dashboard</title>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #334155;
+            
+            /* Control Section Colors */
+            --left-stroke: #2563eb;
+            --right-stroke: #ef4444;
+            --trap-stroke: #16a34a;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+
+        h1 { 
+            text-align: center; 
+            margin-top: 0;
+            margin-bottom: 20px; 
+            flex-shrink: 0;
+        }
+
+        .container {
+            max-width: 1400px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 360px 1fr;
+            gap: 25px;
+            align-items: start;
+            height: calc(100% - 80px);
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* --- Scrollable Sidebar Logic --- */
+        .sidebar {
+            max-height: 100%; 
+            overflow-y: auto;
+            padding-right: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar::-webkit-scrollbar { width: 8px; }
+        .sidebar::-webkit-scrollbar-track { background: transparent; }
+        .sidebar::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+        .sidebar::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+        /* Chart Wrapper */
+        .chart-wrapper {
+            height: 100%;
+            min-height: 500px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 0;
+        }
+
+        #chart { width: 100%; flex-grow: 1; }
+
+        /* --- Input & Controls Styling --- */
+        .input-group { margin-bottom: 15px; }
+        .input-group label { display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 4px; color: #475569; }
+        .input-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            font-family: monospace;
+            box-sizing: border-box;
+        }
+        .divider { height: 1px; background: #e2e8f0; margin: 15px 0; border: none; }
+
+        .color-legend {
+            display: flex;
+            gap: 10px;
+            font-size: 0.8rem;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #f1f5f9;
+            border-radius: 8px;
+            justify-content: center;
+        }
+        .legend-item { display: flex; align-items: center; gap: 5px; }
+        .dot { width: 12px; height: 12px; border-radius: 3px; }
+        .dot-green { background: #22c55e; }
+        .dot-red { background: #ef4444; }
+        .dot-grey { background: #64748b; }
+
+        .method-section {
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+        .method-section:last-child { border-bottom: none; margin-bottom: 0; }
+
+        .method-title {
+            font-weight: 600;
+            margin-bottom: 8px;
+            display: block;
+            color: #1e293b;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .btn-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr auto;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+
+        button {
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.85rem;
+            border: 2px solid #e2e8f0;
+            background: white;
+            color: #475569;
+        }
+        button:hover { border-color: #cbd5e1; background: #f1f5f9; }
+        button:active { transform: translateY(1px); }
+
+        .btn-step-left:hover { border-color: var(--left-stroke); color: var(--left-stroke); }
+        .btn-step-right:hover { border-color: var(--right-stroke); color: var(--right-stroke); }
+        .btn-step-trap:hover { border-color: var(--trap-stroke); color: var(--trap-stroke); }
+        
+        /* --- Clear Button Styling --- */
+        .btn-clear { 
+            color: #cbd5e1; /* Default Grey/Inactive */
+            border-color: #f1f5f9;
+            transition: all 0.3s;
+        }
+        /* Active State (When shapes are visible) */
+        .btn-clear.active {
+            color: #ef4444;
+            border-color: #ef4444;
+            background-color: #fef2f2;
+        }
+        .btn-clear.active:hover {
+            background-color: #ef4444;
+            color: white;
+        }
+
+        .btn-reveal {
+            width: 100%;
+            text-align: center;
+            background: #f8fafc;
+            border-style: dashed;
+        }
+        .btn-reveal.revealed {
+            background: #0f172a;
+            color: white;
+            border-style: solid;
+            border-color: #0f172a;
+        }
+
+        .btn-action {
+            width: 100%;
+            background-color: #0f172a;
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 0.95rem;
+            margin-top: 5px;
+        }
+        .btn-action:hover { background-color: #334155; }
+        .btn-secondary { background-color: #475569; }
+
+        table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        th, td { padding: 8px; text-align: center; border-bottom: 1px solid #e2e8f0; }
+        th { background-color: #f1f5f9; }
+
+        @media (max-width: 800px) { 
+            body { height: auto; }
+            .container { grid-template-columns: 1fr; height: auto; }
+            .sidebar { max-height: none; overflow-y: visible; padding-right: 0; }
+            .chart-wrapper { height: 500px; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Riemann Sums Calculator</h1>
+
+    <div class="container">
+        
+        <!-- Left Pane: Scrollable Controls -->
+        <div class="sidebar">
+            <!-- Data Entry Card -->
+            <div class="card">
+                <h3>Data Source</h3>
+                
+                <div class="input-group">
+                    <label>X Values (separated by comma)</label>
+                    <input type="text" id="inp-x" placeholder="e.g. 0, 2, 5, 8, 10" value="0, 2, 5, 8, 10">
+                </div>
+                <div class="input-group">
+                    <label>Y Values (separated by comma)</label>
+                    <input type="text" id="inp-y" placeholder="e.g. 4, -2, 6, 8, -3" value="4, -2, 6, 8, -3">
+                </div>
+                <button class="btn-action" onclick="useCustomData()">Plot Custom Data</button>
+                
+                <hr class="divider">
+                
+                <button class="btn-action btn-secondary" onclick="generateRandomData()">🎲 Randomize Data</button>
+            </div>
+
+            <!-- Controls Card -->
+            <div class="card">
+                <div class="color-legend">
+                    <div class="legend-item"><div class="dot dot-green"></div><span>Above</span></div>
+                    <div class="legend-item"><div class="dot dot-red"></div><span>Below</span></div>
+                    <div class="legend-item"><div class="dot dot-grey"></div><span>Crosses</span></div>
+                </div>
+
+                <!-- Left -->
+                <div class="method-section">
+                    <span class="method-title">
+                        Left Sum
+                        <small style="color:#64748b; font-weight:400">Left Endpoint</small>
+                    </span>
+                    <div class="btn-row">
+                        <button class="btn-step-left" onclick="stepGraph('left')">+ Step</button>
+                        <button onclick="showAll('left')">Show All</button>
+                        <button class="btn-clear" id="btn-clear-left" onclick="clearGraph('left')">✕</button>
+                    </div>
+                    <button class="btn-reveal" id="btn-rev-left" onclick="revealTotal('left')">
+                        Total: ???
+                    </button>
+                </div>
+
+                <!-- Right -->
+                <div class="method-section">
+                    <span class="method-title">
+                        Right Sum
+                        <small style="color:#64748b; font-weight:400">Right Endpoint</small>
+                    </span>
+                    <div class="btn-row">
+                        <button class="btn-step-right" onclick="stepGraph('right')">+ Step</button>
+                        <button onclick="showAll('right')">Show All</button>
+                        <button class="btn-clear" id="btn-clear-right" onclick="clearGraph('right')">✕</button>
+                    </div>
+                    <button class="btn-reveal" id="btn-rev-right" onclick="revealTotal('right')">
+                        Total: ???
+                    </button>
+                </div>
+
+                <!-- Trap -->
+                <div class="method-section">
+                    <span class="method-title">
+                        Trapezoidal
+                        <small style="color:#64748b; font-weight:400">Trapezoids</small>
+                    </span>
+                    <div class="btn-row">
+                        <button class="btn-step-trap" onclick="stepGraph('trap')">+ Step</button>
+                        <button onclick="showAll('trap')">Show All</button>
+                        <button class="btn-clear" id="btn-clear-trap" onclick="clearGraph('trap')">✕</button>
+                    </div>
+                    <button class="btn-reveal" id="btn-rev-trap" onclick="revealTotal('trap')">
+                        Total: ???
+                    </button>
+                </div>
+            </div>
+
+            <!-- Table Card -->
+            <div class="card">
+                <h3>Data Points</h3>
+                <div style="max-height: 250px; overflow-y: auto;">
+                    <table id="data-table">
+                        <thead><tr><th>i</th><th>x</th><th>y</th></tr></thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Pane: Chart (Sticky/Fixed) -->
+        <div class="card chart-wrapper">
+            <div id="chart"></div>
+        </div>
+    </div>
+
+    <script>
+        // --- Data & State ---
+        let xData = [];
+        let yData = [];
+        let numIntervals = 0;
+        
+        let totals = { left: 0, right: 0, trap: 0 };
+        let showTotal = { left: false, right: false, trap: false };
+        let counts = { left: 0, right: 0, trap: 0 };
+
+        const palette = {
+            pos: { fill: 'rgba(34, 197, 94, 0.4)', line: '#16a34a' },
+            neg: { fill: 'rgba(239, 68, 68, 0.4)', line: '#ef4444' },
+            mix: { fill: 'rgba(100, 116, 139, 0.4)', line: '#64748b' }
+        };
+
+        // --- Data Logic ---
+        function generateRandomData() {
+            let x = [0];
+            let y = [];
+            let n = 7; 
+            for (let i = 0; i < n; i++) {
+                if (i > 0) {
+                    let step = Math.floor(Math.random() * 3) + 2; 
+                    x.push(x[i-1] + step);
+                }
+                let val = Math.floor(Math.random() * 26) - 10;
+                y.push(val); 
+            }
+            
+            document.getElementById('inp-x').value = x.join(', ');
+            document.getElementById('inp-y').value = y.join(', ');
+
+            processData(x, y);
+        }
+
+        function useCustomData() {
+            const xStr = document.getElementById('inp-x').value;
+            const yStr = document.getElementById('inp-y').value;
+
+            const parseArr = (str) => str.split(',').map(s => parseFloat(s.trim())).filter(n => !isNaN(n));
+            const x = parseArr(xStr);
+            const y = parseArr(yStr);
+
+            if (x.length !== y.length) {
+                alert(`Mismatch: ${x.length} X-values and ${y.length} Y-values.`);
+                return;
+            }
+            if (x.length < 2) {
+                alert("Need at least 2 points.");
+                return;
+            }
+            for(let i=0; i<x.length-1; i++){
+                if(x[i+1] <= x[i]) {
+                    alert("X values must be strictly increasing.");
+                    return;
+                }
+            }
+
+            processData(x, y);
+        }
+
+        function processData(x, y) {
+            xData = x;
+            yData = y;
+            numIntervals = xData.length - 1;
+
+            totals.left = 0; totals.right = 0; totals.trap = 0;
+            for(let i=0; i < numIntervals; i++) {
+                let dx = xData[i+1] - xData[i];
+                let yL = yData[i];
+                let yR = yData[i+1];
+                
+                totals.left += yL * dx;
+                totals.right += yR * dx;
+                totals.trap += 0.5 * (yL + yR) * dx;
+            }
+
+            // Reset UI
+            counts = { left: 0, right: 0, trap: 0 };
+            showTotal = { left: false, right: false, trap: false };
+            
+            updateUI();
+            renderTable();
+            drawChart();
+        }
+
+        // --- Controls ---
+        function stepGraph(type) {
+            if (counts[type] < numIntervals) {
+                counts[type]++;
+                updateUI(); // Added to trigger X button highlight
+                drawChart();
+            }
+        }
+        function showAll(type) {
+            counts[type] = numIntervals;
+            updateUI(); // Added to trigger X button highlight
+            drawChart();
+        }
+        function clearGraph(type) {
+            counts[type] = 0;
+            updateUI(); // Added to trigger X button dim
+            drawChart();
+        }
+        function revealTotal(type) {
+            showTotal[type] = !showTotal[type];
+            updateUI();
+            drawChart();
+        }
+
+        function updateUI() {
+            ['left', 'right', 'trap'].forEach(type => {
+                // Update Reveal Button
+                const btnRev = document.getElementById(`btn-rev-${type}`);
+                if (showTotal[type]) {
+                    btnRev.textContent = totals[type].toFixed(2);
+                    btnRev.classList.add('revealed');
+                } else {
+                    btnRev.textContent = "Total: ???";
+                    btnRev.classList.remove('revealed');
+                }
+
+                // Update Clear Button (X) Highlight
+                const btnClear = document.getElementById(`btn-clear-${type}`);
+                if (counts[type] > 0) {
+                    btnClear.classList.add('active');
+                } else {
+                    btnClear.classList.remove('active');
+                }
+            });
+        }
+
+        function renderTable() {
+            const tbody = document.querySelector('#data-table tbody');
+            tbody.innerHTML = '';
+            for(let i=0; i<xData.length; i++) {
+                tbody.innerHTML += `<tr><td>${i}</td><td>${xData[i]}</td><td>${yData[i]}</td></tr>`;
+            }
+        }
+
+        // --- Plotting ---
+        function drawChart() {
+            const shapes = [];
+            const annotations = [];
+
+            const addShape = (type, i, x0, x1, y0, y1, areaVal) => {
+                let style;
+                if (type === 'left') {
+                    style = (y0 >= 0) ? palette.pos : palette.neg;
+                } else if (type === 'right') {
+                    style = (y1 >= 0) ? palette.pos : palette.neg;
+                } else if (type === 'trap') {
+                    if (y0 >= 0 && y1 >= 0) style = palette.pos;
+                    else if (y0 <= 0 && y1 <= 0) style = palette.neg;
+                    else style = palette.mix;
+                }
+
+                let shapeObj = {
+                    fillcolor: style.fill,
+                    line: { color: style.line, width: 2 }
+                };
+
+                if (type === 'trap') {
+                    shapeObj.type = 'path';
+                    shapeObj.path = `M ${x0} 0 L ${x0} ${y0} L ${x1} ${y1} L ${x1} 0 Z`;
+                } else {
+                    shapeObj.type = 'rect';
+                    shapeObj.x0 = x0; 
+                    shapeObj.x1 = x1;
+                    shapeObj.y0 = 0;
+                    shapeObj.y1 = (type === 'left') ? y0 : y1;
+                }
+                shapes.push(shapeObj);
+
+                if (showTotal[type]) {
+                    let midX = (x0 + x1) / 2;
+                    let midY;
+                    if(type === 'left') midY = y0 / 2;
+                    else if(type === 'right') midY = y1 / 2;
+                    else midY = (y0 + y1) / 2; 
+
+                    annotations.push({
+                        x: midX,
+                        y: midY,
+                        text: areaVal % 1 === 0 ? areaVal : areaVal.toFixed(1),
+                        showarrow: false,
+                        font: { size: 12, color: style.line, weight: 'bold' },
+                        bgcolor: 'rgba(255,255,255,0.85)',
+                        borderpad: 2
+                    });
+                }
+            };
+
+            for (let i = 0; i < numIntervals; i++) {
+                let x0 = xData[i];
+                let x1 = xData[i+1];
+                let y0 = yData[i];
+                let y1 = yData[i+1];
+                let dx = x1 - x0;
+
+                if (i < counts.left) addShape('left', i, x0, x1, y0, y1, y0 * dx);
+                if (i < counts.right) addShape('right', i, x0, x1, y0, y1, y1 * dx);
+                if (i < counts.trap) addShape('trap', i, x0, x1, y0, y1, 0.5 * (y0+y1) * dx);
+            }
+
+            const trace = {
+                x: xData,
+                y: yData,
+                mode: 'markers+text',
+                text: yData.map(String),
+                textposition: 'top center',
+                name: 'Data',
+                marker: { color: '#0f172a', size: 10 }
+            };
+
+            const yMax = Math.max(...yData);
+            const yMin = Math.min(...yData);
+            const rangeMax = Math.max(yMax + 3, 5);
+            const rangeMin = Math.min(yMin - 3, -5);
+
+            const layout = {
+                title: false,
+                xaxis: { 
+                    title: 'x', 
+                    zeroline: true, 
+                    zerolinecolor: '#000', 
+                    zerolinewidth: 2,
+                    dtick: 1 
+                },
+                yaxis: { 
+                    title: 'y', 
+                    range: [rangeMin, rangeMax],
+                    zeroline: true,
+                    zerolinecolor: '#000',
+                    zerolinewidth: 2
+                },
+                shapes: shapes,
+                annotations: annotations,
+                hovermode: 'closest',
+                showlegend: false,
+                margin: { t: 30, r: 20, l: 40, b: 40 }
+            };
+
+            Plotly.newPlot('chart', [trace], layout, { responsive: true, displayModeBar: false });
+        }
+
+        // Init
+        useCustomData();
+
+    </script>
+</body>
+</html>
