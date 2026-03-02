@@ -198,7 +198,7 @@ Density problems. If you're a teacher pressed for time you could probably skip t
 * [Here's a link](https://drive.google.com/drive/folders/0B11F_FpivrRiV0wzaW1TdHA1Q1U?resourcekey=0-b6PbFumk3Sc0GHjbIy3iCQ&usp=sharing) to some Problem Sets for these notes.
 
 ## Notes 23
-Slope fields; what to aim for; reading slope fields (what to look for); types of solutions and general trends; how to do them on your calculator.  [Here's a link](https://www.geogebra.org/classic/dy38wfdn) to an online version on GeoGebra.org of a sketch that creates slopefields to play around with. See the playlist for videos on creating slope fields on the TI-Nspire (CAS/non-CAS...doesn't matter) and how to deal with slope field matching problems.
+Slope fields; what to aim for; reading slope fields (what to look for); types of solutions and general trends; how to do them on your calculator.  [Here's a link](https://www.geogebra.org/classic/dy38wfdn) to an online version on GeoGebra.org of a sketch that creates slopefields to play around with. [Here's an even better one.](https://turksmathstuff.com/slopefields/) See the playlist for videos on creating slope fields on the TI-Nspire (CAS/non-CAS...doesn't matter) and how to deal with slope field matching problems.
 
 * [Here's a link](https://drive.google.com/file/d/0B11F_FpivrRiMW80NVdJNVZfd3M/edit?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizS9qhSVBMpncRX0FKYc6JK) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
