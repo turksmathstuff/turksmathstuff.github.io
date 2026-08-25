@@ -92,9 +92,9 @@ Function analysis using derivatives (increasing/decreasing/concavity/First and S
 * [Daily Problem Set Videos 039-042](https://www.youtube.com/playlist?list=PL6iwkLfBjZixpMIxRGIO2j3Ku8ZSW5wf9)
 
 ## Notes 11
-These notes do not exist...but when they do, they'll be about optimization.
+A short set of notes about some additional optimization problems.
 
-* [Here's a link]() to the notes.
+* [Here's a link](https://drive.google.com/file/d/10HP8DKUJW1YLEZG3RvefWRb-I9YQDSFR) to the notes.
 * [Here's a link]() to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizBueOShsLJUFyxc6oTQGjk) to a YouTube playlist of additional videos about these notes.
 * [Here's a link](https://drive.google.com/drive/folders/0B11F_FpivrRiMDZhcjdub0pmbmc?resourcekey=0-6B1EwWDGYIm6toOUDvJXyg&usp=sharing) to some Problem Sets for these notes.
