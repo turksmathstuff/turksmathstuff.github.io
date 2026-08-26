@@ -56,9 +56,9 @@ Implicit Differentiation; common mistakes; second derivative of implicitly defin
 * [Daily Problem Set Videos 022-025](https://www.youtube.com/playlist?list=PL6iwkLfBjZixpMIxRGIO2j3Ku8ZSW5wf9)
 
 ## Notes 07
-Print all three! These notes are about related rates.  We cover all the classics: falling ladders, cones, etc.  Additionally the [mastermathmentor.com notes (16)](https://mastermathmentor.com/calc/ABcalc.ashx) are really good and there are a lot of old FRQs that have great problems.  The ones we do: 1970AB4, 1972AB5, 1976AB4, 1977AB6, 1982 AB4, 1984 AB5, 1985 AB5, 1987 AB5, 1988 BC3, 1990 AB4, 1991 AB6, 1994 AB5, 1995 AB5.  Notes 07a is the problems, which you have to be in my class to see, but are freely available on the internet, as well, if you google around.  Notes 07b is space for doing the FRQs.  Also...the shadow problem!  Make sure you know and understand that problem!
+These notes are about related rates.  We cover all the classics: falling ladders, cones, etc.  Additionally the [mastermathmentor.com notes (16)](https://mastermathmentor.com/calc/ABcalc.ashx) are really good and there are a lot of old FRQs that have great problems.  (I've incorporated them into the notes now.)  The ones we do: 1970AB4, 1972AB5, 1976AB4, 1977AB6, 1982 AB4, 1984 AB5, 1985 AB5, 1987 AB5, 1988 BC3, 1990 AB4, 1991 AB6, 1994 AB5, 1995 AB5.  Also...the shadow problem!  Make sure you know and understand that problem!
 
-* Here's a link to [Notes 7](https://drive.google.com/file/d/1jaA3FfQ_98n1nrWEZ6uzCT4c6w_9vO7z/view?usp=sharing), to [Notes 7a](https://drive.google.com/file/d/0B11F_FpivrRiOElxN19XTHc3eVE/view?usp=sharing), and [Notes 7b](https://drive.google.com/file/d/0B11F_FpivrRieF9yeXlRSGVDejg/view?usp=sharing).
+* [Here's a link](https://drive.google.com/file/d/1jaA3FfQ_98n1nrWEZ6uzCT4c6w_9vO7z/view?usp=sharing) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiwD6GWDTpdLOITXiU5uvoVM) to a YouTube playlist of me working through the notes.  Complete solutions and explanations!
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZiyoeAGOc234mGdpT9sD_rjV) to a YouTube playlist of additional videos about these notes.
 * [Here's a link]() to the Problem Sets for these notes.
