@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<title>Level Rating Cards</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+/* Layout: editor column (card settings, levels, attributes, topics) beside a sticky live preview; stacks on phones. */
+:root {
+  --bg: #F4F6F9;
+  --panel: #FFFFFF;
+  --fg: #18202E;
+  --muted: #5B6577;
+  --line: #DCE1E9;
+  --accent: #2B4C7E;
+  --accent-fg: #FFFFFF;
+  --field: #FFFFFF;
+  --danger: #B42318;
+  --checker: #E9ECF1;
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --body: "Atkinson Hyperlegible", "Helvetica Neue", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11151C; --panel: #1A202A; --fg: #E6EAF1; --muted: #9AA4B5; --line: #2D3542;
+    --accent: #8FB3E8; --accent-fg: #0E1520; --field: #141922; --danger: #F97066; --checker: #252C37;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11151C; --panel: #1A202A; --fg: #E6EAF1; --muted: #9AA4B5; --line: #2D3542;
+  --accent: #8FB3E8; --accent-fg: #0E1520; --field: #141922; --danger: #F97066; --checker: #252C37;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.45; padding: 24px 16px 48px; }
+.wrap { max-width: 1480px; margin: 0 auto; }
+header.top { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 24px; margin-bottom: 20px; }
+h1 { font-family: var(--display); font-weight: 800; font-size: 28px; letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
+.lede { color: var(--muted); margin: 4px 0 0; max-width: 62ch; }
+.layout { display: grid; grid-template-columns: minmax(0, 440px) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 900px) { .layout { grid-template-columns: minmax(0, 1fr); } .preview-col { order: -1; } }
+.editor { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+section.box { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.box h2 { font-family: var(--display); font-weight: 800; font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; margin: 0; color: var(--muted); display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+label.f { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--muted); }
+input[type="text"], input[type="number"], select {
+  font: inherit; font-size: 15px; color: var(--fg); background: var(--field); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; width: 100%; min-width: 0;
+}
+input:focus-visible, select:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+input[type="number"] { font-variant-numeric: tabular-nums; text-align: right; }
+input[type="color"] { width: 36px; height: 34px; padding: 2px; border: 1px solid var(--line); border-radius: 6px; background: var(--field); flex: none; cursor: pointer; }
+.row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.list { display: flex; flex-direction: column; gap: 6px; }
+.item { display: flex; gap: 6px; align-items: center; }
+.item input[type="text"] { flex: 1; }
+.item .max { width: 76px; flex: none; }
+.item .maxlab { font-size: 12px; color: var(--muted); flex: none; }
+button { font: inherit; cursor: pointer; border-radius: 6px; }
+.btn { background: var(--accent); color: var(--accent-fg); border: 1px solid var(--accent); padding: 8px 14px; font-weight: 700; }
+.btn.ghost { background: transparent; color: var(--accent); }
+.btn:disabled { opacity: 0.5; cursor: default; }
+.icon { background: transparent; border: 1px solid var(--line); color: var(--muted); width: 32px; height: 32px; flex: none; display: grid; place-items: center; font-size: 16px; line-height: 1; padding: 0; }
+.icon:hover { color: var(--fg); border-color: var(--muted); }
+.icon.del:hover { color: var(--danger); border-color: var(--danger); }
+.add { align-self: flex-start; background: transparent; border: 1px dashed var(--line); color: var(--accent); padding: 6px 12px; font-weight: 700; font-size: 14px; }
+.add:hover { border-color: var(--accent); }
+.check { display: flex; align-items: center; gap: 8px; font-size: 14px; }
+.topic { border: 1px solid var(--line); border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 8px; }
+.topic-head { display: flex; gap: 6px; align-items: center; }
+.topic-head input { flex: 1; font-weight: 700; }
+.grid-scroll { overflow-x: auto; }
+table.vals { border-collapse: collapse; font-size: 12px; }
+table.vals th { color: var(--muted); font-weight: 700; text-align: center; padding: 2px 3px 4px; vertical-align: bottom; max-width: 70px; line-height: 1.15; }
+table.vals th.lv { text-align: left; white-space: nowrap; padding-right: 8px; font-size: 13px; }
+table.vals th.lv span { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
+table.vals td { padding: 2px 3px; }
+table.vals input { width: 60px; padding: 4px 6px; font-size: 14px; }
+.small { font-size: 12px; color: var(--muted); }
+.textbtn { background: none; border: none; color: var(--accent); font-weight: 700; font-size: 13px; padding: 2px 0; }
+.preview-col { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.stage { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px; }
+.stage .canvas { border-radius: 4px; overflow: hidden; background-color: var(--checker);
+  background-image: linear-gradient(45deg, var(--panel) 25%, transparent 25%, transparent 75%, var(--panel) 75%), linear-gradient(45deg, var(--panel) 25%, transparent 25%, transparent 75%, var(--panel) 75%);
+  background-size: 16px 16px; background-position: 0 0, 8px 8px; }
+.stage svg { display: block; width: 100%; height: auto; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.status { font-size: 13px; color: var(--muted); min-height: 1.2em; }
+textarea#svgcode { width: 100%; min-height: 120px; font: 12px/1.4 ui-monospace, Menlo, monospace; color: var(--fg); background: var(--field); border: 1px solid var(--line); border-radius: 6px; padding: 8px; }
+@media (prefers-reduced-motion: no-preference) { .btn, .icon, .add { transition: border-color .12s, color .12s, background .12s; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Level Rating Cards</h1>
+      <p class="lede">Rate one topic across course levels, Madden style. Edit on the left, then download the card as an SVG or PNG for your slides.</p>
+    </div>
+    <button class="btn ghost" id="resetBtn" type="button">Load example</button>
+  </header>
+
+  <div class="layout">
+    <div class="editor">
+      <section class="box">
+        <h2>Card</h2>
+        <label class="f">Title <input type="text" id="f-title"></label>
+        <label class="f">Subtitle <input type="text" id="f-subtitle"></label>
+        <label class="f">Footnote <input type="text" id="f-footnote"></label>
+        <div class="row2">
+          <label class="f">Background
+            <select id="f-bg"><option value="white">White</option><option value="transparent">Transparent</option></select>
+          </label>
+          <label class="f">Bar color
+            <select id="f-barmode"><option value="level">By level</option><option value="tier">Rating tier</option></select>
+          </label>
+        </div>
+        <label class="check"><input type="checkbox" id="f-values"> Show numbers at the end of each bar</label>
+      </section>
+
+      <section class="box">
+        <h2>Levels <span class="small">top row first</span></h2>
+        <div class="list" id="levels"></div>
+        <button class="add" type="button" id="addLevel">+ Add level</button>
+      </section>
+
+      <section class="box">
+        <h2>Attributes <span class="small">max sets a full bar</span></h2>
+        <div class="list" id="attrs"></div>
+        <button class="add" type="button" id="addAttr">+ Add attribute</button>
+      </section>
+
+      <section class="box">
+        <h2>Topics <span class="small">1–3 panels side by side</span></h2>
+        <div class="list" id="topics"></div>
+        <button class="add" type="button" id="addTopic">+ Add topic</button>
+      </section>
+    </div>
+
+    <div class="preview-col">
+      <div class="stage"><div class="canvas" id="preview"></div></div>
+      <div class="actions">
+        <button class="btn" type="button" id="dlSvg">Download SVG</button>
+        <button class="btn" type="button" id="dlPng">Download PNG</button>
+        <button class="btn ghost" type="button" id="copySvg">Copy SVG code</button>
+        <span class="status" id="status" role="status"></span>
+      </div>
+      <textarea id="svgcode" hidden readonly aria-label="SVG code"></textarea>
+    </div>
+  </div>
+</div>
+
+<script>
+(() => {
+  const KEY = "level-rating-cards-v1";
+  const SVG_FONT = "'Helvetica Neue', Helvetica, Arial, sans-serif";
+  const CANVAS_FONT = '"Helvetica Neue", Helvetica, Arial, sans-serif';
+  const INK = "#1F2937", MUTED = "#6B7280", TRACK = "#EEF0F3", RULE = "#E5E7EB";
+  const uid = () => Math.random().toString(36).slice(2, 9);
+  const $ = (id) => document.getElementById(id);
+
+  function example() {
+    const levels = [["Honors", "#6A4C93"], ["Advanced", "#5E8F4E"], ["CPE", "#2A9D8F"], ["CP", "#64748B"]]
+      .map(([name, color]) => ({ id: uid(), name, color }));
+    const attrs = [["Depth", 100], ["Abstraction", 100], ["Algebraic demand", 100], ["Tech assist", 100], ["Days spent", 20]]
+      .map(([name, max]) => ({ id: uid(), name, max }));
+    const mk = (name, rows) => {
+      const values = {};
+      levels.forEach((l, i) => { values[l.id] = {}; attrs.forEach((a, j) => { values[l.id][a.id] = rows[i][j]; }); });
+      return { id: uid(), name, values };
+    };
+    return {
+      title: "Vertical Alignment Between Levels",
+      subtitle: "Example ratings: same Algebra 2 topic, four levels",
+      footnote: "Ratings are illustrative. Days spent is out of 20; the rest are out of 100.",
+      bg: "white", barmode: "level", showValues: true,
+      levels, attrs,
+      topics: [
+        mk("Functions & Transformations", [[95, 90, 88, 25, 8], [82, 75, 75, 40, 10], [68, 58, 60, 60, 12], [52, 40, 45, 80, 14]]),
+        mk("Exponentials & Logarithms", [[95, 92, 92, 20, 9], [80, 75, 76, 40, 11], [62, 55, 58, 65, 13], [45, 35, 40, 85, 15]]),
+      ],
+    };
+  }
+
+  let state;
+  try { state = JSON.parse(localStorage.getItem(KEY)); } catch (e) { state = null; }
+  if (!state || !Array.isArray(state.levels) || !Array.isArray(state.topics)) state = example();
+  let saveTimer;
+  const persist = () => { clearTimeout(saveTimer); saveTimer = setTimeout(() => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }, 250); };
+
+  // ---------- SVG builder ----------
+  const mctx = document.createElement("canvas").getContext("2d");
+  const tw = (t, size, weight) => { mctx.font = `${weight} ${size}px ${CANVAS_FONT}`; return mctx.measureText(String(t)).width; };
+  const esc = (t) => String(t ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+  const num = (v) => { const n = Number(v); return Number.isFinite(n) ? n : 0; };
+  const fmt = (n) => (Math.round(n * 10) / 10).toString();
+  function tierColor(f) {
+    if (f >= 0.9) return "#1E8E3E";
+    if (f >= 0.8) return "#6AA84F";
+    if (f >= 0.7) return "#C9A227";
+    if (f >= 0.6) return "#E08A2E";
+    return "#C8452C";
+  }
+  function wrap(text, size, maxW) {
+    const words = String(text).split(/\s+/).filter(Boolean); const lines = []; let cur = "";
+    for (const w of words) { const t = cur ? cur + " " + w : w; if (tw(t, size, 400) > maxW && cur) { lines.push(cur); cur = w; } else cur = t; }
+    if (cur) lines.push(cur); return lines;
+  }
+
+  function buildSVG(s) {
+    const W = 1200, M = 50, GAP = 40;
+    const topics = s.topics.length ? s.topics : [{ name: "", values: {} }];
+    const N = topics.length;
+    const pw = (W - 2 * M - (N - 1) * GAP) / N;
+    const A = s.attrs.length, step = 25, barsH = Math.max(A, 1) * step;
+    const side = pw >= 440;
+    const labelW = clamp(Math.max(0, ...s.attrs.map(a => tw(a.name, 14, 400))) + 14, 60, 200);
+    const valueW = s.showValues ? clamp(Math.max(0, ...topics.flatMap(t => s.levels.flatMap(l => s.attrs.map(a => tw(fmt(num(t.values?.[l.id]?.[a.id])), 17, 800))))) + 8, 30, 70) : 0;
+    const pillW = clamp(Math.max(0, ...s.levels.map(l => tw(l.name, 17, 700))) + 36, 90, 180);
+    const parts = [];
+    let y = 24;
+    if (s.title) { y += 42; parts.push(`<text x="${M}" y="${y}" font-size="34" font-weight="700" fill="${INK}">${esc(s.title)}</text>`); }
+    if (s.subtitle) { y += 32; parts.push(`<text x="${M}" y="${y}" font-size="19" fill="${MUTED}">${esc(s.subtitle)}</text>`); }
+    const headTop = y + 26;
+    const rowsTop = headTop + 34 + 16;
+    const blockH = side ? Math.max(barsH, 48) : 24 + barsH;
+    const rowGap = 22;
+    const rowH = blockH + rowGap;
+
+    topics.forEach((t, p) => {
+      const px = M + p * (pw + GAP);
+      parts.push(`<rect x="${px}" y="${headTop}" width="${pw.toFixed(1)}" height="34" rx="8" fill="${INK}"/>`);
+      parts.push(`<text x="${(px + pw / 2).toFixed(1)}" y="${headTop + 23}" font-size="${N >= 3 ? 15 : 17}" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">${esc(String(t.name || "").toUpperCase())}</text>`);
+      s.levels.forEach((lv, r) => {
+        const ry = rowsTop + r * rowH;
+        if (r) parts.push(`<line x1="${px}" y1="${ry - rowGap / 2}" x2="${(px + pw).toFixed(1)}" y2="${ry - rowGap / 2}" stroke="${RULE}" stroke-width="1.5"/>`);
+        let barsTop, labelX;
+        if (side) {
+          const cy = ry + blockH / 2;
+          parts.push(`<rect x="${px}" y="${cy - 20}" width="${pillW}" height="40" rx="20" fill="${esc(lv.color)}"/>`);
+          parts.push(`<text x="${px + pillW / 2}" y="${cy + 6}" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">${esc(lv.name)}</text>`);
+          barsTop = ry + (blockH - barsH) / 2;
+          labelX = px + pillW + 16;
+        } else {
+          parts.push(`<circle cx="${px + 7}" cy="${ry + 10}" r="7" fill="${esc(lv.color)}"/>`);
+          parts.push(`<text x="${px + 20}" y="${ry + 16}" font-size="16" font-weight="700" fill="${esc(lv.color)}">${esc(lv.name)}</text>`);
+          barsTop = ry + 24;
+          labelX = px;
+        }
+        const bx = labelX + labelW;
+        const bEnd = px + pw - (valueW ? valueW + 6 : 0);
+        const bw = Math.max(30, bEnd - bx);
+        s.attrs.forEach((a, k) => {
+          const by = barsTop + k * step;
+          const v = num(t.values?.[lv.id]?.[a.id]);
+          const max = num(a.max) > 0 ? num(a.max) : 100;
+          const f = clamp(v / max, 0, 1);
+          const col = s.barmode === "tier" ? tierColor(f) : lv.color;
+          parts.push(`<text x="${labelX}" y="${by + 12}" font-size="14" fill="${INK}">${esc(a.name)}</text>`);
+          parts.push(`<rect x="${bx.toFixed(1)}" y="${by + 1}" width="${bw.toFixed(1)}" height="13" rx="6.5" fill="${TRACK}"/>`);
+          if (f > 0) parts.push(`<rect x="${bx.toFixed(1)}" y="${by + 1}" width="${Math.max(13, bw * f).toFixed(1)}" height="13" rx="6.5" fill="${esc(col)}"/>`);
+          if (valueW) parts.push(`<text x="${(px + pw).toFixed(1)}" y="${by + 13}" font-size="17" font-weight="800" fill="${esc(col)}" text-anchor="end">${fmt(v)}</text>`);
+        });
+      });
+    });
+
+    let bottom = rowsTop + s.levels.length * rowH - rowGap;
+    if (s.footnote) {
+      const lines = wrap(s.footnote, 13, W - 2 * M);
+      bottom += 12;
+      lines.forEach((ln) => { bottom += 19; parts.push(`<text x="${M}" y="${bottom}" font-size="13" fill="${MUTED}">${esc(ln)}</text>`); });
+    }
+    const H = Math.ceil(bottom + 30);
+    const bg = s.bg === "transparent" ? "" : `<rect width="${W}" height="${H}" fill="#FFFFFF"/>`;
+    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-family="${SVG_FONT}">\n${bg}\n${parts.join("\n")}\n</svg>\n`;
+  }
+
+  // ---------- preview ----------
+  let lastSVG = "";
+  function renderPreview() {
+    lastSVG = buildSVG(state);
+    $("preview").innerHTML = lastSVG;
+    if (!$("svgcode").hidden) $("svgcode").value = lastSVG;
+    persist();
+  }
+
+  // ---------- editor ----------
+  function bindCard() {
+    $("f-title").value = state.title || "";
+    $("f-subtitle").value = state.subtitle || "";
+    $("f-footnote").value = state.footnote || "";
+    $("f-bg").value = state.bg || "white";
+    $("f-barmode").value = state.barmode || "level";
+    $("f-values").checked = state.showValues !== false;
+  }
+  [["f-title", "title"], ["f-subtitle", "subtitle"], ["f-footnote", "footnote"]].forEach(([id, k]) =>
+    $(id).addEventListener("input", (e) => { state[k] = e.target.value; renderPreview(); }));
+  $("f-bg").addEventListener("change", (e) => { state.bg = e.target.value; renderPreview(); });
+  $("f-barmode").addEventListener("change", (e) => { state.barmode = e.target.value; renderPreview(); });
+  $("f-values").addEventListener("change", (e) => { state.showValues = e.target.checked; renderPreview(); });
+
+  const el = (tag, props = {}, kids = []) => { const n = document.createElement(tag); Object.assign(n, props); kids.forEach(k => n.append(k)); return n; };
+  const moveUp = (arr, i) => { if (i > 0) [arr[i - 1], arr[i]] = [arr[i], arr[i - 1]]; };
+
+  function renderLevels() {
+    const box = $("levels"); box.replaceChildren();
+    state.levels.forEach((lv, i) => {
+      const color = el("input", { type: "color", value: lv.color, id: `lvc-${lv.id}`, title: "Level color" });
+      color.setAttribute("aria-label", `Color for ${lv.name || "level"}`);
+      color.addEventListener("input", (e) => { lv.color = e.target.value; renderPreview(); renderTopics(); });
+      const name = el("input", { type: "text", value: lv.name, id: `lvn-${lv.id}`, placeholder: "Level name" });
+      name.addEventListener("input", (e) => { lv.name = e.target.value; renderPreview(); });
+      name.addEventListener("change", renderTopics);
+      const up = el("button", { type: "button", className: "icon", textContent: "↑", title: "Move up", disabled: i === 0 });
+      up.addEventListener("click", () => { moveUp(state.levels, i); renderAll(); });
+      const del = el("button", { type: "button", className: "icon del", textContent: "×", title: "Remove level" });
+      del.addEventListener("click", () => { state.levels.splice(i, 1); state.topics.forEach(t => delete t.values[lv.id]); renderAll(); });
+      box.append(el("div", { className: "item" }, [color, name, up, del]));
+    });
+  }
+
+  function renderAttrs() {
+    const box = $("attrs"); box.replaceChildren();
+    state.attrs.forEach((a, i) => {
+      const name = el("input", { type: "text", value: a.name, id: `atn-${a.id}`, placeholder: "Attribute name" });
+      name.addEventListener("input", (e) => { a.name = e.target.value; renderPreview(); });
+      name.addEventListener("change", renderTopics);
+      const ml = el("span", { className: "maxlab", textContent: "max" });
+      const max = el("input", { type: "number", value: a.max, id: `atm-${a.id}`, className: "max", min: 1 });
+      max.setAttribute("aria-label", `Maximum for ${a.name || "attribute"}`);
+      max.addEventListener("input", (e) => { a.max = num(e.target.value) || 100; renderPreview(); });
+      const up = el("button", { type: "button", className: "icon", textContent: "↑", title: "Move up", disabled: i === 0 });
+      up.addEventListener("click", () => { moveUp(state.attrs, i); renderAll(); });
+      const del = el("button", { type: "button", className: "icon del", textContent: "×", title: "Remove attribute" });
+      del.addEventListener("click", () => { state.attrs.splice(i, 1); state.topics.forEach(t => Object.values(t.values).forEach(r => delete r[a.id])); renderAll(); });
+      box.append(el("div", { className: "item" }, [name, ml, max, up, del]));
+    });
+  }
+
+  function renderTopics() {
+    const box = $("topics"); box.replaceChildren();
+    state.topics.forEach((t, ti) => {
+      const name = el("input", { type: "text", value: t.name, id: `tpn-${t.id}`, placeholder: "Topic name" });
+      name.addEventListener("input", (e) => { t.name = e.target.value; renderPreview(); });
+      const del = el("button", { type: "button", className: "icon del", textContent: "×", title: "Remove topic", disabled: state.topics.length <= 1 });
+      del.addEventListener("click", () => { state.topics.splice(ti, 1); renderAll(); });
+      const head = el("div", { className: "topic-head" }, [name, del]);
+
+      const table = el("table", { className: "vals" });
+      const hr = el("tr", {}, [el("th")]);
+      state.attrs.forEach(a => hr.append(el("th", { textContent: a.name })));
+      table.append(el("thead", {}, [hr]));
+      const tb = el("tbody");
+      state.levels.forEach(lv => {
+        const dot = el("span"); dot.style.background = lv.color;
+        const tr = el("tr", {}, [el("th", { className: "lv" }, [dot, lv.name || "—"])]);
+        t.values[lv.id] = t.values[lv.id] || {};
+        state.attrs.forEach(a => {
+          const inp = el("input", { type: "number", id: `v-${t.id}-${lv.id}-${a.id}`, value: t.values[lv.id][a.id] ?? "", min: 0, max: a.max, step: "any" });
+          inp.setAttribute("aria-label", `${t.name} ${lv.name} ${a.name}`);
+          inp.addEventListener("input", (e) => { t.values[lv.id][a.id] = e.target.value === "" ? "" : num(e.target.value); renderPreview(); });
+          tr.append(el("td", {}, [inp]));
+        });
+        tb.append(tr);
+      });
+      table.append(tb);
+      const kids = [head, el("div", { className: "grid-scroll" }, [table])];
+      if (ti > 0) {
+        const copy = el("button", { type: "button", className: "textbtn", textContent: "Copy values from the topic above" });
+        copy.addEventListener("click", () => { t.values = JSON.parse(JSON.stringify(state.topics[ti - 1].values)); renderAll(); });
+        kids.push(copy);
+      }
+      box.append(el("div", { className: "topic" }, kids));
+    });
+    $("addTopic").disabled = state.topics.length >= 3;
+  }
+
+  function renderAll() { bindCard(); renderLevels(); renderAttrs(); renderTopics(); renderPreview(); }
+
+  $("addLevel").addEventListener("click", () => { state.levels.push({ id: uid(), name: "New level", color: "#8A6D3B" }); renderAll(); });
+  $("addAttr").addEventListener("click", () => { state.attrs.push({ id: uid(), name: "New attribute", max: 100 }); renderAll(); });
+  $("addTopic").addEventListener("click", () => {
+    if (state.topics.length >= 3) return;
+    const prev = state.topics[state.topics.length - 1];
+    state.topics.push({ id: uid(), name: "New topic", values: prev ? JSON.parse(JSON.stringify(prev.values)) : {} });
+    renderAll();
+  });
+
+  let resetArmed = false, resetTimer;
+  $("resetBtn").addEventListener("click", (e) => {
+    if (!resetArmed) { resetArmed = true; e.target.textContent = "Click again to replace your card"; resetTimer = setTimeout(() => { resetArmed = false; e.target.textContent = "Load example"; }, 3000); return; }
+    clearTimeout(resetTimer); resetArmed = false; e.target.textContent = "Load example";
+    state = example(); renderAll();
+  });
+
+  // ---------- export ----------
+  const status = (m) => { $("status").textContent = m; };
+  const fileBase = () => {
+    const name = state.topics.map(t => t.name).filter(Boolean).join(" - ") || state.title || "rating-card";
+    return name.replace(/[^\w\- ]+/g, "").trim().replace(/\s+/g, "-").toLowerCase().slice(0, 80) || "rating-card";
+  };
+  let downloads = null;
+  $("dlSvg").disabled = true; $("dlPng").disabled = true;
+  if (window.claude?.use) {
+    window.claude.use("downloads").then((d) => {
+      downloads = d;
+      if (d) { $("dlSvg").disabled = false; $("dlPng").disabled = false; }
+      else { $("dlSvg").hidden = true; $("dlPng").hidden = true; status("Downloads aren't available here; use Copy SVG code."); }
+    }).catch(() => { $("dlSvg").hidden = true; $("dlPng").hidden = true; });
+  } else {
+    // Opened as a local file or on another site: use a normal browser download.
+    downloads = { local: true };
+    $("dlSvg").disabled = false; $("dlPng").disabled = false;
+  }
+
+  async function save(filename, data) {
+    if (downloads && downloads.local) {
+      const blob = data instanceof Blob ? data : new Blob([data], { type: "image/svg+xml" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a"); a.href = url; a.download = filename;
+      document.body.append(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+      status(`Saved ${filename}`); return;
+    }
+    try { await downloads.save({ filename, data }); status(`Saved ${filename}`); }
+    catch (err) {
+      const c = err && err.code;
+      if (c === "declined") status("Download canceled.");
+      else if (c === "rate_limited") status("A download prompt is already open.");
+      else status("Couldn't save the file here. Use Copy SVG code instead.");
+    }
+  }
+  $("dlSvg").addEventListener("click", () => { if (downloads) save(fileBase() + ".svg", buildSVG(state)); });
+  $("dlPng").addEventListener("click", () => {
+    if (!downloads) return;
+    const svg = buildSVG(state);
+    const m = svg.match(/viewBox="0 0 (\d+) (\d+)"/);
+    const w = +m[1], h = +m[2], scale = 2;
+    const img = new Image();
+    img.onload = () => {
+      const c = document.createElement("canvas"); c.width = w * scale; c.height = h * scale;
+      const ctx = c.getContext("2d"); ctx.scale(scale, scale); ctx.drawImage(img, 0, 0, w, h);
+      c.toBlob((blob) => { if (blob) save(fileBase() + ".png", blob); else status("Couldn't draw the PNG."); }, "image/png");
+    };
+    img.onerror = () => status("Couldn't draw the PNG.");
+    img.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg);
+  });
+  $("copySvg").addEventListener("click", () => {
+    const code = buildSVG(state);
+    const ta = $("svgcode");
+    const fallback = () => { ta.hidden = false; ta.value = code; ta.focus(); ta.select(); status("Select all and copy the code below."); };
+    try {
+      navigator.clipboard.writeText(code).then(() => status("SVG code copied."), fallback);
+    } catch (e) { fallback(); }
+  });
+
+  renderAll();
+})();
+</script>
+
+</body>
+</html>
