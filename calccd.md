@@ -93,7 +93,7 @@ Arc Length for functions
 
 
 ## Notes 13
-Euler's Method.  **Not Yet** Here's a link to a GeoGebra file that demonstrates Euler's Method (change the initial point, the size of dx, and the number of steps; also view the solution curve).  Several interesting/useful videos in the playlist.
+Euler's Method.  [Here's a link](https://www.geogebra.org/classic/dngd9zxx) to a GeoGebra file that demonstrates Euler's Method (change the initial point, the size of dx, and the number of steps; also view the solution curve).  Several interesting/useful videos in the playlist.
 
 * [Here's a link](https://drive.google.com/file/d/14jv9j2g1Eos4FAWDDeuX-QZJydASYYC_/view?usp=drive_link) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZixRnSJGZ5zAXjPIh4B8wUmz) to a YouTube playlist of me working through [this version of the notes](https://docs.google.com/open?id=0B11F_FpivrRiYTRhMDdlZGItMDFlOC00NDZlLTg1MmUtODZjYjYyYjIwNjgw).  Complete solutions and explanations!
