@@ -85,7 +85,7 @@ Integrals of powers of trig functions; saving a power; using Pythagorean Identit
 
 
 ## Notes 12
-Arc Length for functions
+Arc Length for functions.  Not related to this, but [here's a link](https://www.geogebra.org/classic/svcuq3hp) to a GeoGebra file demonstrating Newton's Method.
 
 * [Here's a link](https://drive.google.com/file/d/1DnbWzC2H3PMBNBhE5igCogQQtKkS3qFK/view?usp=drive_link) to the notes.
 * [Here's a link](https://www.youtube.com/playlist?list=PL6iwkLfBjZizWxycNQkkv2v3PssnCH4Yf) to a YouTube playlist of me working through [this version of the notes](https://docs.google.com/open?id=0B11F_FpivrRiMDk4ZDg5NGYtNWUyMi00NzQyLTllOGYtOTcyM2RlNjk5MzE5).  Complete solutions and explanations!
